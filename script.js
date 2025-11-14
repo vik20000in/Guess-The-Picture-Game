@@ -48,7 +48,6 @@ const itemNameDisplay = document.getElementById('item-name');
 const instructionsText = document.getElementById('instructions');
 const timerDisplay = document.getElementById('timer');
 const scoreDisplay = document.getElementById('score');
-const nextButton = document.getElementById('next-button');
 const playAgainButton = document.getElementById('play-again-btn');
 const finalScoreDisplay = document.getElementById('final-score');
 const exitButton = document.getElementById('exit-button');
@@ -64,6 +63,7 @@ let timeLeft = 90;
 let timerInterval;
 let gamePhase = 0; // 0: initial (tap for picture), 1: picture shown (tap for name), 2: name shown (ready for next)
 let tappedOnce = false; // To ensure only one tap per phase transition
+let autoAdvanceTimer; // Timer for auto-advancing to next item
 
 // --- Functions ---
 
@@ -85,7 +85,6 @@ function startGame(categoryName) {
 
     scoreDisplay.textContent = `Score: ${score}`;
     timerDisplay.textContent = timeLeft;
-    nextButton.classList.add('hidden');
     gameImage.style.opacity = 0;
     // Ensure name is hidden immediately (use display:none via .hidden) to avoid any brief flash
     itemNameDisplay.classList.add('hidden');
@@ -115,9 +114,14 @@ function loadNextItem() {
     // Reset for new item display
     gameImage.style.opacity = 0;
     instructionsText.textContent = 'Tap to reveal picture!';
-    nextButton.classList.add('hidden');
     gamePhase = 0;
     tappedOnce = false;
+    
+    // Clear any pending auto-advance timer
+    if (autoAdvanceTimer) {
+        clearTimeout(autoAdvanceTimer);
+        autoAdvanceTimer = null;
+    }
 }
 
 function handleTap() {
@@ -129,7 +133,7 @@ function handleTap() {
         instructionsText.textContent = 'Tap again to reveal name!';
         gamePhase = 1;
         tappedOnce = false; // Reset for next phase
-    } else if (gamePhase === 1) { // Second tap: show name and prepare for next
+    } else if (gamePhase === 1) { // Second tap: show name and auto-advance
         // Remove the hidden class first so the element is displayed, then animate opacity
         itemNameDisplay.classList.remove('hidden');
         // Use requestAnimationFrame to ensure the browser registers the display change before animating
@@ -138,9 +142,17 @@ function handleTap() {
         });
         score++; // Assuming every reveal is a correct guess for simplicity
         scoreDisplay.textContent = `Score: ${score}`;
-        instructionsText.textContent = 'Tap "Next" for the next item!';
-        nextButton.classList.remove('hidden');
+        instructionsText.textContent = 'Next item loading...';
         gamePhase = 2;
+        
+        // Auto-advance to next item after 2 seconds
+        if (autoAdvanceTimer) {
+            clearTimeout(autoAdvanceTimer);
+        }
+        autoAdvanceTimer = setTimeout(() => {
+            currentIndex++;
+            loadNextItem();
+        }, 2000);
     }
 }
 
@@ -199,17 +211,7 @@ categoryButtons.forEach(button => {
 
 // Use event delegation for the game screen tap to handle picture/name reveal
 gameScreen.addEventListener('click', (event) => {
-    // Only handle taps that are NOT on the next button
-    if (event.target !== nextButton) {
-        handleTap();
-    }
-});
-
-nextButton.addEventListener('click', () => {
-    if (gamePhase === 2) { // Only allow next if name is already shown
-        currentIndex++;
-        loadNextItem();
-    }
+    handleTap();
 });
 
 playAgainButton.addEventListener('click', () => {
@@ -218,6 +220,12 @@ playAgainButton.addEventListener('click', () => {
 
 // Exit game while playing: stop timer/music and return to category selection
 function exitGame() {
+    // Clear auto-advance timer
+    if (autoAdvanceTimer) {
+        clearTimeout(autoAdvanceTimer);
+        autoAdvanceTimer = null;
+    }
+    
     // Stop timer
     if (timerInterval) {
         clearInterval(timerInterval);
@@ -228,7 +236,6 @@ function exitGame() {
     stopMusic();
 
     // Reset visuals/state so when player returns later there's no leftover name/image
-    nextButton.classList.add('hidden');
     gameImage.style.opacity = 0;
     itemNameDisplay.classList.add('hidden');
     itemNameDisplay.style.opacity = 0;
