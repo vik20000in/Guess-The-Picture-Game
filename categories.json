@@ -10,7 +10,7 @@
     { "image": "images/animals/dog.png", "name": "Dog" },
     { "image": "images/animals/cat.png", "name": "Cat" },
     { "image": "images/animals/penguin.png", "name": "Penguin" },
-    { "image": "images/animals/fox.png", "name": "Fox" },
+    { "image": "images/animals/fox.jpg", "name": "Fox" },
     { "image": "images/animals/rabbit.png", "name": "Rabbit" },
     { "image": "images/animals/whale.png", "name": "Whale" },
     { "image": "images/animals/dolphin.png", "name": "Dolphin" },

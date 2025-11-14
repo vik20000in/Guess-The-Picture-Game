@@ -1,0 +1,8 @@
+IMAGE PRESENCE CHECK REPORT
+======================================================================
+
+Total missing images: 2
+
+MISSING IMAGES:
+- Fox (animals): images/animals/fox.png
+- Spoon (things): images/things/spoon.jpg
