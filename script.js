@@ -286,7 +286,28 @@ function startTimer() {
 }
 
 function playMusic() {
-    bgMusic.play().catch(e => console.error("Error playing background music:", e));
+    // Set reasonable volume before playing
+    bgMusic.volume = 0.3;
+    
+    // Ensure audio is unmuted (mobile sometimes mutes by default)
+    bgMusic.muted = false;
+    
+    // Play with proper promise handling for mobile
+    const playPromise = bgMusic.play();
+    
+    if (playPromise !== undefined) {
+        playPromise
+            .then(() => {
+                console.log("Background music started successfully");
+            })
+            .catch(error => {
+                console.warn("Autoplay failed, retrying:", error);
+                // Retry after a short delay
+                setTimeout(() => {
+                    bgMusic.play().catch(e => console.error("Error playing background music:", e));
+                }, 100);
+            });
+    }
 }
 
 function stopMusic() {
@@ -391,6 +412,10 @@ revealNameSound.load();
 correctSound.load();
 timerEndSound.load();
 
+// Ensure audio is not muted and set initial volume
+bgMusic.muted = false;
+bgMusic.volume = 0.3;
+
 // Preload all category images when page loads
 Object.keys(categoriesData).forEach(categoryName => {
     preloadCategoryImages(categoryName);
@@ -398,6 +423,28 @@ Object.keys(categoriesData).forEach(categoryName => {
 
 // Show category selection on load
 showScreen(categorySelectionScreen);
+
+// Additional fallback: unlock audio on any user interaction
+let audioUnlocked = false;
+function unlockAudio() {
+    if (!audioUnlocked) {
+        const playPromise = bgMusic.play();
+        if (playPromise !== undefined) {
+            playPromise
+                .then(() => {
+                    bgMusic.pause();
+                    bgMusic.currentTime = 0;
+                    audioUnlocked = true;
+                    console.log("Audio context unlocked successfully");
+                })
+                .catch(e => console.warn("Audio unlock attempt failed:", e));
+        }
+    }
+}
+
+// Unlock audio on first interaction
+document.addEventListener('click', unlockAudio, { once: true });
+document.addEventListener('touchstart', unlockAudio, { once: true });
 
 // Handle cases where audio might not auto-play until user interaction
 document.addEventListener('DOMContentLoaded', () => {
