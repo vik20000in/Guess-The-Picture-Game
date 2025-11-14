@@ -83,9 +83,7 @@ const gameImage = document.getElementById('game-image');
 const itemNameDisplay = document.getElementById('item-name');
 const instructionsText = document.getElementById('instructions');
 const timerDisplay = document.getElementById('timer');
-const scoreDisplay = document.getElementById('score');
 const playAgainButton = document.getElementById('play-again-btn');
-const finalScoreDisplay = document.getElementById('final-score');
 const exitButton = document.getElementById('exit-button');
 
 const bgMusic = document.getElementById('bg-music');
@@ -97,7 +95,6 @@ const timerEndSound = document.getElementById('timer-end-sound');
 // --- Game State Variables ---
 let currentCategory = [];
 let currentIndex = 0;
-let score = 0;
 let timeLeft = 90;
 let timerInterval;
 let gamePhase = 0; // 0: initial (tap for picture), 1: picture shown (tap for name), 2: name shown (ready for next)
@@ -164,12 +161,10 @@ function startGame(categoryName) {
     currentCategory = [...categoriesData[categoryName]]; // Copy to allow shuffling
     shuffleArray(currentCategory);
     currentIndex = 0;
-    score = 0;
     timeLeft = 90;
     gamePhase = 0;
     tappedOnce = false;
 
-    scoreDisplay.textContent = `Score: ${score}`;
     timerDisplay.textContent = timeLeft;
     
     // Ensure image is completely hidden before starting
@@ -255,9 +250,7 @@ function handleTap() {
         requestAnimationFrame(() => {
             itemNameDisplay.style.opacity = 1;
         });
-        score++; // Assuming every reveal is a correct guess for simplicity
         playSound(correctSound); // Play correct/point sound
-        scoreDisplay.textContent = `Score: ${score}`;
         instructionsText.textContent = 'Next item loading...';
         gamePhase = 2;
         
@@ -305,7 +298,6 @@ function endGame() {
     stopMusic();
     timerEndSound.play().catch(e => console.error("Error playing timer end sound:", e));
     clearInterval(timerInterval);
-    finalScoreDisplay.textContent = score;
     showScreen(gameOverScreen);
 }
 
@@ -334,11 +326,15 @@ categoryButtons.forEach(button => {
 
 // Use event delegation for the game screen tap to handle picture/name reveal
 gameScreen.addEventListener('click', (event) => {
+    // Don't process tap if clicking on buttons
+    if (event.target.closest('button')) return;
     handleTap();
 });
 
 // Add touch event support for better mobile responsiveness
 gameScreen.addEventListener('touchstart', (event) => {
+    // Don't process tap if clicking on buttons
+    if (event.target.closest('button')) return;
     event.preventDefault(); // Prevent default touch behavior (zoom, scroll, etc.)
     handleTap();
 }, { passive: false });
@@ -347,7 +343,13 @@ playAgainButton.addEventListener('click', () => {
     showScreen(categorySelectionScreen);
 });
 
-// Exit game while playing: stop timer/music and return to category selection
+// Exit button - support both click and touch
+exitButton.addEventListener('click', exitGame);
+exitButton.addEventListener('touchstart', (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    exitGame();
+}, { passive: false });
 function exitGame() {
     // Clear auto-advance timer
     if (autoAdvanceTimer) {
@@ -372,8 +374,6 @@ function exitGame() {
 
     // Reset game variables
     currentIndex = 0;
-    score = 0;
-    scoreDisplay.textContent = `Score: ${score}`;
     timeLeft = 90;
     timerDisplay.textContent = timeLeft;
     gamePhase = 0;
@@ -382,8 +382,6 @@ function exitGame() {
     // Show category selection screen
     showScreen(categorySelectionScreen);
 }
-
-exitButton.addEventListener('click', exitGame);
 
 // --- Initial Setup ---
 // Preload sounds (optional, but good for smoother play)
