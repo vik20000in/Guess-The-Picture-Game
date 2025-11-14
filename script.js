@@ -119,8 +119,9 @@ function loadNextItem() {
         currentIndex = 0;
     }
     
-    // Hide the image first before changing the src to prevent flash
+    // Hide the image immediately without animation
     gameImage.style.opacity = 0;
+    gameImage.style.display = 'none';
     
     const item = currentCategory[currentIndex];
     gameImage.src = item.image;
@@ -147,6 +148,7 @@ function handleTap() {
     tappedOnce = true;
 
     if (gamePhase === 0) { // First tap: show picture
+        gameImage.style.display = 'block';
         gameImage.style.opacity = 1;
         playSound(revealPictureSound); // Play picture reveal sound
         instructionsText.textContent = 'Tap again to reveal name!';
