@@ -53,6 +53,9 @@ const finalScoreDisplay = document.getElementById('final-score');
 const exitButton = document.getElementById('exit-button');
 
 const bgMusic = document.getElementById('bg-music');
+const revealPictureSound = document.getElementById('reveal-picture-sound');
+const revealNameSound = document.getElementById('reveal-name-sound');
+const correctSound = document.getElementById('correct-sound');
 const timerEndSound = document.getElementById('timer-end-sound');
 
 // --- Game State Variables ---
@@ -66,6 +69,13 @@ let tappedOnce = false; // To ensure only one tap per phase transition
 let autoAdvanceTimer; // Timer for auto-advancing to next item
 
 // --- Functions ---
+
+function playSound(audioElement) {
+    if (audioElement) {
+        audioElement.currentTime = 0; // Reset to start
+        audioElement.play().catch(e => console.warn("Sound play failed:", e));
+    }
+}
 
 function showScreen(screenToShow) {
     document.querySelectorAll('.screen').forEach(screen => {
@@ -138,6 +148,7 @@ function handleTap() {
 
     if (gamePhase === 0) { // First tap: show picture
         gameImage.style.opacity = 1;
+        playSound(revealPictureSound); // Play picture reveal sound
         instructionsText.textContent = 'Tap again to reveal name!';
         gamePhase = 1;
         tappedOnce = false; // Reset for next phase
@@ -148,7 +159,9 @@ function handleTap() {
         requestAnimationFrame(() => {
             itemNameDisplay.style.opacity = 1;
         });
+        playSound(revealNameSound); // Play name reveal sound
         score++; // Assuming every reveal is a correct guess for simplicity
+        playSound(correctSound); // Play correct/point sound
         scoreDisplay.textContent = `Score: ${score}`;
         instructionsText.textContent = 'Next item loading...';
         gamePhase = 2;
@@ -280,6 +293,9 @@ exitButton.addEventListener('click', exitGame);
 // --- Initial Setup ---
 // Preload sounds (optional, but good for smoother play)
 bgMusic.load();
+revealPictureSound.load();
+revealNameSound.load();
+correctSound.load();
 timerEndSound.load();
 
 // Show category selection on load
