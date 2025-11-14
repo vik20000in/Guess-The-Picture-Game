@@ -21,15 +21,30 @@ const categoriesData = {
   { "image": "images/animals/tortoise.png", "name": "Tortoise" },
   { "image": "images/animals/kangaroo.png", "name": "Kangaroo" },
   { "image": "images/animals/hippopotamus.png", "name": "Hippopotamus" },
-  { "image": "images/animals/crocodile.png", "name": "Crocodile" },
-  { "image": "images/animals/shark.png", "name": "Shark" },
-  { "image": "images/animals/squirrel.png", "name": "Squirrel" },
-  { "image": "images/animals/sheep.png", "name": "Sheep" },
-  { "image": "images/animals/goat.png", "name": "Goat" },
-  { "image": "images/animals/camel.png", "name": "Camel" },
-  { "image": "images/animals/eagle.png", "name": "Eagle" },
-  { "image": "images/animals/bat.png", "name": "Bat" },
-  { "image": "images/animals/panda.png", "name": "Panda" }
+  { "image": "images/animals/crocodile.jpg", "name": "Crocodile" },
+  { "image": "images/animals/shark.jpg", "name": "Shark" },
+  { "image": "images/animals/squirrel.jpg", "name": "Squirrel" },
+  { "image": "images/animals/sheep.jpg", "name": "Sheep" },
+  { "image": "images/animals/goat.jpg", "name": "Goat" },
+  { "image": "images/animals/camel.jpg", "name": "Camel" },
+  { "image": "images/animals/eagle.jpg", "name": "Eagle" },
+  { "image": "images/animals/bat.jpg", "name": "Bat" },
+  { "image": "images/animals/panda.jpg", "name": "Panda" },
+  { "image": "images/animals/wolf.jpg", "name": "Wolf" },
+  { "image": "images/animals/otter.jpg", "name": "Otter" },
+  { "image": "images/animals/raccoon.jpg", "name": "Raccoon" },
+  { "image": "images/animals/bison.jpg", "name": "Bison" },
+  { "image": "images/animals/koala.jpg", "name": "Koala" },
+  { "image": "images/animals/lemur.jpg", "name": "Lemur" },
+  { "image": "images/animals/porcupine.jpg", "name": "Porcupine" },
+ 
+  { "image": "images/animals/woodpecker.jpg", "name": "Woodpecker" },
+   { "image": "images/animals/orangutan.jpg", "name": "Orangutan" },
+  { "image": "images/animals/chimpanzee.jpg", "name": "Chimpanzee" },
+  
+  { "image": "images/animals/donkey.jpg", "name": "Donkey" },
+  { "image": "images/animals/buffalo.jpg", "name": "Buffalo" },
+  { "image": "images/animals/jaguar.jpg", "name": "Jaguar" }
     ],
     things: [
         { image: 'images/things/car.png', name: 'Car' },
@@ -61,6 +76,7 @@ const categoriesData = {
 const categorySelectionScreen = document.getElementById('category-selection');
 const gameScreen = document.getElementById('game-screen');
 const gameOverScreen = document.getElementById('game-over-screen');
+const loadingIndicator = document.getElementById('loading-indicator');
 
 const categoryButtons = document.querySelectorAll('.category-btn');
 const gameImage = document.getElementById('game-image');
@@ -87,6 +103,8 @@ let timerInterval;
 let gamePhase = 0; // 0: initial (tap for picture), 1: picture shown (tap for name), 2: name shown (ready for next)
 let tappedOnce = false; // To ensure only one tap per phase transition
 let autoAdvanceTimer; // Timer for auto-advancing to next item
+let imageCache = {}; // Cache for preloaded images
+let isPreloading = false; // Flag to track if images are being preloaded
 
 // --- Functions ---
 
@@ -97,6 +115,38 @@ function playSound(audioElement) {
     }
 }
 
+function preloadCategoryImages(categoryName) {
+    // Preload all images for a category in the background
+    const category = categoriesData[categoryName];
+    
+    if (!imageCache[categoryName]) {
+        imageCache[categoryName] = {};
+    }
+    
+    // Preload images asynchronously
+    category.forEach((item) => {
+        if (!imageCache[categoryName][item.image]) {
+            const img = new Image();
+            img.src = item.image;
+            // Store the image in cache once it's loaded
+            img.onload = () => {
+                imageCache[categoryName][item.image] = img;
+            };
+            img.onerror = () => {
+                console.warn(`Failed to preload image: ${item.image}`);
+            };
+        }
+    });
+}
+
+function getPreloadedImage(categoryName, imagePath) {
+    // Get a preloaded image from cache or return null if not yet loaded
+    if (imageCache[categoryName] && imageCache[categoryName][imagePath]) {
+        return imageCache[categoryName][imagePath];
+    }
+    return null;
+}
+
 function showScreen(screenToShow) {
     document.querySelectorAll('.screen').forEach(screen => {
         screen.classList.remove('active');
@@ -105,6 +155,12 @@ function showScreen(screenToShow) {
 }
 
 function startGame(categoryName) {
+    // Start preloading images immediately in background
+    preloadCategoryImages(categoryName);
+    
+    // Show loading indicator briefly
+    loadingIndicator.classList.remove('hidden');
+    
     currentCategory = [...categoriesData[categoryName]]; // Copy to allow shuffling
     shuffleArray(currentCategory);
     currentIndex = 0;
@@ -127,6 +183,12 @@ function startGame(categoryName) {
     instructionsText.textContent = 'Tap to reveal picture!';
 
     showScreen(gameScreen);
+    
+    // Hide loading indicator after a brief delay
+    setTimeout(() => {
+        loadingIndicator.classList.add('hidden');
+    }, 800);
+    
     loadNextItem();
     startTimer();
     playMusic();
@@ -144,7 +206,19 @@ function loadNextItem() {
     gameImage.style.display = 'none';
     
     const item = currentCategory[currentIndex];
-    gameImage.src = item.image;
+    
+    // Get the current category name from the shuffled array
+    const categoryName = Object.keys(categoriesData).find(cat => 
+        categoriesData[cat].some(i => i.image === item.image)
+    );
+    
+    // Try to use preloaded image, otherwise set src to load it
+    const preloadedImg = getPreloadedImage(categoryName, item.image);
+    if (preloadedImg) {
+        gameImage.src = preloadedImg.src;
+    } else {
+        gameImage.src = item.image;
+    }
     
     // Set the name while it's hidden so it never appears briefly on load
     itemNameDisplay.classList.add('hidden');
@@ -181,7 +255,6 @@ function handleTap() {
         requestAnimationFrame(() => {
             itemNameDisplay.style.opacity = 1;
         });
-        playSound(revealNameSound); // Play name reveal sound
         score++; // Assuming every reveal is a correct guess for simplicity
         playSound(correctSound); // Play correct/point sound
         scoreDisplay.textContent = `Score: ${score}`;
@@ -319,6 +392,11 @@ revealPictureSound.load();
 revealNameSound.load();
 correctSound.load();
 timerEndSound.load();
+
+// Preload all category images when page loads
+Object.keys(categoriesData).forEach(categoryName => {
+    preloadCategoryImages(categoryName);
+});
 
 // Show category selection on load
 showScreen(categorySelectionScreen);
