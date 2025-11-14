@@ -85,7 +85,11 @@ function startGame(categoryName) {
 
     scoreDisplay.textContent = `Score: ${score}`;
     timerDisplay.textContent = timeLeft;
+    
+    // Ensure image is completely hidden before starting
     gameImage.style.opacity = 0;
+    gameImage.src = '';
+    
     // Ensure name is hidden immediately (use display:none via .hidden) to avoid any brief flash
     itemNameDisplay.classList.add('hidden');
     itemNameDisplay.style.opacity = 0;
@@ -104,15 +108,19 @@ function loadNextItem() {
         shuffleArray(currentCategory); // For endless play, shuffle again
         currentIndex = 0;
     }
+    
+    // Hide the image first before changing the src to prevent flash
+    gameImage.style.opacity = 0;
+    
     const item = currentCategory[currentIndex];
     gameImage.src = item.image;
+    
     // Set the name while it's hidden so it never appears briefly on load
     itemNameDisplay.classList.add('hidden');
     itemNameDisplay.style.opacity = 0;
     itemNameDisplay.textContent = item.name;
 
     // Reset for new item display
-    gameImage.style.opacity = 0;
     instructionsText.textContent = 'Tap to reveal picture!';
     gamePhase = 0;
     tappedOnce = false;
@@ -207,12 +215,25 @@ categoryButtons.forEach(button => {
         const category = button.dataset.category;
         startGame(category);
     });
+    
+    // Add touch event support for better mobile responsiveness
+    button.addEventListener('touchstart', (event) => {
+        event.preventDefault(); // Prevent default touch behavior
+        const category = button.dataset.category;
+        startGame(category);
+    }, { passive: false });
 });
 
 // Use event delegation for the game screen tap to handle picture/name reveal
 gameScreen.addEventListener('click', (event) => {
     handleTap();
 });
+
+// Add touch event support for better mobile responsiveness
+gameScreen.addEventListener('touchstart', (event) => {
+    event.preventDefault(); // Prevent default touch behavior (zoom, scroll, etc.)
+    handleTap();
+}, { passive: false });
 
 playAgainButton.addEventListener('click', () => {
     showScreen(categorySelectionScreen);

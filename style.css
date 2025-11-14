@@ -6,8 +6,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for mobile */
     overflow: hidden; /* Prevent scrolling */
     color: #333;
+    -webkit-user-select: none; /* Prevent text selection on mobile */
+    user-select: none;
+    -webkit-touch-callout: none; /* Disable long-press menu on iOS */
 }
 
 #game-container {
@@ -89,6 +93,10 @@ h2 {
     height: 150px;
     justify-content: center;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    -webkit-tap-highlight-color: transparent; /* Remove iOS tap highlight */
+    touch-action: manipulation; /* Improve touch response */
+    min-width: 60px; /* Ensure minimum touch target size */
+    min-height: 60px;
 }
 
 .category-btn:hover {
@@ -139,6 +147,9 @@ h2 {
     background-color: #f9f9f9;
     border-radius: 15px;
     box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+    touch-action: manipulation; /* Allow tap without delay */
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 #game-image {
@@ -185,6 +196,10 @@ h2 {
     transition: background-color 0.3s ease, transform 0.2s ease;
     margin-top: 20px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    min-width: 60px;
+    min-height: 44px; /* iOS touch target minimum */
 }
 
 #next-button:hover, #play-again-btn:hover, #exit-button:hover {
@@ -249,30 +264,69 @@ h2 {
     #game-container {
         width: 95%;
         padding: 15px;
+        min-height: 100dvh;
         min-height: 500px;
+        box-sizing: border-box;
     }
     h1#game-title {
         font-size: 2em;
+        margin-bottom: 15px;
     }
     h2 {
         font-size: 1.5em;
+        margin-bottom: 20px;
     }
     .categories {
         flex-direction: column;
         gap: 15px;
+        width: 100%;
     }
     .category-btn {
-        width: 80%;
-        max-width: 250px;
+        width: 100%;
+        max-width: 280px;
         height: auto;
-        padding: 12px 20px;
+        padding: 15px 20px;
         flex-direction: row;
         gap: 15px;
+        min-height: 60px;
     }
     .category-btn img {
         margin-bottom: 0;
+        width: 50px;
+        height: 50px;
+    }
+    #picture-area {
+        min-height: 250px;
+        margin: 15px 0;
+    }
+    #game-image {
+        max-width: 85%;
+        max-height: 85%;
+    }
+    #item-name {
+        font-size: 1.3em;
+        padding: 8px 12px;
+        bottom: 15px;
     }
     #instructions {
         font-size: 1.1em;
+        margin-top: 10px;
+    }
+    .game-header {
+        font-size: 1.3em;
+        gap: 10px;
+    }
+    #timer, #score {
+        padding: 3px 8px;
+        font-size: 0.9em;
+    }
+    #exit-button {
+        padding: 10px 15px;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+    #play-again-btn {
+        padding: 12px 25px;
+        font-size: 1.2em;
     }
 }
