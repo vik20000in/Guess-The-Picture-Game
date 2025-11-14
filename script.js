@@ -296,17 +296,17 @@ function handleTap() {
             itemNameDisplay.style.opacity = 1;
         });
         playSound(correctSound); // Play correct/point sound
-        instructionsText.textContent = 'Next item loading...';
+        instructionsText.textContent = 'Tap for next item!';
         gamePhase = 2;
         
-        // Auto-advance to next item after 2 seconds
+        // Auto-advance to next item immediately instead of waiting
         if (autoAdvanceTimer) {
             clearTimeout(autoAdvanceTimer);
         }
         autoAdvanceTimer = setTimeout(() => {
             currentIndex++;
             loadNextItem();
-        }, 2000);
+        }, 800);
     }
 }
 
