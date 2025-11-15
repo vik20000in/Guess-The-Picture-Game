@@ -33,7 +33,8 @@ const timerEndSound = document.getElementById('timer-end-sound');
 // --- Game State Variables ---
 let currentCategory = [];
 let currentIndex = 0;
-let timeLeft = 90;
+let gameTime = parseInt(localStorage.getItem('gameTime')) || 90; // Load from localStorage, default to 90
+let timeLeft = gameTime;
 let timerInterval;
 let gamePhase = 0; // 0: initial (tap for picture), 1: picture shown (tap for name), 2: name shown (ready for next)
 let tappedOnce = false; // To ensure only one tap per phase transition
@@ -99,7 +100,7 @@ function startGame(categoryName) {
     currentCategory = [...categoriesData[categoryName]]; // Copy to allow shuffling
     shuffleArray(currentCategory);
     currentIndex = 0;
-    timeLeft = 90;
+    timeLeft = gameTime; // Use the selected game time from localStorage
     gamePhase = 0;
     tappedOnce = false;
 
@@ -333,7 +334,7 @@ function exitGame() {
 
     // Reset game variables
     currentIndex = 0;
-    timeLeft = 90;
+    timeLeft = gameTime; // Reset to the selected game time
     timerDisplay.textContent = timeLeft;
     gamePhase = 0;
     tappedOnce = false;
@@ -343,6 +344,25 @@ function exitGame() {
 }
 
 // --- Initial Setup ---
+// Setup time selection buttons
+const timeButtons = document.querySelectorAll('.time-btn');
+timeButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent tap event from triggering game
+        const selectedTime = parseInt(button.getAttribute('data-time'));
+        gameTime = selectedTime;
+        timeLeft = selectedTime; // Update timeLeft as well
+        localStorage.setItem('gameTime', selectedTime); // Save to localStorage
+        
+        // Update UI: remove active class from all buttons
+        timeButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        button.classList.add('active');
+        
+        console.log(`Game time set to ${selectedTime} seconds`);
+    });
+});
+
 // Preload sounds (optional, but good for smoother play)
 bgMusic.load();
 revealPictureSound.load();
