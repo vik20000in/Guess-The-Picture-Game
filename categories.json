@@ -139,5 +139,30 @@
     { "image": "images/food/masala_chai.jpg", "name": "Masala Chai" },
     { "image": "images/food/pakora.jpg", "name": "Pakora" },
     { "image": "images/food/chaat.jpg", "name": "Chaat" }
+  ],
+  "sports": [
+    { "image": "images/sports/cricket.jpg", "name": "Cricket" },
+    { "image": "images/sports/football.jpg", "name": "Football" },
+    { "image": "images/sports/tennis.jpg", "name": "Tennis" },
+    { "image": "images/sports/badminton.jpg", "name": "Badminton" },
+    { "image": "images/sports/basketball.jpg", "name": "Basketball" },
+    { "image": "images/sports/volleyball.jpg", "name": "Volleyball" },
+    { "image": "images/sports/hockey.jpg", "name": "Hockey" },
+    { "image": "images/sports/swimming.jpg", "name": "Swimming" },
+    { "image": "images/sports/table_tennis.jpg", "name": "Table Tennis" },
+    { "image": "images/sports/golf.jpg", "name": "Golf" },
+    { "image": "images/sports/boxing.jpg", "name": "Boxing" },
+   { "image": "images/sports/martial_arts.jpg", "name": "Martial Arts" },
+    { "image": "images/sports/cycling.jpg", "name": "Cycling" },
+    { "image": "images/sports/archery.jpg", "name": "Archery" },
+    { "image": "images/sports/shooting.jpg", "name": "Shooting" },
+    { "image": "images/sports/gymnastics.jpg", "name": "Gymnastics" },
+    { "image": "images/sports/yoga.jpg", "name": "Yoga" },
+    { "image": "images/sports/baseball.jpg", "name": "Baseball" },
+    { "image": "images/sports/rugby.jpg", "name": "Rugby" },
+   { "image": "images/sports/skiing.jpg", "name": "Skiing" },
+    { "image": "images/sports/surfing.jpg", "name": "Surfing" },
+    { "image": "images/sports/rock_climbing.jpg", "name": "Rock Climbing" },
+    { "image": "images/sports/kite_flying.jpg", "name": "Kite Flying" }
   ]
 }
