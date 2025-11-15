@@ -23,7 +23,7 @@ body {
     padding: 15px;
     text-align: center;
     position: relative; /* For absolute positioning of screens */
-    overflow: hidden;
+    overflow-y: auto;
     min-height: 650px; /* Ensure a decent height */
     display: flex;
     flex-direction: column;
@@ -59,12 +59,14 @@ h2 {
     transition: opacity 0.5s ease-in-out;
     padding: 20px;
     box-sizing: border-box;
+    overflow-y: auto;
 }
 
 .screen.active {
     opacity: 1;
     pointer-events: all;
     position: relative; /* Bring active screen into normal flow */
+    height: auto;
 }
 
 /* Category Selection Screen */
@@ -129,6 +131,7 @@ h2 {
     overflow-y: auto;
     padding-right: 8px;
     width: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
 .categories::-webkit-scrollbar {
