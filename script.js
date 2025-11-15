@@ -178,7 +178,6 @@ function handleTap() {
     if (gamePhase === 0) { // First tap: show picture
         gameImage.style.display = 'block';
         gameImage.style.opacity = 1;
-        playSound(revealPictureSound); // Play picture reveal sound
         instructionsText.textContent = 'Tap again to reveal name!';
         gamePhase = 1;
         tappedOnce = false; // Reset for next phase
