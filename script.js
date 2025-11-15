@@ -207,18 +207,31 @@ function handleTap() {
 function startTimer() {
     bgMusic.currentTime = 0; // Start music from beginning
     bgMusic.volume = 0.3;    // Initial volume
+    bgMusic.playbackRate = 1.0; // Start at normal speed
+    
     timerInterval = setInterval(() => {
         timeLeft--;
         timerDisplay.textContent = timeLeft;
 
-        // Gradually increase music volume (and simulate "faster" by just increasing volume)
+        // Gradually increase music intensity over time
         if (timeLeft > 0) {
-            const volumeIncreaseFactor = 0.7 / 90; // Increase by 0.7 over 90 seconds
-            bgMusic.volume = Math.min(1.0, 0.3 + (90 - timeLeft) * volumeIncreaseFactor);
+            // Increase volume gradually
+            const volumeIncreaseFactor = 0.7 / gameTime; // Scale to selected game time
+            bgMusic.volume = Math.min(0.8, 0.3 + ((gameTime - timeLeft) / gameTime) * 0.5);
+            
+            // Increase playback rate for more urgency (especially in last 30 seconds)
+            if (timeLeft <= gameTime * 0.33) {
+                // Last third: speed up significantly
+                bgMusic.playbackRate = 1.0 + ((gameTime * 0.33 - timeLeft) / (gameTime * 0.33)) * 0.4;
+            } else {
+                // First two-thirds: slow speed increase
+                bgMusic.playbackRate = 1.0 + ((gameTime - timeLeft) / gameTime) * 0.15;
+            }
         }
 
         if (timeLeft <= 0) {
             clearInterval(timerInterval);
+            bgMusic.playbackRate = 1.0; // Reset playback rate
             endGame();
         }
     }, 1000);

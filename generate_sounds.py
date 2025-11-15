@@ -45,26 +45,68 @@ def generate_success_sound(duration=0.5, sample_rate=44100):
     sound[-fade_len:] = (sound[-fade_len:] * fade).astype(np.int16)
     return sound
 
-def generate_background_music(duration=10, sample_rate=44100):
-    """Generate simple background music - a repeating pattern"""
-    pattern_notes = [
-        (440, 0.5),   # A
-        (494, 0.5),   # B
-        (523, 0.5),   # C
-        (587, 0.5),   # D
+def generate_background_music(duration=15, sample_rate=44100):
+    """
+    Generate soothing background music with gradually increasing beat.
+    Creates a calm, flowing melody with tempo increasing over time.
+    """
+    sound = np.array([], dtype=np.int16)
+    
+    # Soothing note sequence (pentatonic scale - calming)
+    base_notes = [
+        (293, 0.4),   # D - root
+        (349, 0.4),   # F - warm
+        (392, 0.4),   # G - stable
+        (349, 0.4),   # F - back down
     ]
     
-    sound = np.array([], dtype=np.int16)
+    # Harmonic notes to play underneath (lower octave for richness)
+    harmony_base = [146, 174, 196, 174]  # D, F, G, F (one octave lower)
+    
     total_duration = 0
+    time_phases = duration / 3  # Divide into 3 phases for tempo progression
+    current_phase = 0
     
     while total_duration < duration:
-        for freq, note_duration in pattern_notes:
+        # Calculate current phase and tempo multiplier
+        current_phase = total_duration / time_phases
+        
+        # Gradually speed up: start at 1.0x, end at 1.8x speed
+        tempo_multiplier = 1.0 + (current_phase * 0.8)
+        
+        for i, (freq, base_duration) in enumerate(base_notes):
             if total_duration >= duration:
                 break
-            note = generate_tone(freq, note_duration, sample_rate, 0.2)
-            # Add smooth transitions between notes
-            sound = np.concatenate([sound, note])
-            total_duration += note_duration
+            
+            # Adjust note duration based on tempo
+            adjusted_duration = base_duration / tempo_multiplier
+            
+            # Main melodic note
+            t = np.linspace(0, adjusted_duration, int(sample_rate * adjusted_duration), False)
+            
+            # Create a smooth sine wave with slight envelope
+            envelope = np.ones_like(t)
+            # Fade in at the beginning
+            fade_in_samples = int(0.02 * sample_rate)
+            if fade_in_samples > 0:
+                envelope[:fade_in_samples] = np.linspace(0, 1, fade_in_samples)
+            # Fade out at the end
+            fade_out_samples = int(adjusted_duration * sample_rate * 0.15)
+            if fade_out_samples > 0:
+                envelope[-fade_out_samples:] = np.linspace(1, 0, fade_out_samples)
+            
+            main_wave = np.sin(freq * 2 * np.pi * t) * envelope
+            
+            # Add harmony note (softer, lower)
+            harmony_freq = harmony_base[i]
+            harmony_wave = np.sin(harmony_freq * 2 * np.pi * t) * envelope * 0.5
+            
+            # Combine main and harmony
+            combined = (main_wave + harmony_wave) * 0.25
+            audio_data = (combined * 32767).astype(np.int16)
+            
+            sound = np.concatenate([sound, audio_data])
+            total_duration += adjusted_duration
     
     return sound[:int(duration * sample_rate)]
 
