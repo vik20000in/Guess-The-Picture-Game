@@ -155,9 +155,11 @@ function loadNextItem() {
     }
     
     // Set the name while it's hidden so it never appears briefly on load
+    // Display both English and Hindi names
+    const displayName = item.nameHi ? `${item.name}<br><span style="font-size: 0.8em; color: #666;">${item.nameHi}</span>` : item.name;
     itemNameDisplay.classList.add('hidden');
     itemNameDisplay.style.opacity = 0;
-    itemNameDisplay.textContent = item.name;
+    itemNameDisplay.innerHTML = displayName;
 
     // Reset for new item display
     instructionsText.textContent = 'Tap to reveal picture!';
@@ -192,14 +194,14 @@ function handleTap() {
         instructionsText.textContent = 'Tap for next item!';
         gamePhase = 2;
         
-        // Auto-advance to next item immediately instead of waiting
+        // Auto-advance to next item after a longer delay to let players see the name
         if (autoAdvanceTimer) {
             clearTimeout(autoAdvanceTimer);
         }
         autoAdvanceTimer = setTimeout(() => {
             currentIndex++;
             loadNextItem();
-        }, 800);
+        }, 1500);
     }
 }
 
