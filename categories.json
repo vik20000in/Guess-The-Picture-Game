@@ -1033,11 +1033,6 @@
       "nameHi": "रास्पबेरी"
     },
     {
-      "image": "images/fruits/blackberry.jpg",
-      "name": "Blackberry",
-      "nameHi": "काली बेरी"
-    },
-    {
       "image": "images/fruits/kiwi.jpg",
       "name": "Kiwi",
       "nameHi": "कीवी"
@@ -1098,11 +1093,6 @@
       "nameHi": "लीची"
     },
     {
-      "image": "images/fruits/longan.jpg",
-      "name": "Longan",
-      "nameHi": "लोंगन"
-    },
-    {
       "image": "images/fruits/jackfruit.jpg",
       "name": "Jackfruit",
       "nameHi": "कटहल"
@@ -1121,36 +1111,6 @@
       "image": "images/fruits/carambola.jpg",
       "name": "Carambola",
       "nameHi": "कमरख"
-    },
-    {
-      "image": "images/fruits/mulberry.jpg",
-      "name": "Mulberry",
-      "nameHi": "शहतूत"
-    },
-    {
-      "image": "images/fruits/tamarind.jpg",
-      "name": "Tamarind",
-      "nameHi": "इमली"
-    },
-    {
-      "image": "images/fruits/grapefruit.jpg",
-      "name": "Grapefruit",
-      "nameHi": "चकोतरा"
-    },
-    {
-      "image": "images/fruits/tangerine.jpg",
-      "name": "Tangerine",
-      "nameHi": "नारंगी"
-    },
-    {
-      "image": "images/fruits/melon.jpg",
-      "name": "Melon",
-      "nameHi": "खरबूजा"
-    },
-    {
-      "image": "images/fruits/honeydew.jpg",
-      "name": "Honeydew",
-      "nameHi": "शहद खरबूजा"
     }
   ]
 }
