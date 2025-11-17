@@ -171,6 +171,17 @@ function loadNextItem() {
         clearTimeout(autoAdvanceTimer);
         autoAdvanceTimer = null;
     }
+    
+    // Auto-show the picture after a brief delay (500ms) to give smooth transition
+    setTimeout(() => {
+        if (gamePhase === 0) { // Only auto-show if still in phase 0
+            gameImage.style.display = 'block';
+            gameImage.style.opacity = 1;
+            instructionsText.textContent = 'Tap again to reveal name!';
+            gamePhase = 1;
+            tappedOnce = false;
+        }
+    }, 500);
 }
 
 function handleTap() {
