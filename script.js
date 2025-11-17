@@ -191,10 +191,10 @@ function handleTap() {
             itemNameDisplay.style.opacity = 1;
         });
         playSound(correctSound); // Play correct/point sound
-        instructionsText.textContent = 'Tap for next item!';
+        instructionsText.textContent = 'Next item coming...';
         gamePhase = 2;
         
-        // Auto-advance to next item after a longer delay to let players see the name
+        // Auto-advance to next item after 1500ms without requiring a tap
         if (autoAdvanceTimer) {
             clearTimeout(autoAdvanceTimer);
         }
