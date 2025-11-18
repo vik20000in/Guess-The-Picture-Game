@@ -41,6 +41,7 @@ let tappedOnce = false; // To ensure only one tap per phase transition
 let autoAdvanceTimer; // Timer for auto-advancing to next item
 let imageCache = {}; // Cache for preloaded images
 let isPreloading = false; // Flag to track if images are being preloaded
+let gameMode = localStorage.getItem('gameMode') || 'standard'; // Game mode: 'standard' or 'catchphrase'
 
 // --- Functions ---
 
@@ -161,58 +162,85 @@ function loadNextItem() {
     itemNameDisplay.style.opacity = 0;
     itemNameDisplay.innerHTML = displayName;
 
-    // Reset for new item display
-    instructionsText.textContent = 'Tap to reveal picture!';
-    gamePhase = 0;
-    tappedOnce = false;
-    
     // Clear any pending auto-advance timer
     if (autoAdvanceTimer) {
         clearTimeout(autoAdvanceTimer);
         autoAdvanceTimer = null;
     }
     
-    // Auto-show the picture after a brief delay (500ms) to give smooth transition
-    setTimeout(() => {
-        if (gamePhase === 0) { // Only auto-show if still in phase 0
+    if (gameMode === 'catchphrase') {
+        // Catchphrase mode: show both image and name immediately
+        tappedOnce = false;
+        instructionsText.textContent = 'Tap for next item!';
+        gamePhase = 0;
+        
+        // Show both image and name immediately
+        setTimeout(() => {
             gameImage.style.display = 'block';
             gameImage.style.opacity = 1;
-            instructionsText.textContent = 'Tap again to reveal name!';
-            gamePhase = 1;
-            tappedOnce = false;
-        }
-    }, 500);
+            itemNameDisplay.classList.remove('hidden');
+            requestAnimationFrame(() => {
+                itemNameDisplay.style.opacity = 1;
+            });
+        }, 200);
+    } else {
+        // Standard mode: show only picture initially
+        // Reset for new item display
+        instructionsText.textContent = 'Tap to reveal picture!';
+        gamePhase = 0;
+        tappedOnce = false;
+        
+        // Auto-show the picture after a brief delay (500ms) to give smooth transition
+        setTimeout(() => {
+            if (gamePhase === 0) { // Only auto-show if still in phase 0
+                gameImage.style.display = 'block';
+                gameImage.style.opacity = 1;
+                instructionsText.textContent = 'Tap again to reveal name!';
+                gamePhase = 1;
+                tappedOnce = false;
+            }
+        }, 500);
+    }
 }
 
 function handleTap() {
     if (tappedOnce) return; // Prevent multiple taps in one phase
-    tappedOnce = true;
+    
+    if (gameMode === 'catchphrase') {
+        // Catchphrase mode: both image and name are already shown, just advance to next
+        tappedOnce = true;
+        currentIndex++;
+        loadNextItem();
+    } else {
+        // Standard mode: original logic
+        tappedOnce = true;
 
-    if (gamePhase === 0) { // First tap: show picture
-        gameImage.style.display = 'block';
-        gameImage.style.opacity = 1;
-        instructionsText.textContent = 'Tap again to reveal name!';
-        gamePhase = 1;
-        tappedOnce = false; // Reset for next phase
-    } else if (gamePhase === 1) { // Second tap: show name and auto-advance
-        // Remove the hidden class first so the element is displayed, then animate opacity
-        itemNameDisplay.classList.remove('hidden');
-        // Use requestAnimationFrame to ensure the browser registers the display change before animating
-        requestAnimationFrame(() => {
-            itemNameDisplay.style.opacity = 1;
-        });
-        playSound(correctSound); // Play correct/point sound
-        instructionsText.textContent = 'Next item coming...';
-        gamePhase = 2;
-        
-        // Auto-advance to next item after 1500ms without requiring a tap
-        if (autoAdvanceTimer) {
-            clearTimeout(autoAdvanceTimer);
+        if (gamePhase === 0) { // First tap: show picture
+            gameImage.style.display = 'block';
+            gameImage.style.opacity = 1;
+            instructionsText.textContent = 'Tap again to reveal name!';
+            gamePhase = 1;
+            tappedOnce = false; // Reset for next phase
+        } else if (gamePhase === 1) { // Second tap: show name and auto-advance
+            // Remove the hidden class first so the element is displayed, then animate opacity
+            itemNameDisplay.classList.remove('hidden');
+            // Use requestAnimationFrame to ensure the browser registers the display change before animating
+            requestAnimationFrame(() => {
+                itemNameDisplay.style.opacity = 1;
+            });
+            playSound(correctSound); // Play correct/point sound
+            instructionsText.textContent = 'Next item coming...';
+            gamePhase = 2;
+            
+            // Auto-advance to next item after 1500ms without requiring a tap
+            if (autoAdvanceTimer) {
+                clearTimeout(autoAdvanceTimer);
+            }
+            autoAdvanceTimer = setTimeout(() => {
+                currentIndex++;
+                loadNextItem();
+            }, 1500);
         }
-        autoAdvanceTimer = setTimeout(() => {
-            currentIndex++;
-            loadNextItem();
-        }, 1500);
     }
 }
 
@@ -369,6 +397,24 @@ function exitGame() {
 }
 
 // --- Initial Setup ---
+// Setup mode selection buttons
+const modeButtons = document.querySelectorAll('.mode-btn');
+modeButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const selectedMode = button.getAttribute('data-mode');
+        gameMode = selectedMode;
+        localStorage.setItem('gameMode', selectedMode); // Save to localStorage
+        
+        // Update UI: remove active class from all buttons
+        modeButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        button.classList.add('active');
+        
+        console.log(`Game mode set to ${selectedMode}`);
+    });
+});
+
 // Setup time selection buttons
 const timeButtons = document.querySelectorAll('.time-btn');
 timeButtons.forEach(button => {
@@ -406,6 +452,12 @@ Object.keys(categoriesData).forEach(categoryName => {
 
 // Show category selection on load
 showScreen(categorySelectionScreen);
+
+// Set active mode button on load
+const activeModeBtn = document.querySelector(`.mode-btn[data-mode="${gameMode}"]`);
+if (activeModeBtn) {
+    activeModeBtn.classList.add('active');
+}
 
 // Additional fallback: unlock audio on any user interaction
 let audioUnlocked = false;

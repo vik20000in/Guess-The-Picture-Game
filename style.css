@@ -70,6 +70,60 @@ h2 {
 }
 
 /* Category Selection Screen */
+.mode-selection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.mode-btn {
+    background-color: #e0e0e0;
+    color: #333;
+    border: 3px solid #999;
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 1em;
+    font-family: 'Fredoka One', cursive;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mode-btn:hover {
+    background-color: #d0d0d0;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.mode-btn.active {
+    background-color: #FF6347;
+    color: white;
+    border-color: #CC4433;
+    box-shadow: 0 6px 15px rgba(255, 99, 71, 0.4);
+}
+
+.mode-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+}
+
+.mode-desc {
+    font-size: 0.85em;
+    opacity: 0.8;
+    display: block;
+}
+
 .time-selection {
     margin-bottom: 25px;
     padding: 15px;
