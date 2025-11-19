@@ -1112,5 +1112,132 @@
       "name": "Carambola",
       "nameHi": "कमरख"
     }
+  ],
+  "celebrations": [
+    {
+      "image": "images/celebrations/diwali.jpg",
+      "name": "Diwali",
+      "nameHi": "दिवाली"
+    },
+    {
+      "image": "images/celebrations/holi.jpg",
+      "name": "Holi",
+      "nameHi": "होली"
+    },
+    {
+      "image": "images/celebrations/dussehra.jpg",
+      "name": "Dussehra",
+      "nameHi": "दशहरा"
+    },
+    {
+      "image": "images/celebrations/ganesh_chaturthi.jpg",
+      "name": "Ganesh Chaturthi",
+      "nameHi": "गणेश चतुर्थी"
+    },
+    {
+      "image": "images/celebrations/raksha_bandhan.jpg",
+      "name": "Raksha Bandhan",
+      "nameHi": "रक्षा बंधन"
+    },
+    {
+      "image": "images/celebrations/navratri.jpg",
+      "name": "Navratri",
+      "nameHi": "नवरात्रि"
+    },
+    {
+      "image": "images/celebrations/janmashtami.jpg",
+      "name": "Janmashtami",
+      "nameHi": "जन्माष्टमी"
+    },
+    {
+      "image": "images/celebrations/eid.jpg",
+      "name": "Eid",
+      "nameHi": "ईद"
+    },
+    {
+      "image": "images/celebrations/pongal.jpg",
+      "name": "Pongal",
+      "nameHi": "पोंगल"
+    },
+    {
+      "image": "images/celebrations/onam.jpg",
+      "name": "Onam",
+      "nameHi": "ओणम"
+    },
+    {
+      "image": "images/celebrations/baisakhi.jpg",
+      "name": "Baisakhi",
+      "nameHi": "बैसाखी"
+    },
+    {
+      "image": "images/celebrations/makar_sankranti.jpg",
+      "name": "Makar Sankranti",
+      "nameHi": "मकर संक्रांति"
+    },
+    {
+      "image": "images/celebrations/karva_chauth.jpg",
+      "name": "Karva Chauth",
+      "nameHi": "करवा चौथ"
+    },
+    {
+      "image": "images/celebrations/durga_puja.jpg",
+      "name": "Durga Puja",
+      "nameHi": "दुर्गा पूजा"
+    },
+    {
+      "image": "images/celebrations/chhath_puja.jpg",
+      "name": "Chhath Puja",
+      "nameHi": "छठ पूजा"
+    },
+    {
+      "image": "images/celebrations/ugadi.jpg",
+      "name": "Ugadi",
+      "nameHi": "उगाडि"
+    },
+    {
+      "image": "images/celebrations/lohri.jpg",
+      "name": "Lohri",
+      "nameHi": "लोहड़ी"
+    },
+    {
+      "image": "images/celebrations/bihu.jpg",
+      "name": "Bihu",
+      "nameHi": "बिहू"
+    },
+    {
+      "image": "images/celebrations/guru_nanak_jayanti.jpg",
+      "name": "Guru Nanak Jayanti",
+      "nameHi": "गुरु नानक जयंती"
+    },
+    {
+      "image": "images/celebrations/mahashivratri.jpg",
+      "name": "Mahashivratri",
+      "nameHi": "महाशिवरात्रि"
+    },
+    {
+      "image": "images/celebrations/ram_navami.jpg",
+      "name": "Ram Navami",
+      "nameHi": "राम नवमी"
+    },
+    {
+      "image": "images/celebrations/basant_panchami.jpg",
+      "name": "Basant Panchami",
+      "nameHi": "बसंत पंचमी"
+    },
+    {
+      "image": "images/celebrations/independence_day.jpg",
+      "name": "Independence Day",
+      "nameHi": "स्वतंत्रता दिवस"
+    },
+    {
+      "image": "images/celebrations/republic_day.jpg",
+      "name": "Republic Day",
+      "nameHi": "गणतंत्र दिवस"
+    },
+    {
+      "image": "images/celebrations/gandhi_jayanti.jpg",
+      "name": "Gandhi Jayanti",
+      "nameHi": "गांधी जयंती"
+    }
   ]
 }
