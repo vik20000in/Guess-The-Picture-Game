@@ -224,6 +224,11 @@ h2 {
     justify-content: flex-start;
     height: 100%;
     padding: 0;
+    width: 100%;
+}
+
+body.playing #game-screen {
+    padding: 8px;
 }
 
 .game-header {
@@ -235,6 +240,11 @@ h2 {
     font-weight: bold;
     color: #FF4500;
     margin-bottom: 5px;
+}
+
+body.playing .game-header {
+    width: 100%;
+    max-width: 100%;
 }
 
 #timer {
@@ -260,6 +270,18 @@ h2 {
     touch-action: manipulation;
     -webkit-user-select: none;
     user-select: none;
+}
+
+body.playing #picture-area {
+    width: 100%;
+    max-width: 100%;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+body.playing #game-image {
+    max-width: 95%;
+    max-height: 95%;
 }
 
 #game-image {
