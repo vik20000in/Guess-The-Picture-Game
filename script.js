@@ -89,14 +89,6 @@ function showScreen(screenToShow) {
         screen.classList.remove('active');
     });
     screenToShow.classList.add('active');
-    
-    // Hide/show title based on screen
-    const gameContainer = document.getElementById('game-container');
-    if (screenToShow.id === 'game-screen') {
-        gameContainer.classList.add('game-active');
-    } else {
-        gameContainer.classList.remove('game-active');
-    }
 }
 
 function startGame(categoryName) {

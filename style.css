@@ -30,17 +30,12 @@ body {
     flex-direction: column;
 }
 
-h1#game-title {
+h1#game-title,
+h1#game-over-title {
     color: #FF6347; /* Tomato red */
     font-size: 2.5em;
     margin-bottom: 12px;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
-    transition: opacity 0.3s ease;
-}
-
-/* Hide title when game is active */
-#game-container.game-active h1#game-title {
-    display: none;
 }
 
 h2 {
@@ -365,7 +360,8 @@ h2 {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-    h1#game-title {
+    h1#game-title,
+    h1#game-over-title {
         font-size: 2em;
         margin-bottom: 10px;
     }
@@ -412,7 +408,8 @@ h2 {
         max-height: 98dvh;
         box-sizing: border-box;
     }
-    h1#game-title {
+    h1#game-title,
+    h1#game-over-title {
         font-size: 1.6em;
         margin-bottom: 10px;
     }
