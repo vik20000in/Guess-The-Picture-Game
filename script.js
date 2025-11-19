@@ -398,7 +398,7 @@ function exitGame() {
 
 // --- Initial Setup ---
 // Setup mode selection buttons
-const modeButtons = document.querySelectorAll('.mode-btn');
+const modeButtons = document.querySelectorAll('.mode-toggle-btn');
 modeButtons.forEach(button => {
     button.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -454,7 +454,7 @@ Object.keys(categoriesData).forEach(categoryName => {
 showScreen(categorySelectionScreen);
 
 // Set active mode button on load
-const activeModeBtn = document.querySelector(`.mode-btn[data-mode="${gameMode}"]`);
+const activeModeBtn = document.querySelector(`.mode-toggle-btn[data-mode="${gameMode}"]`);
 if (activeModeBtn) {
     activeModeBtn.classList.add('active');
 }

@@ -14,21 +14,16 @@
         <h1 id="game-title">Guess the Picture!</h1>
 
         <div id="category-selection" class="screen active">
-            <h2>Select a Game Mode</h2>
-            
-            <!-- Game Mode Selection -->
-            <div class="mode-selection">
-                <button class="mode-btn active" data-mode="standard">
-                    <span class="mode-title">Standard Mode</span>
-                    <span class="mode-desc">Guess image, then answer</span>
-                </button>
-                <button class="mode-btn" data-mode="catchphrase">
-                    <span class="mode-title">Catchphrase Mode</span>
-                    <span class="mode-desc">Image & answer shown together</span>
-                </button>
-            </div>
-            
             <h2>Select a Category</h2>
+            
+            <!-- Game Mode Toggle -->
+            <div class="mode-toggle-container">
+                <span class="mode-label">Mode:</span>
+                <div class="mode-toggle">
+                    <button class="mode-toggle-btn active" data-mode="standard">Standard</button>
+                    <button class="mode-toggle-btn" data-mode="catchphrase">Catchphrase</button>
+                </div>
+            </div>
             
             <!-- Game Time Selection -->
             <div class="time-selection">
