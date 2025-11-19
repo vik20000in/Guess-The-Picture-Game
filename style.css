@@ -1,17 +1,22 @@
 body {
     margin: 0;
-    font-family: 'Fredoka One', cursive; /* Fun, kid-friendly font */
-    background: linear-gradient(to right bottom, #87CEEB, #FFF8DC); /* Sky to sand gradient */
+    font-family: 'Fredoka One', cursive;
+    background: linear-gradient(to right bottom, #87CEEB, #FFF8DC);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    min-height: 100dvh; /* Dynamic viewport height for mobile */
-    overflow: hidden; /* Prevent scrolling */
+    min-height: 100dvh;
+    overflow: hidden;
     color: #333;
-    -webkit-user-select: none; /* Prevent text selection on mobile */
+    -webkit-user-select: none;
     user-select: none;
-    -webkit-touch-callout: none; /* Disable long-press menu on iOS */
+    -webkit-touch-callout: none;
+}
+
+body.playing {
+    align-items: stretch;
+    justify-content: stretch;
 }
 
 #game-container {
