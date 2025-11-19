@@ -28,6 +28,19 @@ body {
     max-height: 95dvh;
     display: flex;
     flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+/* Make container transparent and full-screen during gameplay */
+body.playing #game-container {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    max-height: 100vh;
+    max-height: 100dvh;
 }
 
 h1#game-title,

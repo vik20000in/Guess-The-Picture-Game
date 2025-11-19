@@ -89,6 +89,13 @@ function showScreen(screenToShow) {
         screen.classList.remove('active');
     });
     screenToShow.classList.add('active');
+    
+    // Add/remove playing class to body for styling
+    if (screenToShow.id === 'game-screen') {
+        document.body.classList.add('playing');
+    } else {
+        document.body.classList.remove('playing');
+    }
 }
 
 function startGame(categoryName) {
