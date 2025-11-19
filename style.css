@@ -38,8 +38,8 @@ h1#game-title {
     transition: opacity 0.3s ease;
 }
 
-/* Hide title when game screen is active */
-#game-container:has(#game-screen.active) h1#game-title {
+/* Hide title when game is active */
+#game-container.game-active h1#game-title {
     display: none;
 }
 
