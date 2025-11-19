@@ -76,6 +76,12 @@ h2 {
     display: flex;
 }
 
+body.playing .screen {
+    align-items: stretch;
+    width: 100%;
+    max-width: 100%;
+}
+
 /* Category Selection Screen */
 .mode-toggle-container {
     display: flex;
