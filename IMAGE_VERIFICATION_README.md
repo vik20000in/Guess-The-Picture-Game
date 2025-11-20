@@ -29,14 +29,43 @@ Uses **BLIP** (Bootstrapping Language-Image Pre-training) - a state-of-the-art v
 
 Verify a single category directly from command line:
 ```powershell
-# Check just vegetables
+# Check vegetables (40 images)
 python verify_images_with_ai.py Vegetables
 
-# Check landmarks
-python verify_images_with_ai.py Landmarks
+# Check landmarks (40 images)
+python verify_images_with_ai.py "World Landmarks"
 
-# Check birds
+# Check birds (40 images)
 python verify_images_with_ai.py Birds
+```
+
+**Note**: Use quotes for category names with spaces (e.g., "World Landmarks", "Country Flags")
+
+### Available Categories
+
+You can verify any of these 20 categories:
+
+```powershell
+python verify_images_with_ai.py Animals
+python verify_images_with_ai.py Things
+python verify_images_with_ai.py Bollywood
+python verify_images_with_ai.py Food
+python verify_images_with_ai.py Sports
+python verify_images_with_ai.py Monuments
+python verify_images_with_ai.py Fruits
+python verify_images_with_ai.py "Musical Instruments"
+python verify_images_with_ai.py Vehicles
+python verify_images_with_ai.py "Indian Celebrations"
+python verify_images_with_ai.py "Country Flags"
+python verify_images_with_ai.py "Brands & Logos"
+python verify_images_with_ai.py "Company Taglines"
+python verify_images_with_ai.py Tools
+python verify_images_with_ai.py "World Landmarks"
+python verify_images_with_ai.py Superheroes
+python verify_images_with_ai.py "Cartoon Characters"
+python verify_images_with_ai.py Vegetables
+python verify_images_with_ai.py Birds
+python verify_images_with_ai.py Flowers
 ```
 
 This is the **fastest way** to check individual categories!
@@ -135,11 +164,17 @@ A detailed report is saved to `image_verification_report.json`:
 # Check vegetables (40 images, ~2-3 minutes)
 python verify_images_with_ai.py Vegetables
 
-# Check landmarks (40 images, ~2-3 minutes)
-python verify_images_with_ai.py Landmarks
+# Check world landmarks (40 images, ~2-3 minutes)
+python verify_images_with_ai.py "World Landmarks"
 
 # Check birds (40 images, ~2-3 minutes)
 python verify_images_with_ai.py Birds
+
+# Check musical instruments (25 images, ~1-2 minutes)
+python verify_images_with_ai.py "Musical Instruments"
+
+# Check country flags (50 images, ~3-4 minutes)
+python verify_images_with_ai.py "Country Flags"
 ```
 
 ### Interactive Menu - Multiple Categories
@@ -147,7 +182,8 @@ python verify_images_with_ai.py Birds
 ```powershell
 python verify_images_with_ai.py
 # Choose option 3
-# Enter: 1,2,5  (or Vegetables,Birds,Landmarks)
+# Enter: 1,2,5  (or Animals,Things,Sports)
+# Enter: 18,19,20  (or Vegetables,Birds,Flowers)
 ```
 
 ### Interactive Menu - Single Category with Number
@@ -155,7 +191,28 @@ python verify_images_with_ai.py
 ```powershell
 python verify_images_with_ai.py
 # Choose option 2
-# Enter: 1  (for first category in the list)
+# Shows list:
+#   1. Animals
+#   2. Things
+#   3. Bollywood
+#   4. Food
+#   5. Sports
+#   6. Monuments
+#   7. Fruits
+#   8. Musical Instruments
+#   9. Vehicles
+#   10. Indian Celebrations
+#   11. Country Flags
+#   12. Brands & Logos
+#   13. Company Taglines
+#   14. Tools
+#   15. World Landmarks
+#   16. Superheroes
+#   17. Cartoon Characters
+#   18. Vegetables
+#   19. Birds
+#   20. Flowers
+# Enter: 18  (to check Vegetables)
 ```
 
 ## Cost & Performance
