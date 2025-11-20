@@ -3,13 +3,45 @@ let categoriesData = {};
 let categoryMetadata = [];
 
 // Fetch categories metadata and prepare to load individual category data
-fetch('categories_new.json')
+fetch('categories.json')
     .then(response => response.json())
     .then(data => {
         categoryMetadata = data.categories;
         console.log('Category metadata loaded:', categoryMetadata.length, 'categories');
+        // Dynamically generate category buttons
+        renderCategoryButtons();
     })
-    .catch(error => console.error('Error loading categories_new.json:', error));
+    .catch(error => console.error('Error loading categories.json:', error));
+
+// Function to dynamically render category buttons
+function renderCategoryButtons() {
+    const categoriesContainer = document.querySelector('.categories');
+    if (!categoriesContainer) return;
+    
+    // Clear existing buttons
+    categoriesContainer.innerHTML = '';
+    
+    // Create buttons for each category
+    categoryMetadata.forEach(category => {
+        const button = document.createElement('button');
+        button.className = 'category-btn';
+        button.setAttribute('data-category', category.id);
+        
+        const img = document.createElement('img');
+        img.src = category.icon;
+        img.alt = `${category.name} Icon`;
+        
+        button.appendChild(img);
+        button.appendChild(document.createTextNode(category.name));
+        
+        // Add click event listener
+        button.addEventListener('click', () => {
+            startGame(category.id);
+        });
+        
+        categoriesContainer.appendChild(button);
+    });
+}
 
 // Function to load a specific category's data
 async function loadCategoryData(categoryId) {
@@ -42,7 +74,7 @@ const gameScreen = document.getElementById('game-screen');
 const gameOverScreen = document.getElementById('game-over-screen');
 const loadingIndicator = document.getElementById('loading-indicator');
 
-const categoryButtons = document.querySelectorAll('.category-btn');
+// Category buttons are dynamically generated
 const gameImage = document.getElementById('game-image');
 const itemNameDisplay = document.getElementById('item-name');
 const instructionsText = document.getElementById('instructions');
@@ -365,19 +397,7 @@ function shuffleArray(array) {
 
 // --- Event Listeners ---
 
-categoryButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const category = button.dataset.category;
-        startGame(category);
-    });
-    
-    // Add touch event support for better mobile responsiveness
-    button.addEventListener('touchstart', (event) => {
-        event.preventDefault(); // Prevent default touch behavior
-        const category = button.dataset.category;
-        startGame(category);
-    }, { passive: false });
-});
+// Category buttons are now added dynamically in renderCategoryButtons()
 
 // Use event delegation for the game screen tap to handle picture/name reveal
 gameScreen.addEventListener('click', (event) => {
