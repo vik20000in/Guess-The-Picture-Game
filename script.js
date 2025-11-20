@@ -515,7 +515,9 @@ Object.keys(categoriesData).forEach(categoryName => {
 // Show category selection on load
 showScreen(categorySelectionScreen);
 
-// Set active mode button on load
+// Set active mode button on load based on localStorage
+const modeButtonsInit = document.querySelectorAll('.mode-toggle-btn');
+modeButtonsInit.forEach(btn => btn.classList.remove('active')); // Remove all active classes first
 const activeModeBtn = document.querySelector(`.mode-toggle-btn[data-mode="${gameMode}"]`);
 if (activeModeBtn) {
     activeModeBtn.classList.add('active');
