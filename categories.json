@@ -1113,6 +1113,133 @@
       "nameHi": "कमरख"
     }
   ],
+  "instruments": [
+    {
+      "image": "images/instruments/guitar.jpg",
+      "name": "Guitar",
+      "nameHi": "गिटार"
+    },
+    {
+      "image": "images/instruments/piano.jpg",
+      "name": "Piano",
+      "nameHi": "पियानो"
+    },
+    {
+      "image": "images/instruments/drum.jpg",
+      "name": "Drum",
+      "nameHi": "ढोल"
+    },
+    {
+      "image": "images/instruments/flute.jpg",
+      "name": "Flute",
+      "nameHi": "बांसुरी"
+    },
+    {
+      "image": "images/instruments/violin.jpg",
+      "name": "Violin",
+      "nameHi": "वायलिन"
+    },
+    {
+      "image": "images/instruments/tabla.jpg",
+      "name": "Tabla",
+      "nameHi": "तबला"
+    },
+    {
+      "image": "images/instruments/harmonium.jpg",
+      "name": "Harmonium",
+      "nameHi": "हारमोनियम"
+    },
+    {
+      "image": "images/instruments/sitar.jpg",
+      "name": "Sitar",
+      "nameHi": "सितार"
+    },
+    {
+      "image": "images/instruments/trumpet.jpg",
+      "name": "Trumpet",
+      "nameHi": "तुरही"
+    },
+    {
+      "image": "images/instruments/saxophone.jpg",
+      "name": "Saxophone",
+      "nameHi": "सैक्सोफोन"
+    },
+    {
+      "image": "images/instruments/veena.jpg",
+      "name": "Veena",
+      "nameHi": "वीणा"
+    },
+    {
+      "image": "images/instruments/sarangi.jpg",
+      "name": "Sarangi",
+      "nameHi": "सारंगी"
+    },
+    {
+      "image": "images/instruments/dholak.jpg",
+      "name": "Dholak",
+      "nameHi": "ढोलक"
+    },
+    {
+      "image": "images/instruments/shehnai.jpg",
+      "name": "Shehnai",
+      "nameHi": "शहनाई"
+    },
+    {
+      "image": "images/instruments/manjira.jpg",
+      "name": "Manjira",
+      "nameHi": "मंजीरा"
+    },
+    {
+      "image": "images/instruments/mridangam.jpg",
+      "name": "Mridangam",
+      "nameHi": "मृदंगम"
+    },
+    {
+      "image": "images/instruments/ghatam.jpg",
+      "name": "Ghatam",
+      "nameHi": "घटम"
+    },
+    {
+      "image": "images/instruments/banjo.jpg",
+      "name": "Banjo",
+      "nameHi": "बैंजो"
+    },
+    {
+      "image": "images/instruments/accordion.jpg",
+      "name": "Accordion",
+      "nameHi": "अकॉर्डियन"
+    },
+    {
+      "image": "images/instruments/harp.jpg",
+      "name": "Harp",
+      "nameHi": "वीणा"
+    },
+    {
+      "image": "images/instruments/xylophone.jpg",
+      "name": "Xylophone",
+      "nameHi": "जाइलोफोन"
+    },
+    {
+      "image": "images/instruments/clarinet.jpg",
+      "name": "Clarinet",
+      "nameHi": "शहनाई"
+    },
+    {
+      "image": "images/instruments/trombone.jpg",
+      "name": "Trombone",
+      "nameHi": "ट्रॉम्बोन"
+    },
+    {
+      "image": "images/instruments/cello.jpg",
+      "name": "Cello",
+      "nameHi": "सेलो"
+    },
+    {
+      "image": "images/instruments/double_bass.jpg",
+      "name": "Double Bass",
+      "nameHi": "कॉन्ट्राबास"
+    }
+  ],
   "vehicles": [
     {
       "image": "images/vehicles/car.jpg",
