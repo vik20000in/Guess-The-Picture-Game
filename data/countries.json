@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "India",
+    "nameHi": "भारत",
+    "image": "images/countries/india.jpg"
+  },
+  {
+    "id": 2,
+    "name": "United States",
+    "nameHi": "संयुक्त राज्य अमेरिका",
+    "image": "images/countries/united_states.jpg"
+  },
+  {
+    "id": 3,
+    "name": "United Kingdom",
+    "nameHi": "यूनाइटेड किंगडम",
+    "image": "images/countries/united_kingdom.jpg"
+  },
+  {
+    "id": 4,
+    "name": "China",
+    "nameHi": "चीन",
+    "image": "images/countries/china.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Japan",
+    "nameHi": "जापान",
+    "image": "images/countries/japan.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Germany",
+    "nameHi": "जर्मनी",
+    "image": "images/countries/germany.jpg"
+  },
+  {
+    "id": 7,
+    "name": "France",
+    "nameHi": "फ्रांस",
+    "image": "images/countries/france.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Italy",
+    "nameHi": "इटली",
+    "image": "images/countries/italy.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Spain",
+    "nameHi": "स्पेन",
+    "image": "images/countries/spain.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Brazil",
+    "nameHi": "ब्राज़ील",
+    "image": "images/countries/brazil.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Canada",
+    "nameHi": "कनाडा",
+    "image": "images/countries/canada.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Australia",
+    "nameHi": "ऑस्ट्रेलिया",
+    "image": "images/countries/australia.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Russia",
+    "nameHi": "रूस",
+    "image": "images/countries/russia.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Mexico",
+    "nameHi": "मेक्सिको",
+    "image": "images/countries/mexico.jpg"
+  },
+  {
+    "id": 15,
+    "name": "South Korea",
+    "nameHi": "दक्षिण कोरिया",
+    "image": "images/countries/south_korea.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Argentina",
+    "nameHi": "अर्जेंटीना",
+    "image": "images/countries/argentina.jpg"
+  },
+  {
+    "id": 17,
+    "name": "South Africa",
+    "nameHi": "दक्षिण अफ़्रीका",
+    "image": "images/countries/south_africa.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Egypt",
+    "nameHi": "मिस्र",
+    "image": "images/countries/egypt.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Turkey",
+    "nameHi": "तुर्की",
+    "image": "images/countries/turkey.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Saudi Arabia",
+    "nameHi": "सऊदी अरब",
+    "image": "images/countries/saudi_arabia.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Pakistan",
+    "nameHi": "पाकिस्तान",
+    "image": "images/countries/pakistan.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Bangladesh",
+    "nameHi": "बांग्लादेश",
+    "image": "images/countries/bangladesh.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Indonesia",
+    "nameHi": "इंडोनेशिया",
+    "image": "images/countries/indonesia.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Thailand",
+    "nameHi": "थाईलैंड",
+    "image": "images/countries/thailand.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Malaysia",
+    "nameHi": "मलेशिया",
+    "image": "images/countries/malaysia.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Singapore",
+    "nameHi": "सिंगापुर",
+    "image": "images/countries/singapore.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Vietnam",
+    "nameHi": "वियतनाम",
+    "image": "images/countries/vietnam.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Philippines",
+    "nameHi": "फिलीपींस",
+    "image": "images/countries/philippines.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Netherlands",
+    "nameHi": "नीदरलैंड",
+    "image": "images/countries/netherlands.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Belgium",
+    "nameHi": "बेल्जियम",
+    "image": "images/countries/belgium.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Switzerland",
+    "nameHi": "स्विट्ज़रलैंड",
+    "image": "images/countries/switzerland.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Sweden",
+    "nameHi": "स्वीडन",
+    "image": "images/countries/sweden.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Norway",
+    "nameHi": "नॉर्वे",
+    "image": "images/countries/norway.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Denmark",
+    "nameHi": "डेनमार्क",
+    "image": "images/countries/denmark.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Poland",
+    "nameHi": "पोलैंड",
+    "image": "images/countries/poland.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Greece",
+    "nameHi": "ग्रीस",
+    "image": "images/countries/greece.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Portugal",
+    "nameHi": "पुर्तगाल",
+    "image": "images/countries/portugal.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Austria",
+    "nameHi": "ऑस्ट्रिया",
+    "image": "images/countries/austria.jpg"
+  },
+  {
+    "id": 39,
+    "name": "New Zealand",
+    "nameHi": "न्यूज़ीलैंड",
+    "image": "images/countries/new_zealand.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Ireland",
+    "nameHi": "आयरलैंड",
+    "image": "images/countries/ireland.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Israel",
+    "nameHi": "इज़राइल",
+    "image": "images/countries/israel.jpg"
+  },
+  {
+    "id": 42,
+    "name": "United Arab Emirates",
+    "nameHi": "संयुक्त अरब अमीरात",
+    "image": "images/countries/united_arab_emirates.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Sri Lanka",
+    "nameHi": "श्रीलंका",
+    "image": "images/countries/sri_lanka.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Nepal",
+    "nameHi": "नेपाल",
+    "image": "images/countries/nepal.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Bhutan",
+    "nameHi": "भूटान",
+    "image": "images/countries/bhutan.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Afghanistan",
+    "nameHi": "अफ़गानिस्तान",
+    "image": "images/countries/afghanistan.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Iran",
+    "nameHi": "ईरान",
+    "image": "images/countries/iran.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Iraq",
+    "nameHi": "इराक",
+    "image": "images/countries/iraq.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Kenya",
+    "nameHi": "केन्या",
+    "image": "images/countries/kenya.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Nigeria",
+    "nameHi": "नाइजीरिया",
+    "image": "images/countries/nigeria.jpg"
+  }
+]
