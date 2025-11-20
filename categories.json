@@ -1113,6 +1113,108 @@
       "nameHi": "कमरख"
     }
   ],
+  "vehicles": [
+    {
+      "image": "images/vehicles/car.jpg",
+      "name": "Car",
+      "nameHi": "कार"
+    },
+    {
+      "image": "images/vehicles/bus.jpg",
+      "name": "Bus",
+      "nameHi": "बस"
+    },
+    {
+      "image": "images/vehicles/train.jpg",
+      "name": "Train",
+      "nameHi": "ट्रेन"
+    },
+    {
+      "image": "images/vehicles/airplane.jpg",
+      "name": "Airplane",
+      "nameHi": "हवाई जहाज"
+    },
+    {
+      "image": "images/vehicles/bicycle.jpg",
+      "name": "Bicycle",
+      "nameHi": "साइकिल"
+    },
+    {
+      "image": "images/vehicles/motorcycle.jpg",
+      "name": "Motorcycle",
+      "nameHi": "मोटरसाइकिल"
+    },
+    {
+      "image": "images/vehicles/truck.jpg",
+      "name": "Truck",
+      "nameHi": "ट्रक"
+    },
+    {
+      "image": "images/vehicles/auto_rickshaw.jpg",
+      "name": "Auto Rickshaw",
+      "nameHi": "ऑटो रिक्शा"
+    },
+    {
+      "image": "images/vehicles/boat.jpg",
+      "name": "Boat",
+      "nameHi": "नाव"
+    },
+    {
+      "image": "images/vehicles/helicopter.jpg",
+      "name": "Helicopter",
+      "nameHi": "हेलीकॉप्टर"
+    },
+    {
+      "image": "images/vehicles/scooter.jpg",
+      "name": "Scooter",
+      "nameHi": "स्कूटर"
+    },
+    {
+      "image": "images/vehicles/taxi.jpg",
+      "name": "Taxi",
+      "nameHi": "टैक्सी"
+    },
+    {
+      "image": "images/vehicles/ambulance.jpg",
+      "name": "Ambulance",
+      "nameHi": "एम्बुलेंस"
+    },
+    {
+      "image": "images/vehicles/fire_truck.jpg",
+      "name": "Fire Truck",
+      "nameHi": "दमकल"
+    },
+    {
+      "image": "images/vehicles/police_car.jpg",
+      "name": "Police Car",
+      "nameHi": "पुलिस कार"
+    },
+    {
+      "image": "images/vehicles/tractor.jpg",
+      "name": "Tractor",
+      "nameHi": "ट्रैक्टर"
+    },
+    {
+      "image": "images/vehicles/metro.jpg",
+      "name": "Metro",
+      "nameHi": "मेट्रो"
+    },
+    {
+      "image": "images/vehicles/ship.jpg",
+      "name": "Ship",
+      "nameHi": "जहाज"
+    },
+    {
+      "image": "images/vehicles/rocket.jpg",
+      "name": "Rocket",
+      "nameHi": "रॉकेट"
+    },
+    {
+      "image": "images/vehicles/jeep.jpg",
+      "name": "Jeep",
+      "nameHi": "जीप"
+    }
+  ],
   "celebrations": [
     {
       "image": "images/celebrations/diwali.jpg",
