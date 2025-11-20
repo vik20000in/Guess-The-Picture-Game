@@ -90,6 +90,55 @@
       "nameHi": "कंपनी टैगलाइन",
       "icon": "images/icons/taglines_icon.png",
       "dataFile": "data/taglines.json"
+    },
+    {
+      "id": "tools",
+      "name": "Tools",
+      "nameHi": "औज़ार",
+      "icon": "images/icons/tools_icon.png",
+      "dataFile": "data/tools.json"
+    },
+    {
+      "id": "landmarks",
+      "name": "World Landmarks",
+      "nameHi": "विश्व स्मारक",
+      "icon": "images/icons/landmarks_icon.png",
+      "dataFile": "data/landmarks.json"
+    },
+    {
+      "id": "superheroes",
+      "name": "Superheroes",
+      "nameHi": "सुपरहीरो",
+      "icon": "images/icons/superheroes_icon.png",
+      "dataFile": "data/superheroes.json"
+    },
+    {
+      "id": "cartoons",
+      "name": "Cartoon Characters",
+      "nameHi": "कार्टून पात्र",
+      "icon": "images/icons/cartoons_icon.png",
+      "dataFile": "data/cartoons.json"
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "nameHi": "सब्जियाँ",
+      "icon": "images/icons/vegetables_icon.png",
+      "dataFile": "data/vegetables.json"
+    },
+    {
+      "id": "birds",
+      "name": "Birds",
+      "nameHi": "पक्षी",
+      "icon": "images/icons/birds_icon.png",
+      "dataFile": "data/birds.json"
+    },
+    {
+      "id": "flowers",
+      "name": "Flowers",
+      "nameHi": "फूल",
+      "icon": "images/icons/flowers_icon.png",
+      "dataFile": "data/flowers.json"
     }
   ]
 }
