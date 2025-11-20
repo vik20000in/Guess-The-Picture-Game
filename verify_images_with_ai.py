@@ -341,54 +341,111 @@ if __name__ == "__main__":
     print("="*60)
     print()
     
-    # Menu
-    print("\nWhat would you like to do?")
-    print("1. Verify all images in all categories")
-    print("2. Verify a specific category")
-    print("3. Verify specific images")
-    print()
-    
-    choice = input("Enter choice (1-3): ").strip()
-    
-    if choice == "1":
-        print("\nStarting verification of ALL images...")
-        print("This may take a while (processing happens on your computer).")
-        confirm = input("Continue? (yes/no): ").strip().lower()
-        if confirm == 'yes':
-            verify_all_images()
-        else:
-            print("Cancelled.")
-    
-    elif choice == "2":
-        print("\nAvailable categories:")
-        with open('categories.json', 'r', encoding='utf-8') as f:
-            categories = json.load(f)
-        for i, cat in enumerate(categories, 1):
-            print(f"{i}. {cat['name']}")
-        
-        cat_choice = input("\nEnter category name: ").strip()
-        verify_single_category(cat_choice)
-    
-    elif choice == "3":
-        print("\nEnter image details (format: image_path,expected_item,category)")
-        print("Example: images/fruits/apple.jpg,Apple,Fruits")
-        print("Enter blank line when done.")
-        
-        image_specs = []
-        while True:
-            line = input("> ").strip()
-            if not line:
-                break
-            parts = [p.strip() for p in line.split(',')]
-            if len(parts) == 3:
-                image_specs.append(tuple(parts))
-            else:
-                print("Invalid format. Use: image_path,expected_item,category")
-        
-        if image_specs:
-            verify_specific_images(image_specs)
-        else:
-            print("No images specified.")
-    
+    # Check for command line arguments
+    if len(sys.argv) > 1:
+        # Command line mode: python verify_images_with_ai.py CategoryName
+        category_name = " ".join(sys.argv[1:])
+        print(f"Verifying category: {category_name}")
+        print()
+        verify_single_category(category_name)
     else:
-        print("Invalid choice.")
+        # Interactive menu mode
+        print("\nWhat would you like to do?")
+        print("1. Verify all images in all categories")
+        print("2. Verify a specific category")
+        print("3. Verify multiple categories")
+        print("4. Verify specific images")
+        print()
+        print("💡 Tip: You can also run: python verify_images_with_ai.py CategoryName")
+        print()
+        
+        choice = input("Enter choice (1-4): ").strip()
+        
+        if choice == "1":
+            print("\nStarting verification of ALL images...")
+            print("⚠️  WARNING: This will check 500+ images and may take 30+ minutes!")
+            confirm = input("Continue? (yes/no): ").strip().lower()
+            if confirm == 'yes':
+                verify_all_images()
+            else:
+                print("Cancelled.")
+        
+        elif choice == "2":
+            print("\nAvailable categories:")
+            with open('categories.json', 'r', encoding='utf-8') as f:
+                categories = json.load(f)
+            for i, cat in enumerate(categories, 1):
+                print(f"{i}. {cat['name']}")
+            
+            cat_choice = input("\nEnter category name or number: ").strip()
+            
+            # Handle numeric input
+            if cat_choice.isdigit():
+                idx = int(cat_choice) - 1
+                if 0 <= idx < len(categories):
+                    cat_choice = categories[idx]['name']
+                else:
+                    print("Invalid category number.")
+                    sys.exit(1)
+            
+            verify_single_category(cat_choice)
+        
+        elif choice == "3":
+            print("\nAvailable categories:")
+            with open('categories.json', 'r', encoding='utf-8') as f:
+                categories = json.load(f)
+            for i, cat in enumerate(categories, 1):
+                print(f"{i}. {cat['name']}")
+            
+            print("\nEnter category names or numbers (comma-separated)")
+            print("Example: 1,3,5 or Vegetables,Birds,Flowers")
+            cat_input = input("> ").strip()
+            
+            if not cat_input:
+                print("No categories specified.")
+            else:
+                selected_cats = []
+                parts = [p.strip() for p in cat_input.split(',')]
+                
+                for part in parts:
+                    if part.isdigit():
+                        idx = int(part) - 1
+                        if 0 <= idx < len(categories):
+                            selected_cats.append(categories[idx]['name'])
+                    else:
+                        # Try to find matching category name
+                        matches = [c['name'] for c in categories if c['name'].lower() == part.lower()]
+                        if matches:
+                            selected_cats.append(matches[0])
+                        else:
+                            print(f"⚠️  Category '{part}' not found, skipping...")
+                
+                if selected_cats:
+                    print(f"\nVerifying {len(selected_cats)} categories: {', '.join(selected_cats)}")
+                    verify_all_images(categories_to_check=selected_cats)
+                else:
+                    print("No valid categories selected.")
+        
+        elif choice == "4":
+            print("\nEnter image details (format: image_path,expected_item,category)")
+            print("Example: images/fruits/apple.jpg,Apple,Fruits")
+            print("Enter blank line when done.")
+            
+            image_specs = []
+            while True:
+                line = input("> ").strip()
+                if not line:
+                    break
+                parts = [p.strip() for p in line.split(',')]
+                if len(parts) == 3:
+                    image_specs.append(tuple(parts))
+                else:
+                    print("Invalid format. Use: image_path,expected_item,category")
+            
+            if image_specs:
+                verify_specific_images(image_specs)
+            else:
+                print("No images specified.")
+        
+        else:
+            print("Invalid choice.")

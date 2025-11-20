@@ -25,7 +25,23 @@ Uses **BLIP** (Bootstrapping Language-Image Pre-training) - a state-of-the-art v
 
 ## Usage
 
-### Quick Start
+### Quick Start - Command Line (Easiest!)
+
+Verify a single category directly from command line:
+```powershell
+# Check just vegetables
+python verify_images_with_ai.py Vegetables
+
+# Check landmarks
+python verify_images_with_ai.py Landmarks
+
+# Check birds
+python verify_images_with_ai.py Birds
+```
+
+This is the **fastest way** to check individual categories!
+
+### Interactive Menu
 
 Simply run:
 ```powershell
@@ -33,9 +49,13 @@ python verify_images_with_ai.py
 ```
 
 You'll be prompted with options:
-1. **Verify all images** - Checks all images in all categories
-2. **Verify a specific category** - Check just one category (e.g., "Vegetables", "Landmarks")
-3. **Verify specific images** - Check individual images
+1. **Verify all images** - Checks all images in all categories (⚠️ 500+ images, 30+ minutes!)
+2. **Verify a specific category** - Check just one category
+3. **Verify multiple categories** - Check several categories at once
+4. **Verify specific images** - Check individual images
+
+**Pro tip**: You can enter category numbers instead of names!
+- Example: Enter `1` instead of typing `Animals`
 
 ### Programmatic Use
 
@@ -109,25 +129,33 @@ A detailed report is saved to `image_verification_report.json`:
 
 ## Examples
 
-### Check all vegetables:
+### Command Line (Recommended for Individual Categories)
+
+```powershell
+# Check vegetables (40 images, ~2-3 minutes)
+python verify_images_with_ai.py Vegetables
+
+# Check landmarks (40 images, ~2-3 minutes)
+python verify_images_with_ai.py Landmarks
+
+# Check birds (40 images, ~2-3 minutes)
+python verify_images_with_ai.py Birds
+```
+
+### Interactive Menu - Multiple Categories
+
+```powershell
+python verify_images_with_ai.py
+# Choose option 3
+# Enter: 1,2,5  (or Vegetables,Birds,Landmarks)
+```
+
+### Interactive Menu - Single Category with Number
+
 ```powershell
 python verify_images_with_ai.py
 # Choose option 2
-# Enter: Vegetables
-```
-
-### Check all landmarks:
-```powershell
-python verify_images_with_ai.py
-# Choose option 2
-# Enter: Landmarks
-```
-
-### Check everything (warning: will use significant API credits):
-```powershell
-python verify_images_with_ai.py
-# Choose option 1
-# Confirm with: yes
+# Enter: 1  (for first category in the list)
 ```
 
 ## Cost & Performance
