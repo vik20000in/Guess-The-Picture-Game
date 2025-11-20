@@ -76,6 +76,13 @@
       "nameHi": "देशों के झंडे",
       "icon": "images/icons/countries_icon.png",
       "dataFile": "data/countries.json"
+    },
+    {
+      "id": "brands",
+      "name": "Brands & Logos",
+      "nameHi": "ब्रांड और लोगो",
+      "icon": "images/icons/brands_icon.png",
+      "dataFile": "data/brands.json"
     }
   ]
 }

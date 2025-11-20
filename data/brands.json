@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Tata",
+    "nameHi": "टाटा",
+    "image": "images/brands/tata.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Reliance",
+    "nameHi": "रिलायंस",
+    "image": "images/brands/reliance.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Airtel",
+    "nameHi": "एयरटेल",
+    "image": "images/brands/airtel.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Jio",
+    "nameHi": "जियो",
+    "image": "images/brands/jio.jpg"
+  },
+  {
+    "id": 5,
+    "name": "HDFC Bank",
+    "nameHi": "एचडीएफसी बैंक",
+    "image": "images/brands/hdfc_bank.jpg"
+  },
+  {
+    "id": 6,
+    "name": "State Bank of India",
+    "nameHi": "भारतीय स्टेट बैंक",
+    "image": "images/brands/state_bank_of_india.jpg"
+  },
+  {
+    "id": 7,
+    "name": "ICICI Bank",
+    "nameHi": "आईसीआईसीआई बैंक",
+    "image": "images/brands/icici_bank.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Flipkart",
+    "nameHi": "फ्लिपकार्ट",
+    "image": "images/brands/flipkart.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Amazon India",
+    "nameHi": "अमेज़न इंडिया",
+    "image": "images/brands/amazon_india.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Paytm",
+    "nameHi": "पेटीएम",
+    "image": "images/brands/paytm.jpg"
+  },
+  {
+    "id": 11,
+    "name": "PhonePe",
+    "nameHi": "फोनपे",
+    "image": "images/brands/phonepe.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Swiggy",
+    "nameHi": "स्विगी",
+    "image": "images/brands/swiggy.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Zomato",
+    "nameHi": "जोमैटो",
+    "image": "images/brands/zomato.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Ola",
+    "nameHi": "ओला",
+    "image": "images/brands/ola.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Uber India",
+    "nameHi": "उबर इंडिया",
+    "image": "images/brands/uber_india.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Asian Paints",
+    "nameHi": "एशियन पेंट्स",
+    "image": "images/brands/asian_paints.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Amul",
+    "nameHi": "अमूल",
+    "image": "images/brands/amul.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Parle",
+    "nameHi": "पार्ले",
+    "image": "images/brands/parle.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Britannia",
+    "nameHi": "ब्रिटानिया",
+    "image": "images/brands/britannia.jpg"
+  },
+  {
+    "id": 20,
+    "name": "ITC",
+    "nameHi": "आईटीसी",
+    "image": "images/brands/itc.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Dabur",
+    "nameHi": "डाबर",
+    "image": "images/brands/dabur.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Patanjali",
+    "nameHi": "पतंजलि",
+    "image": "images/brands/patanjali.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Haldiram",
+    "nameHi": "हल्दीराम",
+    "image": "images/brands/haldiram.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Mahindra",
+    "nameHi": "महिंद्रा",
+    "image": "images/brands/mahindra.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Maruti Suzuki",
+    "nameHi": "मारुति सुजुकी",
+    "image": "images/brands/maruti_suzuki.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Hero MotoCorp",
+    "nameHi": "हीरो मोटोकॉर्प",
+    "image": "images/brands/hero_motocorp.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Bajaj",
+    "nameHi": "बजाज",
+    "image": "images/brands/bajaj.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Royal Enfield",
+    "nameHi": "रॉयल एनफील्ड",
+    "image": "images/brands/royal_enfield.jpg"
+  },
+  {
+    "id": 29,
+    "name": "TVS",
+    "nameHi": "टीवीएस",
+    "image": "images/brands/tvs.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Videocon",
+    "nameHi": "वीडियोकॉन",
+    "image": "images/brands/videocon.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Godrej",
+    "nameHi": "गोदरेज",
+    "image": "images/brands/godrej.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Titan",
+    "nameHi": "टाइटन",
+    "image": "images/brands/titan.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Tanishq",
+    "nameHi": "तनिष्क",
+    "image": "images/brands/tanishq.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Raymond",
+    "nameHi": "रेमंड",
+    "image": "images/brands/raymond.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Peter England",
+    "nameHi": "पीटर इंग्लैंड",
+    "image": "images/brands/peter_england.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Fab India",
+    "nameHi": "फैब इंडिया",
+    "image": "images/brands/fab_india.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Bata",
+    "nameHi": "बाटा",
+    "image": "images/brands/bata.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Woodland",
+    "nameHi": "वुडलैंड",
+    "image": "images/brands/woodland.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Lakme",
+    "nameHi": "लैक्मे",
+    "image": "images/brands/lakme.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Himalaya",
+    "nameHi": "हिमालया",
+    "image": "images/brands/himalaya.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Colgate",
+    "nameHi": "कोलगेट",
+    "image": "images/brands/colgate.jpg"
+  },
+  {
+    "id": 42,
+    "name": "LIC",
+    "nameHi": "एलआईसी",
+    "image": "images/brands/lic.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Big Bazaar",
+    "nameHi": "बिग बाजार",
+    "image": "images/brands/big_bazaar.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Cafe Coffee Day",
+    "nameHi": "कैफे कॉफी डे",
+    "image": "images/brands/cafe_coffee_day.jpg"
+  },
+  {
+    "id": 45,
+    "name": "McDonald's India",
+    "nameHi": "मैकडॉनल्ड्स इंडिया",
+    "image": "images/brands/mcdonalds_india.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Domino's India",
+    "nameHi": "डोमिनोज़ इंडिया",
+    "image": "images/brands/dominos_india.jpg"
+  },
+  {
+    "id": 47,
+    "name": "KFC India",
+    "nameHi": "केएफसी इंडिया",
+    "image": "images/brands/kfc_india.jpg"
+  },
+  {
+    "id": 48,
+    "name": "BookMyShow",
+    "nameHi": "बुकमाईशो",
+    "image": "images/brands/bookmyshow.jpg"
+  },
+  {
+    "id": 49,
+    "name": "MakeMyTrip",
+    "nameHi": "मेकमाईट्रिप",
+    "image": "images/brands/makemytrip.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Snapdeal",
+    "nameHi": "स्नैपडील",
+    "image": "images/brands/snapdeal.jpg"
+  }
+]
