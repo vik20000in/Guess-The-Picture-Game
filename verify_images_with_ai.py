@@ -263,6 +263,54 @@ def verify_all_images(api_key: str = None, categories_to_check: List[str] = None
     print(f"Incorrect/Suspicious images: {total_incorrect}")
     print(f"Accuracy: {((total_checked - total_incorrect) / total_checked * 100) if total_checked > 0 else 0:.1f}%")
     
+    # Print incorrect images summary
+    if incorrect_images:
+        print(f"\n{'='*60}")
+        print(f"INCORRECT/SUSPICIOUS IMAGES ({len(incorrect_images)} total):")
+        print(f"{'='*60}")
+        for i, img in enumerate(incorrect_images, 1):
+            print(f"\n{i}. {img['category']} - {img['item']}")
+            print(f"   File: {img['image']}")
+            print(f"   Issue: {img.get('explanation', img.get('issue', 'Unknown'))}")
+            print(f"   Confidence: {img.get('confidence', 0):.2f}")
+        
+        # Print download commands for re-downloading incorrect images
+        print(f"\n{'='*60}")
+        print(f"RE-DOWNLOAD COMMANDS:")
+        print(f"{'='*60}")
+        print("Copy these commands to re-download incorrect images:\n")
+        
+        categories_with_errors = {}
+        for img in incorrect_images:
+            cat = img['category']
+            if cat not in categories_with_errors:
+                categories_with_errors[cat] = []
+            categories_with_errors[cat].append(img)
+        
+        for cat, images in categories_with_errors.items():
+            print(f"# Re-download {cat} category ({len(images)} images):")
+            for img in images:
+                item_name = img['item']
+                file_name = img['image'].split('/')[-1].replace('.jpg', '')
+                search_term = item_name.lower()
+                
+                # Add category-specific search terms
+                if cat == "Vegetables":
+                    search_term += " vegetable"
+                elif cat == "Fruits":
+                    search_term += " fruit"
+                elif cat == "Birds":
+                    search_term += " bird"
+                elif cat == "Flowers":
+                    search_term += " flower"
+                elif cat == "World Landmarks":
+                    search_term += " landmark monument"
+                elif cat == "Animals":
+                    search_term += " animal"
+                
+                print(f'& ".\\scripts\\download_bing_image.ps1" -searchQuery "{search_term}" -outputPath "{img["image"]}"')
+            print()
+    
     # Save detailed report
     report_file = 'image_verification_report.json'
     with open(report_file, 'w', encoding='utf-8') as f:
@@ -278,17 +326,6 @@ def verify_all_images(api_key: str = None, categories_to_check: List[str] = None
         }, f, indent=2, ensure_ascii=False)
     
     print(f"\nDetailed report saved to: {report_file}")
-    
-    # Print incorrect images summary
-    if incorrect_images:
-        print(f"\n{'='*60}")
-        print(f"INCORRECT/SUSPICIOUS IMAGES:")
-        print(f"{'='*60}")
-        for img in incorrect_images:
-            print(f"\n>> {img['category']} - {img['item']}")
-            print(f"   File: {img['image']}")
-            print(f"   Issue: {img.get('explanation', img.get('issue', 'Unknown'))}")
-            print(f"   Confidence: {img.get('confidence', 0):.2f}")
     
     return all_results, incorrect_images
 
