@@ -47,7 +47,7 @@ class LocalImageVerifier:
         self.caption_model.to(self.device)
         self.vqa_model.to(self.device)
         
-        print(f"✅ Models loaded successfully! (Using {self.device.upper()})")
+        print(f"[OK] Models loaded successfully! (Using {self.device.upper()})")
         print()
     
     def get_image_caption(self, image_path: str) -> str:
@@ -180,7 +180,8 @@ def verify_all_images(api_key: str = None, categories_to_check: List[str] = None
     
     # Load categories
     with open('categories.json', 'r', encoding='utf-8') as f:
-        categories = json.load(f)
+        data = json.load(f)
+        categories = data.get('categories', data) if isinstance(data, dict) else data
     
     # Results tracking
     all_results = []
@@ -214,7 +215,7 @@ def verify_all_images(api_key: str = None, categories_to_check: List[str] = None
             image_path = item.get('image', '')
             
             if not image_path or not os.path.exists(image_path):
-                print(f"⚠️  {item_name}: Image file not found - {image_path}")
+                print(f"[!] {item_name}: Image file not found - {image_path}")
                 incorrect_images.append({
                     'category': category_name,
                     'item': item_name,
@@ -243,9 +244,9 @@ def verify_all_images(api_key: str = None, categories_to_check: List[str] = None
             all_results.append(result)
             
             if is_correct:
-                print(f"✅ CORRECT (confidence: {confidence:.2f})")
+                print(f"[OK] CORRECT (confidence: {confidence:.2f})")
             else:
-                print(f"❌ INCORRECT (confidence: {confidence:.2f})")
+                print(f"[X] INCORRECT (confidence: {confidence:.2f})")
                 print(f"   Reason: {explanation}")
                 total_incorrect += 1
                 incorrect_images.append(result)
@@ -284,7 +285,7 @@ def verify_all_images(api_key: str = None, categories_to_check: List[str] = None
         print(f"INCORRECT/SUSPICIOUS IMAGES:")
         print(f"{'='*60}")
         for img in incorrect_images:
-            print(f"\n📁 {img['category']} - {img['item']}")
+            print(f"\n>> {img['category']} - {img['item']}")
             print(f"   File: {img['image']}")
             print(f"   Issue: {img.get('explanation', img.get('issue', 'Unknown'))}")
             print(f"   Confidence: {img.get('confidence', 0):.2f}")
@@ -324,7 +325,7 @@ def verify_specific_images(image_specs: List[Tuple[str, str, str]], api_key: str
         }
         results.append(result)
         
-        status = "✅ CORRECT" if is_correct else "❌ INCORRECT"
+        status = "[OK] CORRECT" if is_correct else "[X] INCORRECT"
         print(f"{status} (confidence: {confidence:.2f})")
         if not is_correct:
             print(f"   Reason: {explanation}")
@@ -363,7 +364,7 @@ if __name__ == "__main__":
         
         if choice == "1":
             print("\nStarting verification of ALL images...")
-            print("⚠️  WARNING: This will check 500+ images and may take 30+ minutes!")
+            print("[!] WARNING: This will check 500+ images and may take 30+ minutes!")
             confirm = input("Continue? (yes/no): ").strip().lower()
             if confirm == 'yes':
                 verify_all_images()
@@ -373,7 +374,8 @@ if __name__ == "__main__":
         elif choice == "2":
             print("\nAvailable categories:")
             with open('categories.json', 'r', encoding='utf-8') as f:
-                categories = json.load(f)
+                data = json.load(f)
+                categories = data.get('categories', data) if isinstance(data, dict) else data
             for i, cat in enumerate(categories, 1):
                 print(f"{i}. {cat['name']}")
             
@@ -393,7 +395,8 @@ if __name__ == "__main__":
         elif choice == "3":
             print("\nAvailable categories:")
             with open('categories.json', 'r', encoding='utf-8') as f:
-                categories = json.load(f)
+                data = json.load(f)
+                categories = data.get('categories', data) if isinstance(data, dict) else data
             for i, cat in enumerate(categories, 1):
                 print(f"{i}. {cat['name']}")
             
@@ -418,7 +421,7 @@ if __name__ == "__main__":
                         if matches:
                             selected_cats.append(matches[0])
                         else:
-                            print(f"⚠️  Category '{part}' not found, skipping...")
+                            print(f"[!] Category '{part}' not found, skipping...")
                 
                 if selected_cats:
                     print(f"\nVerifying {len(selected_cats)} categories: {', '.join(selected_cats)}")
