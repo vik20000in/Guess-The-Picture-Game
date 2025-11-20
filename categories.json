@@ -4,70 +4,70 @@
       "id": "animals",
       "name": "Animals",
       "nameHi": "जानवर",
-      "icon": "images/icons/animals.png",
+      "icon": "images/icons/animal_icon.png",
       "dataFile": "data/animals.json"
     },
     {
       "id": "things",
       "name": "Things",
       "nameHi": "चीजें",
-      "icon": "images/icons/things.png",
+      "icon": "images/icons/thing_icon.png",
       "dataFile": "data/things.json"
     },
     {
       "id": "bollywood",
       "name": "Bollywood",
       "nameHi": "बॉलीवुड",
-      "icon": "images/icons/bollywood.png",
+      "icon": "images/icons/bollywood_icon.png",
       "dataFile": "data/bollywood.json"
     },
     {
       "id": "food",
       "name": "Food",
       "nameHi": "खाना",
-      "icon": "images/icons/food.png",
+      "icon": "images/icons/food_icon.png",
       "dataFile": "data/food.json"
     },
     {
       "id": "sports",
       "name": "Sports",
       "nameHi": "खेल",
-      "icon": "images/icons/sports.png",
+      "icon": "images/icons/sports_icon.png",
       "dataFile": "data/sports.json"
     },
     {
       "id": "monuments",
       "name": "Monuments",
       "nameHi": "स्मारक",
-      "icon": "images/icons/monuments.png",
+      "icon": "images/icons/monuments_icon.png",
       "dataFile": "data/monuments.json"
     },
     {
       "id": "fruits",
       "name": "Fruits",
       "nameHi": "फल",
-      "icon": "images/icons/fruits.png",
+      "icon": "images/icons/fruits_icon.png",
       "dataFile": "data/fruits.json"
     },
     {
       "id": "instruments",
       "name": "Musical Instruments",
       "nameHi": "संगीत वाद्ययंत्र",
-      "icon": "images/icons/instruments.png",
+      "icon": "images/icons/instruments_icon.png",
       "dataFile": "data/instruments.json"
     },
     {
       "id": "vehicles",
       "name": "Vehicles",
       "nameHi": "वाहन",
-      "icon": "images/icons/vehicles.png",
+      "icon": "images/icons/vehicles_icon.png",
       "dataFile": "data/vehicles.json"
     },
     {
       "id": "celebrations",
       "name": "Indian Celebrations",
       "nameHi": "भारतीय उत्सव",
-      "icon": "images/icons/celebrations.png",
+      "icon": "images/icons/celebrations_icon.png",
       "dataFile": "data/celebrations.json"
     }
   ]
