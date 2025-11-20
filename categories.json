@@ -1238,6 +1238,81 @@
       "image": "images/instruments/double_bass.jpg",
       "name": "Double Bass",
       "nameHi": "कॉन्ट्राबास"
+    },
+    {
+      "image": "images/instruments/bongo_drums.jpg",
+      "name": "Bongo Drums",
+      "nameHi": "बोंगो ड्रम"
+    },
+    {
+      "image": "images/instruments/cymbals.jpg",
+      "name": "Cymbals",
+      "nameHi": "झांझ"
+    },
+    {
+      "image": "images/instruments/tambourine.jpg",
+      "name": "Tambourine",
+      "nameHi": "खंजरी"
+    },
+    {
+      "image": "images/instruments/maracas.jpg",
+      "name": "Maracas",
+      "nameHi": "मराकास"
+    },
+    {
+      "image": "images/instruments/ukulele.jpg",
+      "name": "Ukulele",
+      "nameHi": "युकेलेले"
+    },
+    {
+      "image": "images/instruments/bagpipes.jpg",
+      "name": "Bagpipes",
+      "nameHi": "बैगपाइप"
+    },
+    {
+      "image": "images/instruments/oboe.jpg",
+      "name": "Oboe",
+      "nameHi": "ओबो"
+    },
+    {
+      "image": "images/instruments/french_horn.jpg",
+      "name": "French Horn",
+      "nameHi": "फ्रेंच हॉर्न"
+    },
+    {
+      "image": "images/instruments/tuba.jpg",
+      "name": "Tuba",
+      "nameHi": "टूबा"
+    },
+    {
+      "image": "images/instruments/synthesizer.jpg",
+      "name": "Synthesizer",
+      "nameHi": "सिंथेसाइज़र"
+    },
+    {
+      "image": "images/instruments/electric_guitar.jpg",
+      "name": "Electric Guitar",
+      "nameHi": "इलेक्ट्रिक गिटार"
+    },
+    {
+      "image": "images/instruments/bass_guitar.jpg",
+      "name": "Bass Guitar",
+      "nameHi": "बास गिटार"
+    },
+    {
+      "image": "images/instruments/bansuri.jpg",
+      "name": "Bansuri",
+      "nameHi": "बांसुरी"
+    },
+    {
+      "image": "images/instruments/pakhawaj.jpg",
+      "name": "Pakhawaj",
+      "nameHi": "पखावज"
+    },
+    {
+      "image": "images/instruments/ektara.jpg",
+      "name": "Ektara",
+      "nameHi": "एकतारा"
     }
   ],
   "vehicles": [
@@ -1340,6 +1415,81 @@
       "image": "images/vehicles/jeep.jpg",
       "name": "Jeep",
       "nameHi": "जीप"
+    },
+    {
+      "image": "images/vehicles/van.jpg",
+      "name": "Van",
+      "nameHi": "वैन"
+    },
+    {
+      "image": "images/vehicles/crane.jpg",
+      "name": "Crane",
+      "nameHi": "क्रेन"
+    },
+    {
+      "image": "images/vehicles/bulldozer.jpg",
+      "name": "Bulldozer",
+      "nameHi": "बुलडोजर"
+    },
+    {
+      "image": "images/vehicles/excavator.jpg",
+      "name": "Excavator",
+      "nameHi": "खुदाई मशीन"
+    },
+    {
+      "image": "images/vehicles/forklift.jpg",
+      "name": "Forklift",
+      "nameHi": "फोर्कलिफ्ट"
+    },
+    {
+      "image": "images/vehicles/golf_cart.jpg",
+      "name": "Golf Cart",
+      "nameHi": "गोल्फ कार्ट"
+    },
+    {
+      "image": "images/vehicles/rickshaw.jpg",
+      "name": "Rickshaw",
+      "nameHi": "रिक्शा"
+    },
+    {
+      "image": "images/vehicles/yacht.jpg",
+      "name": "Yacht",
+      "nameHi": "नौका"
+    },
+    {
+      "image": "images/vehicles/submarine.jpg",
+      "name": "Submarine",
+      "nameHi": "पनडुब्बी"
+    },
+    {
+      "image": "images/vehicles/hot_air_balloon.jpg",
+      "name": "Hot Air Balloon",
+      "nameHi": "गर्म हवा का गुब्बारा"
+    },
+    {
+      "image": "images/vehicles/hovercraft.jpg",
+      "name": "Hovercraft",
+      "nameHi": "होवरक्राफ्ट"
+    },
+    {
+      "image": "images/vehicles/snowmobile.jpg",
+      "name": "Snowmobile",
+      "nameHi": "स्नोमोबाइल"
+    },
+    {
+      "image": "images/vehicles/atv.jpg",
+      "name": "ATV",
+      "nameHi": "एटीवी"
+    },
+    {
+      "image": "images/vehicles/segway.jpg",
+      "name": "Segway",
+      "nameHi": "सेगवे"
+    },
+    {
+      "image": "images/vehicles/cable_car.jpg",
+      "name": "Cable Car",
+      "nameHi": "केबल कार"
     }
   ],
   "celebrations": [
