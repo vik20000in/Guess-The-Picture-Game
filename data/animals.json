@@ -1,0 +1,217 @@
+﻿[
+    {
+        "image":  "images/animals/lion.png",
+        "name":  "Lion",
+        "nameHi":  "à¤¶à¥‡à¤°"
+    },
+    {
+        "image":  "images/animals/elephant.png",
+        "name":  "Elephant",
+        "nameHi":  "à¤¹à¤¾à¤¥à¥€"
+    },
+    {
+        "image":  "images/animals/giraffe.png",
+        "name":  "Giraffe",
+        "nameHi":  "à¤œà¤¿à¤°à¤¾à¤«"
+    },
+    {
+        "image":  "images/animals/zebra.png",
+        "name":  "Zebra",
+        "nameHi":  "à¤œà¤¼à¥‡à¤¬à¤°à¤¾"
+    },
+    {
+        "image":  "images/animals/monkey.png",
+        "name":  "Monkey",
+        "nameHi":  "à¤¬à¤‚à¤¦à¤°"
+    },
+    {
+        "image":  "images/animals/tiger.png",
+        "name":  "Tiger",
+        "nameHi":  "à¤¬à¤¾à¤˜"
+    },
+    {
+        "image":  "images/animals/bear.png",
+        "name":  "Bear",
+        "nameHi":  "à¤­à¤¾à¤²à¥‚"
+    },
+    {
+        "image":  "images/animals/dog.png",
+        "name":  "Dog",
+        "nameHi":  "à¤•à¥à¤¤à¥à¤¤à¤¾"
+    },
+    {
+        "image":  "images/animals/cat.png",
+        "name":  "Cat",
+        "nameHi":  "à¤¬à¤¿à¤²à¥à¤²à¥€"
+    },
+    {
+        "image":  "images/animals/penguin.png",
+        "name":  "Penguin",
+        "nameHi":  "à¤ªà¥‡à¤‚à¤—à¥à¤‡à¤¨"
+    },
+    {
+        "image":  "images/animals/fox.jpg",
+        "name":  "Fox",
+        "nameHi":  "à¤²à¥‹à¤®à¤¡à¤¼à¥€"
+    },
+    {
+        "image":  "images/animals/rabbit.png",
+        "name":  "Rabbit",
+        "nameHi":  "à¤–à¤°à¤—à¥‹à¤¶"
+    },
+    {
+        "image":  "images/animals/whale.png",
+        "name":  "Whale",
+        "nameHi":  "à¤µà¥à¤¹à¥‡à¤²"
+    },
+    {
+        "image":  "images/animals/dolphin.png",
+        "name":  "Dolphin",
+        "nameHi":  "à¤¡à¥‰à¤²à¥à¤«à¤¿à¤¨"
+    },
+    {
+        "image":  "images/animals/horse.png",
+        "name":  "Horse",
+        "nameHi":  "à¤˜à¥‹à¤¡à¤¼à¤¾"
+    },
+    {
+        "image":  "images/animals/parrot.png",
+        "name":  "Parrot",
+        "nameHi":  "à¤¤à¥‹à¤¤à¤¾"
+    },
+    {
+        "image":  "images/animals/owl.png",
+        "name":  "Owl",
+        "nameHi":  "à¤‰à¤²à¥à¤²à¥‚"
+    },
+    {
+        "image":  "images/animals/frog.png",
+        "name":  "Frog",
+        "nameHi":  "à¤®à¥‡à¤‚à¤¢à¤•"
+    },
+    {
+        "image":  "images/animals/tortoise.png",
+        "name":  "Tortoise",
+        "nameHi":  "à¤•à¤›à¥à¤†"
+    },
+    {
+        "image":  "images/animals/kangaroo.png",
+        "name":  "Kangaroo",
+        "nameHi":  "à¤•à¤‚à¤—à¤¾à¤°à¥‚"
+    },
+    {
+        "image":  "images/animals/hippopotamus.png",
+        "name":  "Hippopotamus",
+        "nameHi":  "à¤¦à¤°à¤¿à¤¯à¤¾à¤ˆ à¤˜à¥‹à¤¡à¤¼à¤¾"
+    },
+    {
+        "image":  "images/animals/crocodile.jpg",
+        "name":  "Crocodile",
+        "nameHi":  "à¤®à¤—à¤°à¤®à¤šà¥à¤›"
+    },
+    {
+        "image":  "images/animals/shark.jpg",
+        "name":  "Shark",
+        "nameHi":  "à¤¶à¤¾à¤°à¥à¤•"
+    },
+    {
+        "image":  "images/animals/squirrel.jpg",
+        "name":  "Squirrel",
+        "nameHi":  "à¤—à¤¿à¤²à¤¹à¤°à¥€"
+    },
+    {
+        "image":  "images/animals/sheep.jpg",
+        "name":  "Sheep",
+        "nameHi":  "à¤­à¥‡à¤¡à¤¼"
+    },
+    {
+        "image":  "images/animals/goat.jpg",
+        "name":  "Goat",
+        "nameHi":  "à¤¬à¤•à¤°à¥€"
+    },
+    {
+        "image":  "images/animals/camel.jpg",
+        "name":  "Camel",
+        "nameHi":  "à¤Šà¤‚à¤Ÿ"
+    },
+    {
+        "image":  "images/animals/eagle.jpg",
+        "name":  "Eagle",
+        "nameHi":  "à¤—à¤°à¥à¤¡à¤¼"
+    },
+    {
+        "image":  "images/animals/bat.jpg",
+        "name":  "Bat",
+        "nameHi":  "à¤šà¤®à¤—à¤¾à¤¦à¤¡à¤¼"
+    },
+    {
+        "image":  "images/animals/panda.jpg",
+        "name":  "Panda",
+        "nameHi":  "à¤ªà¤¾à¤‚à¤¡à¤¾"
+    },
+    {
+        "image":  "images/animals/wolf.jpg",
+        "name":  "Wolf",
+        "nameHi":  "à¤­à¥‡à¤¡à¤¼à¤¿à¤¯à¤¾"
+    },
+    {
+        "image":  "images/animals/otter.jpg",
+        "name":  "Otter",
+        "nameHi":  "à¤Šà¤¦à¤¬à¤¿à¤²à¤¾à¤µ"
+    },
+    {
+        "image":  "images/animals/raccoon.jpg",
+        "name":  "Raccoon",
+        "nameHi":  "à¤°à¥ˆà¤•à¥‚à¤¨"
+    },
+    {
+        "image":  "images/animals/bison.jpg",
+        "name":  "Bison",
+        "nameHi":  "à¤¬à¤¾à¤‡à¤¸à¤¨"
+    },
+    {
+        "image":  "images/animals/koala.jpg",
+        "name":  "Koala",
+        "nameHi":  "à¤•à¥‹à¤†à¤²à¤¾"
+    },
+    {
+        "image":  "images/animals/lemur.jpg",
+        "name":  "Lemur",
+        "nameHi":  "à¤²à¥‡à¤®à¤°"
+    },
+    {
+        "image":  "images/animals/porcupine.jpg",
+        "name":  "Porcupine",
+        "nameHi":  "à¤¸à¤¾à¤¹à¥€"
+    },
+    {
+        "image":  "images/animals/woodpecker.jpg",
+        "name":  "Woodpecker",
+        "nameHi":  "à¤•à¤ à¤«à¥‹à¤¡à¤¼à¤µà¤¾"
+    },
+    {
+        "image":  "images/animals/orangutan.jpg",
+        "name":  "Orangutan",
+        "nameHi":  "à¤‘à¤°à¤‚à¤—à¥à¤Ÿà¤¾à¤¨"
+    },
+    {
+        "image":  "images/animals/chimpanzee.jpg",
+        "name":  "Chimpanzee",
+        "nameHi":  "à¤šà¤¿à¤‚à¤ªà¤¾à¤‚à¤œà¥€"
+    },
+    {
+        "image":  "images/animals/donkey.jpg",
+        "name":  "Donkey",
+        "nameHi":  "à¤—à¤§à¤¾"
+    },
+    {
+        "image":  "images/animals/buffalo.jpg",
+        "name":  "Buffalo",
+        "nameHi":  "à¤­à¥ˆà¤‚à¤¸"
+    },
+    {
+        "image":  "images/animals/jaguar.jpg",
+        "name":  "Jaguar",
+        "nameHi":  "à¤œà¤—à¥à¤†à¤°"
+    }
+]

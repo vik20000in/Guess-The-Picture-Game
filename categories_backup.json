@@ -1,0 +1,1617 @@
+{
+  "animals": [
+    {
+      "image": "images/animals/lion.png",
+      "name": "Lion",
+      "nameHi": "शेर"
+    },
+    {
+      "image": "images/animals/elephant.png",
+      "name": "Elephant",
+      "nameHi": "हाथी"
+    },
+    {
+      "image": "images/animals/giraffe.png",
+      "name": "Giraffe",
+      "nameHi": "जिराफ"
+    },
+    {
+      "image": "images/animals/zebra.png",
+      "name": "Zebra",
+      "nameHi": "ज़ेबरा"
+    },
+    {
+      "image": "images/animals/monkey.png",
+      "name": "Monkey",
+      "nameHi": "बंदर"
+    },
+    {
+      "image": "images/animals/tiger.png",
+      "name": "Tiger",
+      "nameHi": "बाघ"
+    },
+    {
+      "image": "images/animals/bear.png",
+      "name": "Bear",
+      "nameHi": "भालू"
+    },
+    {
+      "image": "images/animals/dog.png",
+      "name": "Dog",
+      "nameHi": "कुत्ता"
+    },
+    {
+      "image": "images/animals/cat.png",
+      "name": "Cat",
+      "nameHi": "बिल्ली"
+    },
+    {
+      "image": "images/animals/penguin.png",
+      "name": "Penguin",
+      "nameHi": "पेंगुइन"
+    },
+    {
+      "image": "images/animals/fox.jpg",
+      "name": "Fox",
+      "nameHi": "लोमड़ी"
+    },
+    {
+      "image": "images/animals/rabbit.png",
+      "name": "Rabbit",
+      "nameHi": "खरगोश"
+    },
+    {
+      "image": "images/animals/whale.png",
+      "name": "Whale",
+      "nameHi": "व्हेल"
+    },
+    {
+      "image": "images/animals/dolphin.png",
+      "name": "Dolphin",
+      "nameHi": "डॉल्फिन"
+    },
+    {
+      "image": "images/animals/horse.png",
+      "name": "Horse",
+      "nameHi": "घोड़ा"
+    },
+    {
+      "image": "images/animals/parrot.png",
+      "name": "Parrot",
+      "nameHi": "तोता"
+    },
+    {
+      "image": "images/animals/owl.png",
+      "name": "Owl",
+      "nameHi": "उल्लू"
+    },
+    {
+      "image": "images/animals/frog.png",
+      "name": "Frog",
+      "nameHi": "मेंढक"
+    },
+    {
+      "image": "images/animals/tortoise.png",
+      "name": "Tortoise",
+      "nameHi": "कछुआ"
+    },
+    {
+      "image": "images/animals/kangaroo.png",
+      "name": "Kangaroo",
+      "nameHi": "कंगारू"
+    },
+    {
+      "image": "images/animals/hippopotamus.png",
+      "name": "Hippopotamus",
+      "nameHi": "दरियाई घोड़ा"
+    },
+    {
+      "image": "images/animals/crocodile.jpg",
+      "name": "Crocodile",
+      "nameHi": "मगरमच्छ"
+    },
+    {
+      "image": "images/animals/shark.jpg",
+      "name": "Shark",
+      "nameHi": "शार्क"
+    },
+    {
+      "image": "images/animals/squirrel.jpg",
+      "name": "Squirrel",
+      "nameHi": "गिलहरी"
+    },
+    {
+      "image": "images/animals/sheep.jpg",
+      "name": "Sheep",
+      "nameHi": "भेड़"
+    },
+    {
+      "image": "images/animals/goat.jpg",
+      "name": "Goat",
+      "nameHi": "बकरी"
+    },
+    {
+      "image": "images/animals/camel.jpg",
+      "name": "Camel",
+      "nameHi": "ऊंट"
+    },
+    {
+      "image": "images/animals/eagle.jpg",
+      "name": "Eagle",
+      "nameHi": "गरुड़"
+    },
+    {
+      "image": "images/animals/bat.jpg",
+      "name": "Bat",
+      "nameHi": "चमगादड़"
+    },
+    {
+      "image": "images/animals/panda.jpg",
+      "name": "Panda",
+      "nameHi": "पांडा"
+    },
+    {
+      "image": "images/animals/wolf.jpg",
+      "name": "Wolf",
+      "nameHi": "भेड़िया"
+    },
+    {
+      "image": "images/animals/otter.jpg",
+      "name": "Otter",
+      "nameHi": "ऊदबिलाव"
+    },
+    {
+      "image": "images/animals/raccoon.jpg",
+      "name": "Raccoon",
+      "nameHi": "रैकून"
+    },
+    {
+      "image": "images/animals/bison.jpg",
+      "name": "Bison",
+      "nameHi": "बाइसन"
+    },
+    {
+      "image": "images/animals/koala.jpg",
+      "name": "Koala",
+      "nameHi": "कोआला"
+    },
+    {
+      "image": "images/animals/lemur.jpg",
+      "name": "Lemur",
+      "nameHi": "लेमर"
+    },
+    {
+      "image": "images/animals/porcupine.jpg",
+      "name": "Porcupine",
+      "nameHi": "साही"
+    },
+    {
+      "image": "images/animals/woodpecker.jpg",
+      "name": "Woodpecker",
+      "nameHi": "कठफोड़वा"
+    },
+    {
+      "image": "images/animals/orangutan.jpg",
+      "name": "Orangutan",
+      "nameHi": "ऑरंगुटान"
+    },
+    {
+      "image": "images/animals/chimpanzee.jpg",
+      "name": "Chimpanzee",
+      "nameHi": "चिंपांजी"
+    },
+    {
+      "image": "images/animals/donkey.jpg",
+      "name": "Donkey",
+      "nameHi": "गधा"
+    },
+    {
+      "image": "images/animals/buffalo.jpg",
+      "name": "Buffalo",
+      "nameHi": "भैंस"
+    },
+    {
+      "image": "images/animals/jaguar.jpg",
+      "name": "Jaguar",
+      "nameHi": "जगुआर"
+    }
+  ],
+  "things": [
+    {
+      "image": "images/things/car.jpg",
+      "name": "Car",
+      "nameHi": "कार"
+    },
+    {
+      "image": "images/things/ball.jpg",
+      "name": "Ball",
+      "nameHi": "गेंद"
+    },
+    {
+      "image": "images/things/house.jpg",
+      "name": "House",
+      "nameHi": "घर"
+    },
+    {
+      "image": "images/things/tree.jpg",
+      "name": "Tree",
+      "nameHi": "पेड़"
+    },
+    {
+      "image": "images/things/book.jpg",
+      "name": "Book",
+      "nameHi": "किताब"
+    },
+    {
+      "image": "images/things/chair.jpg",
+      "name": "Chair",
+      "nameHi": "कुर्सी"
+    },
+    {
+      "image": "images/things/table.jpg",
+      "name": "Table",
+      "nameHi": "मेज़"
+    },
+    {
+      "image": "images/things/phone.jpg",
+      "name": "Phone",
+      "nameHi": "फोन"
+    },
+    {
+      "image": "images/things/umbrella.jpg",
+      "name": "Umbrella",
+      "nameHi": "छाता"
+    },
+    {
+      "image": "images/things/bicycle.jpg",
+      "name": "Bicycle",
+      "nameHi": "साइकिल"
+    },
+    {
+      "image": "images/things/lamp.jpg",
+      "name": "Lamp",
+      "nameHi": "दीपक"
+    },
+    {
+      "image": "images/things/cup.jpg",
+      "name": "Cup",
+      "nameHi": "कप"
+    },
+    {
+      "image": "images/things/plate.jpg",
+      "name": "Plate",
+      "nameHi": "प्लेट"
+    },
+    {
+      "image": "images/things/spoon.jpg",
+      "name": "Spoon",
+      "nameHi": "चम्मच"
+    },
+    {
+      "image": "images/things/fork.jpg",
+      "name": "Fork",
+      "nameHi": "कांटा"
+    },
+    {
+      "image": "images/things/knife.jpg",
+      "name": "Knife",
+      "nameHi": "चाकू"
+    },
+    {
+      "image": "images/things/bed.jpg",
+      "name": "Bed",
+      "nameHi": "बिस्तर"
+    },
+    {
+      "image": "images/things/door.jpg",
+      "name": "Door",
+      "nameHi": "दरवाज़ा"
+    },
+    {
+      "image": "images/things/window.jpg",
+      "name": "Window",
+      "nameHi": "खिड़की"
+    },
+    {
+      "image": "images/things/clock.jpg",
+      "name": "Clock",
+      "nameHi": "घड़ी"
+    },
+    {
+      "image": "images/things/television.jpg",
+      "name": "Television",
+      "nameHi": "टेलीविज़न"
+    },
+    {
+      "image": "images/things/computer.jpg",
+      "name": "Computer",
+      "nameHi": "कंप्यूटर"
+    },
+    {
+      "image": "images/things/keyboard.jpg",
+      "name": "Keyboard",
+      "nameHi": "कीबोर्ड"
+    },
+    {
+      "image": "images/things/mouse.jpg",
+      "name": "Mouse",
+      "nameHi": "माउस"
+    },
+    {
+      "image": "images/things/camera.jpg",
+      "name": "Camera",
+      "nameHi": "कैमरा"
+    },
+    {
+      "image": "images/things/guitar.jpg",
+      "name": "Guitar",
+      "nameHi": "गिटार"
+    },
+    {
+      "image": "images/things/piano.jpg",
+      "name": "Piano",
+      "nameHi": "पियानो"
+    },
+    {
+      "image": "images/things/drum.jpg",
+      "name": "Drum",
+      "nameHi": "ढोल"
+    },
+    {
+      "image": "images/things/shovel.jpg",
+      "name": "Shovel",
+      "nameHi": "फावड़ा"
+    },
+    {
+      "image": "images/things/hammer.jpg",
+      "name": "Hammer",
+      "nameHi": "हथौड़ा"
+    },
+    {
+      "image": "images/things/screwdriver.jpg",
+      "name": "Screwdriver",
+      "nameHi": "पेचकस"
+    },
+    {
+      "image": "images/things/bottle.jpg",
+      "name": "Bottle",
+      "nameHi": "बोतल"
+    },
+    {
+      "image": "images/things/box.jpg",
+      "name": "Box",
+      "nameHi": "डिब्बा"
+    },
+    {
+      "image": "images/things/basket.jpg",
+      "name": "Basket",
+      "nameHi": "टोकरी"
+    },
+    {
+      "image": "images/things/bucket.jpg",
+      "name": "Bucket",
+      "nameHi": "बाल्टी"
+    },
+    {
+      "image": "images/things/ladder.jpg",
+      "name": "Ladder",
+      "nameHi": "सीढ़ी"
+    },
+    {
+      "image": "images/things/rope.jpg",
+      "name": "Rope",
+      "nameHi": "रस्सी"
+    },
+    {
+      "image": "images/things/backpack.jpg",
+      "name": "Backpack",
+      "nameHi": "बैकपैक"
+    },
+    {
+      "image": "images/things/shoe.jpg",
+      "name": "Shoe",
+      "nameHi": "जूता"
+    }
+  ],
+  "bollywood": [
+    {
+      "image": "images/bollywood/srk.jpg",
+      "name": "Shah Rukh Khan",
+      "nameHi": "शाहरुख़ ख़ान"
+    },
+    {
+      "image": "images/bollywood/amitabh.jpg",
+      "name": "Amitabh Bachchan",
+      "nameHi": "अमिताभ बच्चन"
+    },
+    {
+      "image": "images/bollywood/salman.jpg",
+      "name": "Salman Khan",
+      "nameHi": "सलमान ख़ान"
+    },
+    {
+      "image": "images/bollywood/deepika.jpg",
+      "name": "Deepika Padukone",
+      "nameHi": "दीपिका पादुकोण"
+    },
+    {
+      "image": "images/bollywood/hrithik.jpg",
+      "name": "Hrithik Roshan",
+      "nameHi": "ऋतिक रोशन"
+    },
+    {
+      "image": "images/bollywood/priyanka.jpg",
+      "name": "Priyanka Chopra",
+      "nameHi": "प्रियंका चोपड़ा"
+    },
+    {
+      "image": "images/bollywood/aamir.jpg",
+      "name": "Aamir Khan",
+      "nameHi": "आमिर ख़ान"
+    },
+    {
+      "image": "images/bollywood/alia.jpg",
+      "name": "Alia Bhatt",
+      "nameHi": "आलिया भट्ट"
+    },
+    {
+      "image": "images/bollywood/ranbir.jpg",
+      "name": "Ranbir Kapoor",
+      "nameHi": "रणबीर कपूर"
+    },
+    {
+      "image": "images/bollywood/katrina.jpg",
+      "name": "Katrina Kaif",
+      "nameHi": "कैटरीना कैफ़"
+    },
+    {
+      "image": "images/bollywood/akshay.jpg",
+      "name": "Akshay Kumar",
+      "nameHi": "अक्षय कुमार"
+    },
+    {
+      "image": "images/bollywood/jackie.jpg",
+      "name": "Jackie Shroff",
+      "nameHi": "जैकी श्रॉफ"
+    },
+    {
+      "image": "images/bollywood/ajay.jpg",
+      "name": "Ajay Devgn",
+      "nameHi": "अजय देवगन"
+    },
+    {
+      "image": "images/bollywood/ranveer.jpg",
+      "name": "Ranveer Singh",
+      "nameHi": "रणवीर सिंह"
+    },
+    {
+      "image": "images/bollywood/kartik.jpg",
+      "name": "Kartik Aaryan",
+      "nameHi": "कार्तिक आर्यन"
+    },
+    {
+      "image": "images/bollywood/varun.jpg",
+      "name": "Varun Dhawan",
+      "nameHi": "वरुण धवन"
+    },
+    {
+      "image": "images/bollywood/sonakshi.jpg",
+      "name": "Sonakshi Sinha",
+      "nameHi": "सोनाक्षी सिन्हा"
+    },
+    {
+      "image": "images/bollywood/vidya.jpg",
+      "name": "Vidya Balan",
+      "nameHi": "विद्या बालन"
+    },
+    {
+      "image": "images/bollywood/anushka.jpg",
+      "name": "Anushka Sharma",
+      "nameHi": "अनुष्का शर्मा"
+    },
+    {
+      "image": "images/bollywood/sonam.jpg",
+      "name": "Sonam Kapoor",
+      "nameHi": "सोनम कपूर"
+    },
+    {
+      "image": "images/bollywood/sara.jpg",
+      "name": "Sara Ali Khan",
+      "nameHi": "सारा अली ख़ान"
+    },
+    {
+      "image": "images/bollywood/janhvi.jpg",
+      "name": "Janhvi Kapoor",
+      "nameHi": "जान्हवी कपूर"
+    },
+    {
+      "image": "images/bollywood/taapsee.jpg",
+      "name": "Taapsee Pannu",
+      "nameHi": "तापसी पन्नू"
+    },
+    {
+      "image": "images/bollywood/bhumi.jpg",
+      "name": "Bhumi Pednekar",
+      "nameHi": "भूमि पेडनेकर"
+    },
+    {
+      "image": "images/bollywood/madhuri.jpg",
+      "name": "Madhuri Dixit",
+      "nameHi": "माधुरी दीक्षित"
+    },
+    {
+      "image": "images/bollywood/sridevi.jpg",
+      "name": "Sridevi",
+      "nameHi": "श्रीदेवी"
+    }
+  ],
+  "food": [
+    {
+      "image": "images/food/biryani.jpg",
+      "name": "Biryani",
+      "nameHi": "बिरयानी"
+    },
+    {
+      "image": "images/food/samosa.jpg",
+      "name": "Samosa",
+      "nameHi": "समोसा"
+    },
+    {
+      "image": "images/food/dosa.jpg",
+      "name": "Dosa",
+      "nameHi": "डोसा"
+    },
+    {
+      "image": "images/food/idli.jpg",
+      "name": "Idli",
+      "nameHi": "इडली"
+    },
+    {
+      "image": "images/food/naan.jpg",
+      "name": "Naan",
+      "nameHi": "नान"
+    },
+    {
+      "image": "images/food/roti.jpg",
+      "name": "Roti",
+      "nameHi": "रोटी"
+    },
+    {
+      "image": "images/food/dal_makhani.jpg",
+      "name": "Dal Makhani",
+      "nameHi": "दाल मखानी"
+    },
+    {
+      "image": "images/food/paneer_tikka.jpg",
+      "name": "Paneer Tikka",
+      "nameHi": "पनीर टिक्का"
+    },
+    {
+      "image": "images/food/chole_bhature.jpg",
+      "name": "Chole Bhature",
+      "nameHi": "छोले भटूरे"
+    },
+    {
+      "image": "images/food/palak_paneer.jpg",
+      "name": "Palak Paneer",
+      "nameHi": "पालक पनीर"
+    },
+    {
+      "image": "images/food/rajma.jpg",
+      "name": "Rajma",
+      "nameHi": "राजमा"
+    },
+    {
+      "image": "images/food/khichdi.jpg",
+      "name": "Khichdi",
+      "nameHi": "खिचड़ी"
+    },
+    {
+      "image": "images/food/upma.jpg",
+      "name": "Upma",
+      "nameHi": "उपमा"
+    },
+    {
+      "image": "images/food/puri.jpg",
+      "name": "Puri",
+      "nameHi": "पूरी"
+    },
+    {
+      "image": "images/food/paratha.jpg",
+      "name": "Paratha",
+      "nameHi": "परांठा"
+    },
+    {
+      "image": "images/food/gulab_jamun.jpg",
+      "name": "Gulab Jamun",
+      "nameHi": "गुलाब जामुन"
+    },
+    {
+      "image": "images/food/rasgulla.jpg",
+      "name": "Rasgulla",
+      "nameHi": "रसगुल्ले"
+    },
+    {
+      "image": "images/food/jalebi.jpg",
+      "name": "Jalebi",
+      "nameHi": "जलेबी"
+    },
+    {
+      "image": "images/food/laddu.jpg",
+      "name": "Laddu",
+      "nameHi": "लड्डू"
+    },
+    {
+      "image": "images/food/barfi.jpg",
+      "name": "Barfi",
+      "nameHi": "बर्फी"
+    },
+    {
+      "image": "images/food/kheer.jpg",
+      "name": "Kheer",
+      "nameHi": "खीर"
+    },
+    {
+      "image": "images/food/lassi.jpg",
+      "name": "Lassi",
+      "nameHi": "लस्सी"
+    },
+    {
+      "image": "images/food/masala_chai.jpg",
+      "name": "Masala Chai",
+      "nameHi": "मसाला चाय"
+    },
+    {
+      "image": "images/food/pakora.jpg",
+      "name": "Pakora",
+      "nameHi": "पकौड़े"
+    },
+    {
+      "image": "images/food/chaat.jpg",
+      "name": "Chaat",
+      "nameHi": "चाट"
+    }
+  ],
+  "sports": [
+    {
+      "image": "images/sports/cricket.jpg",
+      "name": "Cricket",
+      "nameHi": "क्रिकेट"
+    },
+    {
+      "image": "images/sports/football.jpg",
+      "name": "Football",
+      "nameHi": "फुटबॉल"
+    },
+    {
+      "image": "images/sports/tennis.jpg",
+      "name": "Tennis",
+      "nameHi": "टेनिस"
+    },
+    {
+      "image": "images/sports/badminton.jpg",
+      "name": "Badminton",
+      "nameHi": "बैडमिंटन"
+    },
+    {
+      "image": "images/sports/basketball.jpg",
+      "name": "Basketball",
+      "nameHi": "बास्केटबॉल"
+    },
+    {
+      "image": "images/sports/volleyball.jpg",
+      "name": "Volleyball",
+      "nameHi": "वॉलीबॉल"
+    },
+    {
+      "image": "images/sports/hockey.jpg",
+      "name": "Hockey",
+      "nameHi": "हॉकी"
+    },
+    {
+      "image": "images/sports/swimming.jpg",
+      "name": "Swimming",
+      "nameHi": "तैराकी"
+    },
+    {
+      "image": "images/sports/table_tennis.jpg",
+      "name": "Table Tennis",
+      "nameHi": "टेबल टेनिस"
+    },
+    {
+      "image": "images/sports/golf.jpg",
+      "name": "Golf",
+      "nameHi": "गोल्फ"
+    },
+    {
+      "image": "images/sports/boxing.jpg",
+      "name": "Boxing",
+      "nameHi": "मुक्केबाज़ी"
+    },
+    {
+      "image": "images/sports/martial_arts.jpg",
+      "name": "Martial Arts",
+      "nameHi": "मार्शल आर्ट्स"
+    },
+    {
+      "image": "images/sports/cycling.jpg",
+      "name": "Cycling",
+      "nameHi": "साइकिलिंग"
+    },
+    {
+      "image": "images/sports/archery.jpg",
+      "name": "Archery",
+      "nameHi": "तीरंदाज़ी"
+    },
+    {
+      "image": "images/sports/shooting.jpg",
+      "name": "Shooting",
+      "nameHi": "शूटिंग"
+    },
+    {
+      "image": "images/sports/gymnastics.jpg",
+      "name": "Gymnastics",
+      "nameHi": "जिमनास्टिक्स"
+    },
+    {
+      "image": "images/sports/yoga.jpg",
+      "name": "Yoga",
+      "nameHi": "योग"
+    },
+    {
+      "image": "images/sports/baseball.jpg",
+      "name": "Baseball",
+      "nameHi": "बेसबॉल"
+    },
+    {
+      "image": "images/sports/rugby.jpg",
+      "name": "Rugby",
+      "nameHi": "रग्बी"
+    },
+    {
+      "image": "images/sports/skiing.jpg",
+      "name": "Skiing",
+      "nameHi": "स्कीइंग"
+    },
+    {
+      "image": "images/sports/surfing.jpg",
+      "name": "Surfing",
+      "nameHi": "सर्फिंग"
+    },
+    {
+      "image": "images/sports/rock_climbing.jpg",
+      "name": "Rock Climbing",
+      "nameHi": "रॉक क्लाइंबिंग"
+    },
+    {
+      "image": "images/sports/kite_flying.jpg",
+      "name": "Kite Flying",
+      "nameHi": "पतंगबाज़ी"
+    }
+  ],
+  "monuments": [
+    {
+      "image": "images/monuments/taj_mahal.jpg",
+      "name": "Taj Mahal",
+      "nameHi": "ताज महल"
+    },
+    {
+      "image": "images/monuments/india_gate.jpg",
+      "name": "India Gate",
+      "nameHi": "इंडिया गेट"
+    },
+    {
+      "image": "images/monuments/hawa_mahal.jpg",
+      "name": "Hawa Mahal",
+      "nameHi": "हवा महल"
+    },
+    {
+      "image": "images/monuments/qutub_minar.jpg",
+      "name": "Qutub Minar",
+      "nameHi": "कुतुब मीनार"
+    },
+    {
+      "image": "images/monuments/gateway_of_india.jpg",
+      "name": "Gateway of India",
+      "nameHi": "गेटवे ऑफ इंडिया"
+    },
+    {
+      "image": "images/monuments/red_fort.jpg",
+      "name": "Red Fort",
+      "nameHi": "लाल क़िला"
+    },
+    {
+      "image": "images/monuments/statue_of_unity.jpg",
+      "name": "Statue of Unity",
+      "nameHi": "स्टैच्यू ऑफ यूनिटी"
+    },
+    {
+      "image": "images/monuments/ramakrishna_mission.jpg",
+      "name": "Ramakrishna Mission",
+      "nameHi": "रामकृष्ण मिशन"
+    },
+    {
+      "image": "images/monuments/victoria_memorial.jpg",
+      "name": "Victoria Memorial",
+      "nameHi": "विक्टोरिया मेमोरियल"
+    },
+    {
+      "image": "images/monuments/mysore_palace.jpg",
+      "name": "Mysore Palace",
+      "nameHi": "मैसूर पैलेस"
+    },
+    {
+      "image": "images/monuments/charminar.jpg",
+      "name": "Charminar",
+      "nameHi": "चारमीनार"
+    },
+    {
+      "image": "images/monuments/buland_darwaza.jpg",
+      "name": "Buland Darwaza",
+      "nameHi": "बुलंद दरवाज़ा"
+    },
+    {
+      "image": "images/monuments/amber_fort.jpg",
+      "name": "Amber Fort",
+      "nameHi": "आमेर किला"
+    },
+    {
+      "image": "images/monuments/meenakshi_temple.jpg",
+      "name": "Meenakshi Temple",
+      "nameHi": "मीनाक्षी मंदिर"
+    },
+    {
+      "image": "images/monuments/varanasi_ghats.jpg",
+      "name": "Varanasi Ghats",
+      "nameHi": "वाराणसी घाट"
+    },
+    {
+      "image": "images/monuments/khajuraho_temples.jpg",
+      "name": "Khajuraho Temples",
+      "nameHi": "खजुराहो मंदिर"
+    },
+    {
+      "image": "images/monuments/konark_sun_temple.jpg",
+      "name": "Konark Sun Temple",
+      "nameHi": "कोणार्क सूर्य मंदिर"
+    },
+    {
+      "image": "images/monuments/sanchi_stupa.jpg",
+      "name": "Sanchi Stupa",
+      "nameHi": "साँची स्तूप"
+    },
+    {
+      "image": "images/monuments/ajanta_caves.jpg",
+      "name": "Ajanta Caves",
+      "nameHi": "अजंता गुफाएं"
+    },
+    {
+      "image": "images/monuments/ellora_caves.jpg",
+      "name": "Ellora Caves",
+      "nameHi": "एलोरा गुफाएं"
+    },
+    {
+      "image": "images/monuments/badami_caves.jpg",
+      "name": "Badami Caves",
+      "nameHi": "बादामी गुफाएं"
+    },
+    {
+      "image": "images/monuments/hampi.jpg",
+      "name": "Hampi",
+      "nameHi": "हम्पी"
+    },
+    {
+      "image": "images/monuments/raigad_fort.jpg",
+      "name": "Raigad Fort",
+      "nameHi": "रायगढ़ किला"
+    },
+    {
+      "image": "images/monuments/jaisalmer_fort.jpg",
+      "name": "Jaisalmer Fort",
+      "nameHi": "जैसलमेर किला"
+    },
+    {
+      "image": "images/monuments/jodhpur_fort.jpg",
+      "name": "Jodhpur Fort",
+      "nameHi": "जोधपुर किला"
+    },
+    {
+      "image": "images/monuments/udaipur_palace.jpg",
+      "name": "Udaipur Palace",
+      "nameHi": "उदयपुर पैलेस"
+    },
+    {
+      "image": "images/monuments/humayun_tomb.jpg",
+      "name": "Humayun's Tomb",
+      "nameHi": "हुमायूँ का मकबरा"
+    },
+    {
+      "image": "images/monuments/akbar_tomb.jpg",
+      "name": "Akbar's Tomb",
+      "nameHi": "अकबर का मकबरा"
+    },
+    {
+      "image": "images/monuments/fatehpur_sikri.jpg",
+      "name": "Fatehpur Sikri",
+      "nameHi": "फतेहपुर सीकरी"
+    },
+    {
+      "image": "images/monuments/bijapur_gol_gumbaz.jpg",
+      "name": "Gol Gumbaz",
+      "nameHi": "गोल गुंबद"
+    },
+    {
+      "image": "images/monuments/sarnath_stupa.jpg",
+      "name": "Sarnath Stupa",
+      "nameHi": "सारनाथ स्तूप"
+    },
+    {
+      "image": "images/monuments/bodhgaya_temple.jpg",
+      "name": "Bodhgaya Temple",
+      "nameHi": "बोधगया मंदिर"
+    },
+    {
+      "image": "images/monuments/ranthambore_fort.jpg",
+      "name": "Ranthambore Fort",
+      "nameHi": "रणथम्भौर किला"
+    }
+  ],
+  "fruits": [
+    {
+      "image": "images/fruits/mango.jpg",
+      "name": "Mango",
+      "nameHi": "आम"
+    },
+    {
+      "image": "images/fruits/banana.jpg",
+      "name": "Banana",
+      "nameHi": "केला"
+    },
+    {
+      "image": "images/fruits/apple.jpg",
+      "name": "Apple",
+      "nameHi": "सेब"
+    },
+    {
+      "image": "images/fruits/papaya.jpg",
+      "name": "Papaya",
+      "nameHi": "पपीता"
+    },
+    {
+      "image": "images/fruits/coconut.jpg",
+      "name": "Coconut",
+      "nameHi": "नारियल"
+    },
+    {
+      "image": "images/fruits/guava.jpg",
+      "name": "Guava",
+      "nameHi": "अमरूद"
+    },
+    {
+      "image": "images/fruits/pomegranate.jpg",
+      "name": "Pomegranate",
+      "nameHi": "अनार"
+    },
+    {
+      "image": "images/fruits/watermelon.jpg",
+      "name": "Watermelon",
+      "nameHi": "तरबूज़"
+    },
+    {
+      "image": "images/fruits/pineapple.jpg",
+      "name": "Pineapple",
+      "nameHi": "अनन्नास"
+    },
+    {
+      "image": "images/fruits/orange.jpg",
+      "name": "Orange",
+      "nameHi": "संतरा"
+    },
+    {
+      "image": "images/fruits/lemon.jpg",
+      "name": "Lemon",
+      "nameHi": "नीबू"
+    },
+    {
+      "image": "images/fruits/grapes.jpg",
+      "name": "Grapes",
+      "nameHi": "अंगूर"
+    },
+    {
+      "image": "images/fruits/strawberry.jpg",
+      "name": "Strawberry",
+      "nameHi": "स्ट्रॉबेरी"
+    },
+    {
+      "image": "images/fruits/blueberry.jpg",
+      "name": "Blueberry",
+      "nameHi": "ब्लूबेरी"
+    },
+    {
+      "image": "images/fruits/raspberry.jpg",
+      "name": "Raspberry",
+      "nameHi": "रास्पबेरी"
+    },
+    {
+      "image": "images/fruits/kiwi.jpg",
+      "name": "Kiwi",
+      "nameHi": "कीवी"
+    },
+    {
+      "image": "images/fruits/peach.jpg",
+      "name": "Peach",
+      "nameHi": "आड़ू"
+    },
+    {
+      "image": "images/fruits/pear.jpg",
+      "name": "Pear",
+      "nameHi": "नाशपाती"
+    },
+    {
+      "image": "images/fruits/plum.jpg",
+      "name": "Plum",
+      "nameHi": "बेर"
+    },
+    {
+      "image": "images/fruits/apricot.jpg",
+      "name": "Apricot",
+      "nameHi": "खुबानी"
+    },
+    {
+      "image": "images/fruits/cherry.jpg",
+      "name": "Cherry",
+      "nameHi": "चेरी"
+    },
+    {
+      "image": "images/fruits/dragon_fruit.jpg",
+      "name": "Dragon Fruit",
+      "nameHi": "ड्रैगन फल"
+    },
+    {
+      "image": "images/fruits/avocado.jpg",
+      "name": "Avocado",
+      "nameHi": "एवोकाडो"
+    },
+    {
+      "image": "images/fruits/passion_fruit.jpg",
+      "name": "Passion Fruit",
+      "nameHi": "पैशन फ्रूट"
+    },
+    {
+      "image": "images/fruits/fig.jpg",
+      "name": "Fig",
+      "nameHi": "अंजीर"
+    },
+    {
+      "image": "images/fruits/date.jpg",
+      "name": "Date",
+      "nameHi": "खजूर"
+    },
+    {
+      "image": "images/fruits/litchi.jpg",
+      "name": "Litchi",
+      "nameHi": "लीची"
+    },
+    {
+      "image": "images/fruits/jackfruit.jpg",
+      "name": "Jackfruit",
+      "nameHi": "कटहल"
+    },
+    {
+      "image": "images/fruits/custard_apple.jpg",
+      "name": "Custard Apple",
+      "nameHi": "शरीफा"
+    },
+    {
+      "image": "images/fruits/sugar_cane.jpg",
+      "name": "Sugar Cane",
+      "nameHi": "गन्ना"
+    },
+    {
+      "image": "images/fruits/carambola.jpg",
+      "name": "Carambola",
+      "nameHi": "कमरख"
+    }
+  ],
+  "instruments": [
+    {
+      "image": "images/instruments/guitar.jpg",
+      "name": "Guitar",
+      "nameHi": "गिटार"
+    },
+    {
+      "image": "images/instruments/piano.jpg",
+      "name": "Piano",
+      "nameHi": "पियानो"
+    },
+    {
+      "image": "images/instruments/drum.jpg",
+      "name": "Drum",
+      "nameHi": "ढोल"
+    },
+    {
+      "image": "images/instruments/flute.jpg",
+      "name": "Flute",
+      "nameHi": "बांसुरी"
+    },
+    {
+      "image": "images/instruments/violin.jpg",
+      "name": "Violin",
+      "nameHi": "वायलिन"
+    },
+    {
+      "image": "images/instruments/tabla.jpg",
+      "name": "Tabla",
+      "nameHi": "तबला"
+    },
+    {
+      "image": "images/instruments/harmonium.jpg",
+      "name": "Harmonium",
+      "nameHi": "हारमोनियम"
+    },
+    {
+      "image": "images/instruments/sitar.jpg",
+      "name": "Sitar",
+      "nameHi": "सितार"
+    },
+    {
+      "image": "images/instruments/trumpet.jpg",
+      "name": "Trumpet",
+      "nameHi": "तुरही"
+    },
+    {
+      "image": "images/instruments/saxophone.jpg",
+      "name": "Saxophone",
+      "nameHi": "सैक्सोफोन"
+    },
+    {
+      "image": "images/instruments/veena.jpg",
+      "name": "Veena",
+      "nameHi": "वीणा"
+    },
+    {
+      "image": "images/instruments/sarangi.jpg",
+      "name": "Sarangi",
+      "nameHi": "सारंगी"
+    },
+    {
+      "image": "images/instruments/dholak.jpg",
+      "name": "Dholak",
+      "nameHi": "ढोलक"
+    },
+    {
+      "image": "images/instruments/shehnai.jpg",
+      "name": "Shehnai",
+      "nameHi": "शहनाई"
+    },
+    {
+      "image": "images/instruments/manjira.jpg",
+      "name": "Manjira",
+      "nameHi": "मंजीरा"
+    },
+    {
+      "image": "images/instruments/mridangam.jpg",
+      "name": "Mridangam",
+      "nameHi": "मृदंगम"
+    },
+    {
+      "image": "images/instruments/ghatam.jpg",
+      "name": "Ghatam",
+      "nameHi": "घटम"
+    },
+    {
+      "image": "images/instruments/banjo.jpg",
+      "name": "Banjo",
+      "nameHi": "बैंजो"
+    },
+    {
+      "image": "images/instruments/accordion.jpg",
+      "name": "Accordion",
+      "nameHi": "अकॉर्डियन"
+    },
+    {
+      "image": "images/instruments/harp.jpg",
+      "name": "Harp",
+      "nameHi": "वीणा"
+    },
+    {
+      "image": "images/instruments/xylophone.jpg",
+      "name": "Xylophone",
+      "nameHi": "जाइलोफोन"
+    },
+    {
+      "image": "images/instruments/clarinet.jpg",
+      "name": "Clarinet",
+      "nameHi": "शहनाई"
+    },
+    {
+      "image": "images/instruments/trombone.jpg",
+      "name": "Trombone",
+      "nameHi": "ट्रॉम्बोन"
+    },
+    {
+      "image": "images/instruments/cello.jpg",
+      "name": "Cello",
+      "nameHi": "सेलो"
+    },
+    {
+      "image": "images/instruments/double_bass.jpg",
+      "name": "Double Bass",
+      "nameHi": "कॉन्ट्राबास"
+    },
+    {
+      "image": "images/instruments/bongo_drums.jpg",
+      "name": "Bongo Drums",
+      "nameHi": "बोंगो ड्रम"
+    },
+    {
+      "image": "images/instruments/cymbals.jpg",
+      "name": "Cymbals",
+      "nameHi": "झांझ"
+    },
+    {
+      "image": "images/instruments/tambourine.jpg",
+      "name": "Tambourine",
+      "nameHi": "खंजरी"
+    },
+    {
+      "image": "images/instruments/maracas.jpg",
+      "name": "Maracas",
+      "nameHi": "मराकास"
+    },
+    {
+      "image": "images/instruments/ukulele.jpg",
+      "name": "Ukulele",
+      "nameHi": "युकेलेले"
+    },
+    {
+      "image": "images/instruments/bagpipes.jpg",
+      "name": "Bagpipes",
+      "nameHi": "बैगपाइप"
+    },
+    {
+      "image": "images/instruments/oboe.jpg",
+      "name": "Oboe",
+      "nameHi": "ओबो"
+    },
+    {
+      "image": "images/instruments/french_horn.jpg",
+      "name": "French Horn",
+      "nameHi": "फ्रेंच हॉर्न"
+    },
+    {
+      "image": "images/instruments/tuba.jpg",
+      "name": "Tuba",
+      "nameHi": "टूबा"
+    },
+    {
+      "image": "images/instruments/synthesizer.jpg",
+      "name": "Synthesizer",
+      "nameHi": "सिंथेसाइज़र"
+    },
+    {
+      "image": "images/instruments/electric_guitar.jpg",
+      "name": "Electric Guitar",
+      "nameHi": "इलेक्ट्रिक गिटार"
+    },
+    {
+      "image": "images/instruments/bass_guitar.jpg",
+      "name": "Bass Guitar",
+      "nameHi": "बास गिटार"
+    },
+    {
+      "image": "images/instruments/bansuri.jpg",
+      "name": "Bansuri",
+      "nameHi": "बांसुरी"
+    },
+    {
+      "image": "images/instruments/pakhawaj.jpg",
+      "name": "Pakhawaj",
+      "nameHi": "पखावज"
+    },
+    {
+      "image": "images/instruments/ektara.jpg",
+      "name": "Ektara",
+      "nameHi": "एकतारा"
+    }
+  ],
+  "vehicles": [
+    {
+      "image": "images/vehicles/car.jpg",
+      "name": "Car",
+      "nameHi": "कार"
+    },
+    {
+      "image": "images/vehicles/bus.jpg",
+      "name": "Bus",
+      "nameHi": "बस"
+    },
+    {
+      "image": "images/vehicles/train.jpg",
+      "name": "Train",
+      "nameHi": "ट्रेन"
+    },
+    {
+      "image": "images/vehicles/airplane.jpg",
+      "name": "Airplane",
+      "nameHi": "हवाई जहाज"
+    },
+    {
+      "image": "images/vehicles/bicycle.jpg",
+      "name": "Bicycle",
+      "nameHi": "साइकिल"
+    },
+    {
+      "image": "images/vehicles/motorcycle.jpg",
+      "name": "Motorcycle",
+      "nameHi": "मोटरसाइकिल"
+    },
+    {
+      "image": "images/vehicles/truck.jpg",
+      "name": "Truck",
+      "nameHi": "ट्रक"
+    },
+    {
+      "image": "images/vehicles/auto_rickshaw.jpg",
+      "name": "Auto Rickshaw",
+      "nameHi": "ऑटो रिक्शा"
+    },
+    {
+      "image": "images/vehicles/boat.jpg",
+      "name": "Boat",
+      "nameHi": "नाव"
+    },
+    {
+      "image": "images/vehicles/helicopter.jpg",
+      "name": "Helicopter",
+      "nameHi": "हेलीकॉप्टर"
+    },
+    {
+      "image": "images/vehicles/scooter.jpg",
+      "name": "Scooter",
+      "nameHi": "स्कूटर"
+    },
+    {
+      "image": "images/vehicles/taxi.jpg",
+      "name": "Taxi",
+      "nameHi": "टैक्सी"
+    },
+    {
+      "image": "images/vehicles/ambulance.jpg",
+      "name": "Ambulance",
+      "nameHi": "एम्बुलेंस"
+    },
+    {
+      "image": "images/vehicles/fire_truck.jpg",
+      "name": "Fire Truck",
+      "nameHi": "दमकल"
+    },
+    {
+      "image": "images/vehicles/police_car.jpg",
+      "name": "Police Car",
+      "nameHi": "पुलिस कार"
+    },
+    {
+      "image": "images/vehicles/tractor.jpg",
+      "name": "Tractor",
+      "nameHi": "ट्रैक्टर"
+    },
+    {
+      "image": "images/vehicles/metro.jpg",
+      "name": "Metro",
+      "nameHi": "मेट्रो"
+    },
+    {
+      "image": "images/vehicles/ship.jpg",
+      "name": "Ship",
+      "nameHi": "जहाज"
+    },
+    {
+      "image": "images/vehicles/rocket.jpg",
+      "name": "Rocket",
+      "nameHi": "रॉकेट"
+    },
+    {
+      "image": "images/vehicles/jeep.jpg",
+      "name": "Jeep",
+      "nameHi": "जीप"
+    },
+    {
+      "image": "images/vehicles/van.jpg",
+      "name": "Van",
+      "nameHi": "वैन"
+    },
+    {
+      "image": "images/vehicles/crane.jpg",
+      "name": "Crane",
+      "nameHi": "क्रेन"
+    },
+    {
+      "image": "images/vehicles/bulldozer.jpg",
+      "name": "Bulldozer",
+      "nameHi": "बुलडोजर"
+    },
+    {
+      "image": "images/vehicles/excavator.jpg",
+      "name": "Excavator",
+      "nameHi": "खुदाई मशीन"
+    },
+    {
+      "image": "images/vehicles/forklift.jpg",
+      "name": "Forklift",
+      "nameHi": "फोर्कलिफ्ट"
+    },
+    {
+      "image": "images/vehicles/golf_cart.jpg",
+      "name": "Golf Cart",
+      "nameHi": "गोल्फ कार्ट"
+    },
+    {
+      "image": "images/vehicles/rickshaw.jpg",
+      "name": "Rickshaw",
+      "nameHi": "रिक्शा"
+    },
+    {
+      "image": "images/vehicles/yacht.jpg",
+      "name": "Yacht",
+      "nameHi": "नौका"
+    },
+    {
+      "image": "images/vehicles/submarine.jpg",
+      "name": "Submarine",
+      "nameHi": "पनडुब्बी"
+    },
+    {
+      "image": "images/vehicles/hot_air_balloon.jpg",
+      "name": "Hot Air Balloon",
+      "nameHi": "गर्म हवा का गुब्बारा"
+    },
+    {
+      "image": "images/vehicles/hovercraft.jpg",
+      "name": "Hovercraft",
+      "nameHi": "होवरक्राफ्ट"
+    },
+    {
+      "image": "images/vehicles/snowmobile.jpg",
+      "name": "Snowmobile",
+      "nameHi": "स्नोमोबाइल"
+    },
+    {
+      "image": "images/vehicles/atv.jpg",
+      "name": "ATV",
+      "nameHi": "एटीवी"
+    },
+    {
+      "image": "images/vehicles/segway.jpg",
+      "name": "Segway",
+      "nameHi": "सेगवे"
+    },
+    {
+      "image": "images/vehicles/cable_car.jpg",
+      "name": "Cable Car",
+      "nameHi": "केबल कार"
+    }
+  ],
+  "celebrations": [
+    {
+      "image": "images/celebrations/diwali.jpg",
+      "name": "Diwali",
+      "nameHi": "दिवाली"
+    },
+    {
+      "image": "images/celebrations/holi.jpg",
+      "name": "Holi",
+      "nameHi": "होली"
+    },
+    {
+      "image": "images/celebrations/dussehra.jpg",
+      "name": "Dussehra",
+      "nameHi": "दशहरा"
+    },
+    {
+      "image": "images/celebrations/ganesh_chaturthi.jpg",
+      "name": "Ganesh Chaturthi",
+      "nameHi": "गणेश चतुर्थी"
+    },
+    {
+      "image": "images/celebrations/raksha_bandhan.jpg",
+      "name": "Raksha Bandhan",
+      "nameHi": "रक्षा बंधन"
+    },
+    {
+      "image": "images/celebrations/navratri.jpg",
+      "name": "Navratri",
+      "nameHi": "नवरात्रि"
+    },
+    {
+      "image": "images/celebrations/janmashtami.jpg",
+      "name": "Janmashtami",
+      "nameHi": "जन्माष्टमी"
+    },
+    {
+      "image": "images/celebrations/pongal.jpg",
+      "name": "Pongal",
+      "nameHi": "पोंगल"
+    },
+    {
+      "image": "images/celebrations/onam.jpg",
+      "name": "Onam",
+      "nameHi": "ओणम"
+    },
+    {
+      "image": "images/celebrations/baisakhi.jpg",
+      "name": "Baisakhi",
+      "nameHi": "बैसाखी"
+    },
+    {
+      "image": "images/celebrations/makar_sankranti.jpg",
+      "name": "Makar Sankranti",
+      "nameHi": "मकर संक्रांति"
+    },
+    {
+      "image": "images/celebrations/karva_chauth.jpg",
+      "name": "Karva Chauth",
+      "nameHi": "करवा चौथ"
+    },
+    {
+      "image": "images/celebrations/durga_puja.jpg",
+      "name": "Durga Puja",
+      "nameHi": "दुर्गा पूजा"
+    },
+    {
+      "image": "images/celebrations/chhath_puja.jpg",
+      "name": "Chhath Puja",
+      "nameHi": "छठ पूजा"
+    },
+    {
+      "image": "images/celebrations/ugadi.jpg",
+      "name": "Ugadi",
+      "nameHi": "उगाडि"
+    },
+    {
+      "image": "images/celebrations/lohri.jpg",
+      "name": "Lohri",
+      "nameHi": "लोहड़ी"
+    },
+    {
+      "image": "images/celebrations/bihu.jpg",
+      "name": "Bihu",
+      "nameHi": "बिहू"
+    },
+    {
+      "image": "images/celebrations/guru_nanak_jayanti.jpg",
+      "name": "Guru Nanak Jayanti",
+      "nameHi": "गुरु नानक जयंती"
+    },
+    {
+      "image": "images/celebrations/mahashivratri.jpg",
+      "name": "Mahashivratri",
+      "nameHi": "महाशिवरात्रि"
+    },
+    {
+      "image": "images/celebrations/ram_navami.jpg",
+      "name": "Ram Navami",
+      "nameHi": "राम नवमी"
+    },
+    {
+      "image": "images/celebrations/basant_panchami.jpg",
+      "name": "Basant Panchami",
+      "nameHi": "बसंत पंचमी"
+    },
+    {
+      "image": "images/celebrations/independence_day.jpg",
+      "name": "Independence Day",
+      "nameHi": "स्वतंत्रता दिवस"
+    },
+    {
+      "image": "images/celebrations/republic_day.jpg",
+      "name": "Republic Day",
+      "nameHi": "गणतंत्र दिवस"
+    },
+    {
+      "image": "images/celebrations/gandhi_jayanti.jpg",
+      "name": "Gandhi Jayanti",
+      "nameHi": "गांधी जयंती"
+    }
+  ]
+}

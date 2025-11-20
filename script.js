@@ -1,14 +1,40 @@
 // Load categories data from JSON file
 let categoriesData = {};
+let categoryMetadata = [];
 
-// Fetch categories from JSON file
-fetch('categories.json')
+// Fetch categories metadata and prepare to load individual category data
+fetch('categories_new.json')
     .then(response => response.json())
     .then(data => {
-        categoriesData = data;
-        console.log('Categories loaded successfully:', Object.keys(categoriesData));
+        categoryMetadata = data.categories;
+        console.log('Category metadata loaded:', categoryMetadata.length, 'categories');
     })
-    .catch(error => console.error('Error loading categories.json:', error));
+    .catch(error => console.error('Error loading categories_new.json:', error));
+
+// Function to load a specific category's data
+async function loadCategoryData(categoryId) {
+    if (categoriesData[categoryId]) {
+        // Already loaded
+        return categoriesData[categoryId];
+    }
+    
+    const category = categoryMetadata.find(c => c.id === categoryId);
+    if (!category) {
+        console.error('Category not found:', categoryId);
+        return [];
+    }
+    
+    try {
+        const response = await fetch(category.dataFile);
+        const data = await response.json();
+        categoriesData[categoryId] = data;
+        console.log(`Loaded ${categoryId} category:`, data.length, 'items');
+        return data;
+    } catch (error) {
+        console.error(`Error loading ${category.dataFile}:`, error);
+        return [];
+    }
+}
 
 // --- DOM Elements ---
 const categorySelectionScreen = document.getElementById('category-selection');
@@ -52,9 +78,10 @@ function playSound(audioElement) {
     }
 }
 
-function preloadCategoryImages(categoryName) {
-    // Preload all images for a category in the background
-    const category = categoriesData[categoryName];
+async function preloadCategoryImages(categoryName) {
+    // Ensure category data is loaded first
+    const category = await loadCategoryData(categoryName);
+    if (!category) return;
     
     if (!imageCache[categoryName]) {
         imageCache[categoryName] = {};
@@ -98,14 +125,22 @@ function showScreen(screenToShow) {
     }
 }
 
-function startGame(categoryName) {
+async function startGame(categoryName) {
+    // Show loading indicator
+    loadingIndicator.classList.remove('hidden');
+    
+    // Load category data if not already loaded
+    const categoryData = await loadCategoryData(categoryName);
+    if (!categoryData || categoryData.length === 0) {
+        console.error('Failed to load category data');
+        loadingIndicator.classList.add('hidden');
+        return;
+    }
+    
     // Start preloading images immediately in background
     preloadCategoryImages(categoryName);
     
-    // Show loading indicator briefly
-    loadingIndicator.classList.remove('hidden');
-    
-    currentCategory = [...categoriesData[categoryName]]; // Copy to allow shuffling
+    currentCategory = [...categoryData]; // Copy to allow shuffling
     shuffleArray(currentCategory);
     currentIndex = 0;
     timeLeft = gameTime; // Use the selected game time from localStorage

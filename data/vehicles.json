@@ -1,0 +1,177 @@
+﻿[
+    {
+        "image":  "images/vehicles/car.jpg",
+        "name":  "Car",
+        "nameHi":  "à¤•à¤¾à¤°"
+    },
+    {
+        "image":  "images/vehicles/bus.jpg",
+        "name":  "Bus",
+        "nameHi":  "à¤¬à¤¸"
+    },
+    {
+        "image":  "images/vehicles/train.jpg",
+        "name":  "Train",
+        "nameHi":  "à¤Ÿà¥à¤°à¥‡à¤¨"
+    },
+    {
+        "image":  "images/vehicles/airplane.jpg",
+        "name":  "Airplane",
+        "nameHi":  "à¤¹à¤µà¤¾à¤ˆ à¤œà¤¹à¤¾à¤œ"
+    },
+    {
+        "image":  "images/vehicles/bicycle.jpg",
+        "name":  "Bicycle",
+        "nameHi":  "à¤¸à¤¾à¤‡à¤•à¤¿à¤²"
+    },
+    {
+        "image":  "images/vehicles/motorcycle.jpg",
+        "name":  "Motorcycle",
+        "nameHi":  "à¤®à¥‹à¤Ÿà¤°à¤¸à¤¾à¤‡à¤•à¤¿à¤²"
+    },
+    {
+        "image":  "images/vehicles/truck.jpg",
+        "name":  "Truck",
+        "nameHi":  "à¤Ÿà¥à¤°à¤•"
+    },
+    {
+        "image":  "images/vehicles/auto_rickshaw.jpg",
+        "name":  "Auto Rickshaw",
+        "nameHi":  "à¤‘à¤Ÿà¥‹ à¤°à¤¿à¤•à¥à¤¶à¤¾"
+    },
+    {
+        "image":  "images/vehicles/boat.jpg",
+        "name":  "Boat",
+        "nameHi":  "à¤¨à¤¾à¤µ"
+    },
+    {
+        "image":  "images/vehicles/helicopter.jpg",
+        "name":  "Helicopter",
+        "nameHi":  "à¤¹à¥‡à¤²à¥€à¤•à¥‰à¤ªà¥à¤Ÿà¤°"
+    },
+    {
+        "image":  "images/vehicles/scooter.jpg",
+        "name":  "Scooter",
+        "nameHi":  "à¤¸à¥à¤•à¥‚à¤Ÿà¤°"
+    },
+    {
+        "image":  "images/vehicles/taxi.jpg",
+        "name":  "Taxi",
+        "nameHi":  "à¤Ÿà¥ˆà¤•à¥à¤¸à¥€"
+    },
+    {
+        "image":  "images/vehicles/ambulance.jpg",
+        "name":  "Ambulance",
+        "nameHi":  "à¤à¤®à¥à¤¬à¥à¤²à¥‡à¤‚à¤¸"
+    },
+    {
+        "image":  "images/vehicles/fire_truck.jpg",
+        "name":  "Fire Truck",
+        "nameHi":  "à¤¦à¤®à¤•à¤²"
+    },
+    {
+        "image":  "images/vehicles/police_car.jpg",
+        "name":  "Police Car",
+        "nameHi":  "à¤ªà¥à¤²à¤¿à¤¸ à¤•à¤¾à¤°"
+    },
+    {
+        "image":  "images/vehicles/tractor.jpg",
+        "name":  "Tractor",
+        "nameHi":  "à¤Ÿà¥à¤°à¥ˆà¤•à¥à¤Ÿà¤°"
+    },
+    {
+        "image":  "images/vehicles/metro.jpg",
+        "name":  "Metro",
+        "nameHi":  "à¤®à¥‡à¤Ÿà¥à¤°à¥‹"
+    },
+    {
+        "image":  "images/vehicles/ship.jpg",
+        "name":  "Ship",
+        "nameHi":  "à¤œà¤¹à¤¾à¤œ"
+    },
+    {
+        "image":  "images/vehicles/rocket.jpg",
+        "name":  "Rocket",
+        "nameHi":  "à¤°à¥‰à¤•à¥‡à¤Ÿ"
+    },
+    {
+        "image":  "images/vehicles/jeep.jpg",
+        "name":  "Jeep",
+        "nameHi":  "à¤œà¥€à¤ª"
+    },
+    {
+        "image":  "images/vehicles/van.jpg",
+        "name":  "Van",
+        "nameHi":  "à¤µà¥ˆà¤¨"
+    },
+    {
+        "image":  "images/vehicles/crane.jpg",
+        "name":  "Crane",
+        "nameHi":  "à¤•à¥à¤°à¥‡à¤¨"
+    },
+    {
+        "image":  "images/vehicles/bulldozer.jpg",
+        "name":  "Bulldozer",
+        "nameHi":  "à¤¬à¥à¤²à¤¡à¥‹à¤œà¤°"
+    },
+    {
+        "image":  "images/vehicles/excavator.jpg",
+        "name":  "Excavator",
+        "nameHi":  "à¤–à¥à¤¦à¤¾à¤ˆ à¤®à¤¶à¥€à¤¨"
+    },
+    {
+        "image":  "images/vehicles/forklift.jpg",
+        "name":  "Forklift",
+        "nameHi":  "à¤«à¥‹à¤°à¥à¤•à¤²à¤¿à¤«à¥à¤Ÿ"
+    },
+    {
+        "image":  "images/vehicles/golf_cart.jpg",
+        "name":  "Golf Cart",
+        "nameHi":  "à¤—à¥‹à¤²à¥à¤« à¤•à¤¾à¤°à¥à¤Ÿ"
+    },
+    {
+        "image":  "images/vehicles/rickshaw.jpg",
+        "name":  "Rickshaw",
+        "nameHi":  "à¤°à¤¿à¤•à¥à¤¶à¤¾"
+    },
+    {
+        "image":  "images/vehicles/yacht.jpg",
+        "name":  "Yacht",
+        "nameHi":  "à¤¨à¥Œà¤•à¤¾"
+    },
+    {
+        "image":  "images/vehicles/submarine.jpg",
+        "name":  "Submarine",
+        "nameHi":  "à¤ªà¤¨à¤¡à¥à¤¬à¥à¤¬à¥€"
+    },
+    {
+        "image":  "images/vehicles/hot_air_balloon.jpg",
+        "name":  "Hot Air Balloon",
+        "nameHi":  "à¤—à¤°à¥à¤® à¤¹à¤µà¤¾ à¤•à¤¾ à¤—à¥à¤¬à¥à¤¬à¤¾à¤°à¤¾"
+    },
+    {
+        "image":  "images/vehicles/hovercraft.jpg",
+        "name":  "Hovercraft",
+        "nameHi":  "à¤¹à¥‹à¤µà¤°à¤•à¥à¤°à¤¾à¤«à¥à¤Ÿ"
+    },
+    {
+        "image":  "images/vehicles/snowmobile.jpg",
+        "name":  "Snowmobile",
+        "nameHi":  "à¤¸à¥à¤¨à¥‹à¤®à¥‹à¤¬à¤¾à¤‡à¤²"
+    },
+    {
+        "image":  "images/vehicles/atv.jpg",
+        "name":  "ATV",
+        "nameHi":  "à¤à¤Ÿà¥€à¤µà¥€"
+    },
+    {
+        "image":  "images/vehicles/segway.jpg",
+        "name":  "Segway",
+        "nameHi":  "à¤¸à¥‡à¤—à¤µà¥‡"
+    },
+    {
+        "image":  "images/vehicles/cable_car.jpg",
+        "name":  "Cable Car",
+        "nameHi":  "à¤•à¥‡à¤¬à¤² à¤•à¤¾à¤°"
+    }
+]

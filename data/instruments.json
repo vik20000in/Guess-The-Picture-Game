@@ -1,0 +1,202 @@
+﻿[
+    {
+        "image":  "images/instruments/guitar.jpg",
+        "name":  "Guitar",
+        "nameHi":  "à¤—à¤¿à¤Ÿà¤¾à¤°"
+    },
+    {
+        "image":  "images/instruments/piano.jpg",
+        "name":  "Piano",
+        "nameHi":  "à¤ªà¤¿à¤¯à¤¾à¤¨à¥‹"
+    },
+    {
+        "image":  "images/instruments/drum.jpg",
+        "name":  "Drum",
+        "nameHi":  "à¤¢à¥‹à¤²"
+    },
+    {
+        "image":  "images/instruments/flute.jpg",
+        "name":  "Flute",
+        "nameHi":  "à¤¬à¤¾à¤‚à¤¸à¥à¤°à¥€"
+    },
+    {
+        "image":  "images/instruments/violin.jpg",
+        "name":  "Violin",
+        "nameHi":  "à¤µà¤¾à¤¯à¤²à¤¿à¤¨"
+    },
+    {
+        "image":  "images/instruments/tabla.jpg",
+        "name":  "Tabla",
+        "nameHi":  "à¤¤à¤¬à¤²à¤¾"
+    },
+    {
+        "image":  "images/instruments/harmonium.jpg",
+        "name":  "Harmonium",
+        "nameHi":  "à¤¹à¤¾à¤°à¤®à¥‹à¤¨à¤¿à¤¯à¤®"
+    },
+    {
+        "image":  "images/instruments/sitar.jpg",
+        "name":  "Sitar",
+        "nameHi":  "à¤¸à¤¿à¤¤à¤¾à¤°"
+    },
+    {
+        "image":  "images/instruments/trumpet.jpg",
+        "name":  "Trumpet",
+        "nameHi":  "à¤¤à¥à¤°à¤¹à¥€"
+    },
+    {
+        "image":  "images/instruments/saxophone.jpg",
+        "name":  "Saxophone",
+        "nameHi":  "à¤¸à¥ˆà¤•à¥à¤¸à¥‹à¤«à¥‹à¤¨"
+    },
+    {
+        "image":  "images/instruments/veena.jpg",
+        "name":  "Veena",
+        "nameHi":  "à¤µà¥€à¤£à¤¾"
+    },
+    {
+        "image":  "images/instruments/sarangi.jpg",
+        "name":  "Sarangi",
+        "nameHi":  "à¤¸à¤¾à¤°à¤‚à¤—à¥€"
+    },
+    {
+        "image":  "images/instruments/dholak.jpg",
+        "name":  "Dholak",
+        "nameHi":  "à¤¢à¥‹à¤²à¤•"
+    },
+    {
+        "image":  "images/instruments/shehnai.jpg",
+        "name":  "Shehnai",
+        "nameHi":  "à¤¶à¤¹à¤¨à¤¾à¤ˆ"
+    },
+    {
+        "image":  "images/instruments/manjira.jpg",
+        "name":  "Manjira",
+        "nameHi":  "à¤®à¤‚à¤œà¥€à¤°à¤¾"
+    },
+    {
+        "image":  "images/instruments/mridangam.jpg",
+        "name":  "Mridangam",
+        "nameHi":  "à¤®à¥ƒà¤¦à¤‚à¤—à¤®"
+    },
+    {
+        "image":  "images/instruments/ghatam.jpg",
+        "name":  "Ghatam",
+        "nameHi":  "à¤˜à¤Ÿà¤®"
+    },
+    {
+        "image":  "images/instruments/banjo.jpg",
+        "name":  "Banjo",
+        "nameHi":  "à¤¬à¥ˆà¤‚à¤œà¥‹"
+    },
+    {
+        "image":  "images/instruments/accordion.jpg",
+        "name":  "Accordion",
+        "nameHi":  "à¤…à¤•à¥‰à¤°à¥à¤¡à¤¿à¤¯à¤¨"
+    },
+    {
+        "image":  "images/instruments/harp.jpg",
+        "name":  "Harp",
+        "nameHi":  "à¤µà¥€à¤£à¤¾"
+    },
+    {
+        "image":  "images/instruments/xylophone.jpg",
+        "name":  "Xylophone",
+        "nameHi":  "à¤œà¤¾à¤‡à¤²à¥‹à¤«à¥‹à¤¨"
+    },
+    {
+        "image":  "images/instruments/clarinet.jpg",
+        "name":  "Clarinet",
+        "nameHi":  "à¤¶à¤¹à¤¨à¤¾à¤ˆ"
+    },
+    {
+        "image":  "images/instruments/trombone.jpg",
+        "name":  "Trombone",
+        "nameHi":  "à¤Ÿà¥à¤°à¥‰à¤®à¥à¤¬à¥‹à¤¨"
+    },
+    {
+        "image":  "images/instruments/cello.jpg",
+        "name":  "Cello",
+        "nameHi":  "à¤¸à¥‡à¤²à¥‹"
+    },
+    {
+        "image":  "images/instruments/double_bass.jpg",
+        "name":  "Double Bass",
+        "nameHi":  "à¤•à¥‰à¤¨à¥à¤Ÿà¥à¤°à¤¾à¤¬à¤¾à¤¸"
+    },
+    {
+        "image":  "images/instruments/bongo_drums.jpg",
+        "name":  "Bongo Drums",
+        "nameHi":  "à¤¬à¥‹à¤‚à¤—à¥‹ à¤¡à¥à¤°à¤®"
+    },
+    {
+        "image":  "images/instruments/cymbals.jpg",
+        "name":  "Cymbals",
+        "nameHi":  "à¤à¤¾à¤‚à¤"
+    },
+    {
+        "image":  "images/instruments/tambourine.jpg",
+        "name":  "Tambourine",
+        "nameHi":  "à¤–à¤‚à¤œà¤°à¥€"
+    },
+    {
+        "image":  "images/instruments/maracas.jpg",
+        "name":  "Maracas",
+        "nameHi":  "à¤®à¤°à¤¾à¤•à¤¾à¤¸"
+    },
+    {
+        "image":  "images/instruments/ukulele.jpg",
+        "name":  "Ukulele",
+        "nameHi":  "à¤¯à¥à¤•à¥‡à¤²à¥‡à¤²à¥‡"
+    },
+    {
+        "image":  "images/instruments/bagpipes.jpg",
+        "name":  "Bagpipes",
+        "nameHi":  "à¤¬à¥ˆà¤—à¤ªà¤¾à¤‡à¤ª"
+    },
+    {
+        "image":  "images/instruments/oboe.jpg",
+        "name":  "Oboe",
+        "nameHi":  "à¤“à¤¬à¥‹"
+    },
+    {
+        "image":  "images/instruments/french_horn.jpg",
+        "name":  "French Horn",
+        "nameHi":  "à¤«à¥à¤°à¥‡à¤‚à¤š à¤¹à¥‰à¤°à¥à¤¨"
+    },
+    {
+        "image":  "images/instruments/tuba.jpg",
+        "name":  "Tuba",
+        "nameHi":  "à¤Ÿà¥‚à¤¬à¤¾"
+    },
+    {
+        "image":  "images/instruments/synthesizer.jpg",
+        "name":  "Synthesizer",
+        "nameHi":  "à¤¸à¤¿à¤‚à¤¥à¥‡à¤¸à¤¾à¤‡à¤œà¤¼à¤°"
+    },
+    {
+        "image":  "images/instruments/electric_guitar.jpg",
+        "name":  "Electric Guitar",
+        "nameHi":  "à¤‡à¤²à¥‡à¤•à¥à¤Ÿà¥à¤°à¤¿à¤• à¤—à¤¿à¤Ÿà¤¾à¤°"
+    },
+    {
+        "image":  "images/instruments/bass_guitar.jpg",
+        "name":  "Bass Guitar",
+        "nameHi":  "à¤¬à¤¾à¤¸ à¤—à¤¿à¤Ÿà¤¾à¤°"
+    },
+    {
+        "image":  "images/instruments/bansuri.jpg",
+        "name":  "Bansuri",
+        "nameHi":  "à¤¬à¤¾à¤‚à¤¸à¥à¤°à¥€"
+    },
+    {
+        "image":  "images/instruments/pakhawaj.jpg",
+        "name":  "Pakhawaj",
+        "nameHi":  "à¤ªà¤–à¤¾à¤µà¤œ"
+    },
+    {
+        "image":  "images/instruments/ektara.jpg",
+        "name":  "Ektara",
+        "nameHi":  "à¤à¤•à¤¤à¤¾à¤°à¤¾"
+    }
+]
