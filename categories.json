@@ -83,6 +83,13 @@
       "nameHi": "ब्रांड और लोगो",
       "icon": "images/icons/brands_icon.png",
       "dataFile": "data/brands.json"
+    },
+    {
+      "id": "taglines",
+      "name": "Company Taglines",
+      "nameHi": "कंपनी टैगलाइन",
+      "icon": "images/icons/taglines_icon.png",
+      "dataFile": "data/taglines.json"
     }
   ]
 }

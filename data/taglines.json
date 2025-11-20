@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Nike",
+    "nameHi": "नाइकी",
+    "tagline": "Just Do It",
+    "image": "images/taglines/nike.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Apple",
+    "nameHi": "एप्पल",
+    "tagline": "Think Different",
+    "image": "images/taglines/apple.jpg"
+  },
+  {
+    "id": 3,
+    "name": "McDonald's",
+    "nameHi": "मैकडॉनल्ड्स",
+    "tagline": "I'm Lovin' It",
+    "image": "images/taglines/mcdonalds.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Airtel",
+    "nameHi": "एयरटेल",
+    "tagline": "Har Ek Friend Zaroori Hota Hai",
+    "image": "images/taglines/airtel.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Tata",
+    "nameHi": "टाटा",
+    "tagline": "Leadership with Trust",
+    "image": "images/taglines/tata.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Coca-Cola",
+    "nameHi": "कोका-कोला",
+    "tagline": "Open Happiness",
+    "image": "images/taglines/coca_cola.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Pepsi",
+    "nameHi": "पेप्सी",
+    "tagline": "Yeh Dil Maange More",
+    "image": "images/taglines/pepsi.jpg"
+  },
+  {
+    "id": 8,
+    "name": "BMW",
+    "nameHi": "बीएमडब्ल्यू",
+    "tagline": "The Ultimate Driving Machine",
+    "image": "images/taglines/bmw.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Audi",
+    "nameHi": "ऑडी",
+    "tagline": "Vorsprung durch Technik",
+    "image": "images/taglines/audi.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Mercedes-Benz",
+    "nameHi": "मर्सिडीज़-बेंज",
+    "tagline": "The Best or Nothing",
+    "image": "images/taglines/mercedes_benz.jpg"
+  },
+  {
+    "id": 11,
+    "name": "KFC",
+    "nameHi": "केएफसी",
+    "tagline": "Finger Lickin' Good",
+    "image": "images/taglines/kfc.jpg"
+  },
+  {
+    "id": 12,
+    "name": "L'Oréal",
+    "nameHi": "लोरियल",
+    "tagline": "Because You're Worth It",
+    "image": "images/taglines/loreal.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Mastercard",
+    "nameHi": "मास्टरकार्ड",
+    "tagline": "There are some things money can't buy",
+    "image": "images/taglines/mastercard.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Adidas",
+    "nameHi": "एडिडास",
+    "tagline": "Impossible is Nothing",
+    "image": "images/taglines/adidas.jpg"
+  },
+  {
+    "id": 15,
+    "name": "M&M's",
+    "nameHi": "एमएंडएम",
+    "tagline": "Melts in Your Mouth, Not in Your Hands",
+    "image": "images/taglines/m_and_m.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Volkswagen",
+    "nameHi": "वोक्सवैगन",
+    "tagline": "Das Auto",
+    "image": "images/taglines/volkswagen.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Red Bull",
+    "nameHi": "रेड बुल",
+    "tagline": "Red Bull Gives You Wings",
+    "image": "images/taglines/red_bull.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Maybelline",
+    "nameHi": "मेबेलिन",
+    "tagline": "Maybe She's Born With It",
+    "image": "images/taglines/maybelline.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Amul",
+    "nameHi": "अमूल",
+    "tagline": "The Taste of India",
+    "image": "images/taglines/amul.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Fevicol",
+    "nameHi": "फेविकोल",
+    "tagline": "Jor Laga Ke Haisha",
+    "image": "images/taglines/fevicol.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Asian Paints",
+    "nameHi": "एशियन पेंट्स",
+    "tagline": "Har Ghar Kuch Kehta Hai",
+    "image": "images/taglines/asian_paints.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Britannia",
+    "nameHi": "ब्रिटानिया",
+    "tagline": "Eat Healthy, Think Better",
+    "image": "images/taglines/britannia.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Titan",
+    "nameHi": "टाइटन",
+    "tagline": "Be More",
+    "image": "images/taglines/titan.jpg"
+  },
+  {
+    "id": 24,
+    "name": "LIC",
+    "nameHi": "एलआईसी",
+    "tagline": "Zindagi Ke Saath Bhi, Zindagi Ke Baad Bhi",
+    "image": "images/taglines/lic.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Maggi",
+    "nameHi": "मैगी",
+    "tagline": "Meri Maggi",
+    "image": "images/taglines/maggi.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Cadbury",
+    "nameHi": "कैडबरी",
+    "tagline": "Kuch Meetha Ho Jaye",
+    "image": "images/taglines/cadbury.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Flipkart",
+    "nameHi": "फ्लिपकार्ट",
+    "tagline": "Khushiyon Ki Home Delivery",
+    "image": "images/taglines/flipkart.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Paytm",
+    "nameHi": "पेटीएम",
+    "tagline": "Paytm Karo",
+    "image": "images/taglines/paytm.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Vodafone",
+    "nameHi": "वोडाफोन",
+    "tagline": "Power to You",
+    "image": "images/taglines/vodafone.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Colgate",
+    "nameHi": "कोलगेट",
+    "tagline": "The Protection You Trust",
+    "image": "images/taglines/colgate.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Dove",
+    "nameHi": "डव",
+    "tagline": "Real Beauty",
+    "image": "images/taglines/dove.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Head & Shoulders",
+    "nameHi": "हेड एंड शोल्डर्स",
+    "tagline": "Say Goodbye to Dandruff",
+    "image": "images/taglines/head_and_shoulders.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Gillette",
+    "nameHi": "जिलेट",
+    "tagline": "The Best a Man Can Get",
+    "image": "images/taglines/gillette.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Kit Kat",
+    "nameHi": "किट कैट",
+    "tagline": "Have a Break, Have a Kit Kat",
+    "image": "images/taglines/kit_kat.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Oral-B",
+    "nameHi": "ओरल-बी",
+    "tagline": "Reach for the Best",
+    "image": "images/taglines/oral_b.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Pepsodent",
+    "nameHi": "पेप्सोडेंट",
+    "tagline": "Germicheck",
+    "image": "images/taglines/pepsodent.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Surf Excel",
+    "nameHi": "सर्फ एक्सेल",
+    "tagline": "Daag Acche Hain",
+    "image": "images/taglines/surf_excel.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Samsung",
+    "nameHi": "सैमसंग",
+    "tagline": "Do What You Can't",
+    "image": "images/taglines/samsung.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Sony",
+    "nameHi": "सोनी",
+    "tagline": "Make Believe",
+    "image": "images/taglines/sony.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Intel",
+    "nameHi": "इंटेल",
+    "tagline": "Intel Inside",
+    "image": "images/taglines/intel.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Microsoft",
+    "nameHi": "माइक्रोसॉफ्ट",
+    "tagline": "Be What's Next",
+    "image": "images/taglines/microsoft.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Nokia",
+    "nameHi": "नोकिया",
+    "tagline": "Connecting People",
+    "image": "images/taglines/nokia.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Canon",
+    "nameHi": "कैनन",
+    "tagline": "Delighting You Always",
+    "image": "images/taglines/canon.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Nikon",
+    "nameHi": "निकॉन",
+    "tagline": "At the Heart of the Image",
+    "image": "images/taglines/nikon.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Panasonic",
+    "nameHi": "पैनासोनिक",
+    "tagline": "Ideas for Life",
+    "image": "images/taglines/panasonic.jpg"
+  },
+  {
+    "id": 46,
+    "name": "LG",
+    "nameHi": "एलजी",
+    "tagline": "Life's Good",
+    "image": "images/taglines/lg.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Philips",
+    "nameHi": "फिलिप्स",
+    "tagline": "Sense and Simplicity",
+    "image": "images/taglines/philips.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Nestle",
+    "nameHi": "नेस्ले",
+    "tagline": "Good Food, Good Life",
+    "image": "images/taglines/nestle.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Subway",
+    "nameHi": "सबवे",
+    "tagline": "Eat Fresh",
+    "image": "images/taglines/subway.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Domino's",
+    "nameHi": "डोमिनोज़",
+    "tagline": "You Got 30 Minutes",
+    "image": "images/taglines/dominos.jpg"
+  }
+]
