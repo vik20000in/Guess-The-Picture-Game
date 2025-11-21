@@ -1,117 +1,117 @@
-﻿[
-    {
-        "image":  "images/sports/cricket.jpg",
-        "name":  "Cricket",
-        "nameHi":  "à¤•à¥à¤°à¤¿à¤•à¥‡à¤Ÿ"
-    },
-    {
-        "image":  "images/sports/football.jpg",
-        "name":  "Football",
-        "nameHi":  "à¤«à¥à¤Ÿà¤¬à¥‰à¤²"
-    },
-    {
-        "image":  "images/sports/tennis.jpg",
-        "name":  "Tennis",
-        "nameHi":  "à¤Ÿà¥‡à¤¨à¤¿à¤¸"
-    },
-    {
-        "image":  "images/sports/badminton.jpg",
-        "name":  "Badminton",
-        "nameHi":  "à¤¬à¥ˆà¤¡à¤®à¤¿à¤‚à¤Ÿà¤¨"
-    },
-    {
-        "image":  "images/sports/basketball.jpg",
-        "name":  "Basketball",
-        "nameHi":  "à¤¬à¤¾à¤¸à¥à¤•à¥‡à¤Ÿà¤¬à¥‰à¤²"
-    },
-    {
-        "image":  "images/sports/volleyball.jpg",
-        "name":  "Volleyball",
-        "nameHi":  "à¤µà¥‰à¤²à¥€à¤¬à¥‰à¤²"
-    },
-    {
-        "image":  "images/sports/hockey.jpg",
-        "name":  "Hockey",
-        "nameHi":  "à¤¹à¥‰à¤•à¥€"
-    },
-    {
-        "image":  "images/sports/swimming.jpg",
-        "name":  "Swimming",
-        "nameHi":  "à¤¤à¥ˆà¤°à¤¾à¤•à¥€"
-    },
-    {
-        "image":  "images/sports/table_tennis.jpg",
-        "name":  "Table Tennis",
-        "nameHi":  "à¤Ÿà¥‡à¤¬à¤² à¤Ÿà¥‡à¤¨à¤¿à¤¸"
-    },
-    {
-        "image":  "images/sports/golf.jpg",
-        "name":  "Golf",
-        "nameHi":  "à¤—à¥‹à¤²à¥à¤«"
-    },
-    {
-        "image":  "images/sports/boxing.jpg",
-        "name":  "Boxing",
-        "nameHi":  "à¤®à¥à¤•à¥à¤•à¥‡à¤¬à¤¾à¤œà¤¼à¥€"
-    },
-    {
-        "image":  "images/sports/martial_arts.jpg",
-        "name":  "Martial Arts",
-        "nameHi":  "à¤®à¤¾à¤°à¥à¤¶à¤² à¤†à¤°à¥à¤Ÿà¥à¤¸"
-    },
-    {
-        "image":  "images/sports/cycling.jpg",
-        "name":  "Cycling",
-        "nameHi":  "à¤¸à¤¾à¤‡à¤•à¤¿à¤²à¤¿à¤‚à¤—"
-    },
-    {
-        "image":  "images/sports/archery.jpg",
-        "name":  "Archery",
-        "nameHi":  "à¤¤à¥€à¤°à¤‚à¤¦à¤¾à¤œà¤¼à¥€"
-    },
-    {
-        "image":  "images/sports/shooting.jpg",
-        "name":  "Shooting",
-        "nameHi":  "à¤¶à¥‚à¤Ÿà¤¿à¤‚à¤—"
-    },
-    {
-        "image":  "images/sports/gymnastics.jpg",
-        "name":  "Gymnastics",
-        "nameHi":  "à¤œà¤¿à¤®à¤¨à¤¾à¤¸à¥à¤Ÿà¤¿à¤•à¥à¤¸"
-    },
-    {
-        "image":  "images/sports/yoga.jpg",
-        "name":  "Yoga",
-        "nameHi":  "à¤¯à¥‹à¤—"
-    },
-    {
-        "image":  "images/sports/baseball.jpg",
-        "name":  "Baseball",
-        "nameHi":  "à¤¬à¥‡à¤¸à¤¬à¥‰à¤²"
-    },
-    {
-        "image":  "images/sports/rugby.jpg",
-        "name":  "Rugby",
-        "nameHi":  "à¤°à¤—à¥à¤¬à¥€"
-    },
-    {
-        "image":  "images/sports/skiing.jpg",
-        "name":  "Skiing",
-        "nameHi":  "à¤¸à¥à¤•à¥€à¤‡à¤‚à¤—"
-    },
-    {
-        "image":  "images/sports/surfing.jpg",
-        "name":  "Surfing",
-        "nameHi":  "à¤¸à¤°à¥à¤«à¤¿à¤‚à¤—"
-    },
-    {
-        "image":  "images/sports/rock_climbing.jpg",
-        "name":  "Rock Climbing",
-        "nameHi":  "à¤°à¥‰à¤• à¤•à¥à¤²à¤¾à¤‡à¤‚à¤¬à¤¿à¤‚à¤—"
-    },
-    {
-        "image":  "images/sports/kite_flying.jpg",
-        "name":  "Kite Flying",
-        "nameHi":  "à¤ªà¤¤à¤‚à¤—à¤¬à¤¾à¤œà¤¼à¥€"
-    }
+[
+  {
+    "image": "images/sports/cricket.jpg",
+    "name": "Cricket",
+    "nameHi": "क्रिकेट"
+  },
+  {
+    "image": "images/sports/football.jpg",
+    "name": "Football",
+    "nameHi": "फुटबॉल"
+  },
+  {
+    "image": "images/sports/tennis.jpg",
+    "name": "Tennis",
+    "nameHi": "टेनिस"
+  },
+  {
+    "image": "images/sports/badminton.jpg",
+    "name": "Badminton",
+    "nameHi": "बैडमिंटन"
+  },
+  {
+    "image": "images/sports/basketball.jpg",
+    "name": "Basketball",
+    "nameHi": "बास्केटबॉल"
+  },
+  {
+    "image": "images/sports/volleyball.jpg",
+    "name": "Volleyball",
+    "nameHi": "वॉलीबॉल"
+  },
+  {
+    "image": "images/sports/hockey.jpg",
+    "name": "Hockey",
+    "nameHi": "हॉकी"
+  },
+  {
+    "image": "images/sports/swimming.jpg",
+    "name": "Swimming",
+    "nameHi": "तैराकी"
+  },
+  {
+    "image": "images/sports/table_tennis.jpg",
+    "name": "Table Tennis",
+    "nameHi": "टेबल टेनिस"
+  },
+  {
+    "image": "images/sports/golf.jpg",
+    "name": "Golf",
+    "nameHi": "गोल्फ"
+  },
+  {
+    "image": "images/sports/boxing.jpg",
+    "name": "Boxing",
+    "nameHi": "मुक्केबाजी"
+  },
+  {
+    "image": "images/sports/martial_arts.jpg",
+    "name": "Martial Arts",
+    "nameHi": "à¤®à¤¾à¤°à¥à¤¶à¤² à¤†à¤°à¥à¤Ÿà¥à¤¸"
+  },
+  {
+    "image": "images/sports/cycling.jpg",
+    "name": "Cycling",
+    "nameHi": "साइकिलिंग"
+  },
+  {
+    "image": "images/sports/archery.jpg",
+    "name": "Archery",
+    "nameHi": "तीरंदाजी"
+  },
+  {
+    "image": "images/sports/shooting.jpg",
+    "name": "Shooting",
+    "nameHi": "शूटिंग"
+  },
+  {
+    "image": "images/sports/gymnastics.jpg",
+    "name": "Gymnastics",
+    "nameHi": "जिम्नास्टिक"
+  },
+  {
+    "image": "images/sports/yoga.jpg",
+    "name": "Yoga",
+    "nameHi": "à¤¯à¥‹à¤—"
+  },
+  {
+    "image": "images/sports/baseball.jpg",
+    "name": "Baseball",
+    "nameHi": "à¤¬à¥‡à¤¸à¤¬à¥‰à¤²"
+  },
+  {
+    "image": "images/sports/rugby.jpg",
+    "name": "Rugby",
+    "nameHi": "à¤°à¤—à¥à¤¬à¥€"
+  },
+  {
+    "image": "images/sports/skiing.jpg",
+    "name": "Skiing",
+    "nameHi": "à¤¸à¥à¤•à¥€à¤‡à¤‚à¤—"
+  },
+  {
+    "image": "images/sports/surfing.jpg",
+    "name": "Surfing",
+    "nameHi": "à¤¸à¤°à¥à¤«à¤¿à¤‚à¤—"
+  },
+  {
+    "image": "images/sports/rock_climbing.jpg",
+    "name": "Rock Climbing",
+    "nameHi": "à¤°à¥‰à¤• à¤•à¥à¤²à¤¾à¤‡à¤‚à¤¬à¤¿à¤‚à¤—"
+  },
+  {
+    "image": "images/sports/kite_flying.jpg",
+    "name": "Kite Flying",
+    "nameHi": "à¤ªà¤¤à¤‚à¤—à¤¬à¤¾à¤œà¤¼à¥€"
+  }
 ]

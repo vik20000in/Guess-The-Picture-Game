@@ -7,7 +7,7 @@
   {
     "image": "images/monuments/india_gate.jpg",
     "name": "India Gate",
-    "nameHi": "à¤‡à¤‚à¤¡à¤¿à¤¯à¤¾ à¤—à¥‡à¤Ÿ"
+    "nameHi": "इंडिया गेट"
   },
   {
     "image": "images/monuments/hawa_mahal.jpg",
@@ -42,17 +42,17 @@
   {
     "image": "images/monuments/victoria_memorial.jpg",
     "name": "Victoria Memorial",
-    "nameHi": "à¤µà¤¿à¤•à¥à¤Ÿà¥‹à¤°à¤¿à¤¯à¤¾ à¤®à¥‡à¤®à¥‹à¤°à¤¿à¤¯à¤²"
+    "nameHi": "विक्टोरिया मेमोरियल"
   },
   {
     "image": "images/monuments/mysore_palace.jpg",
     "name": "Mysore Palace",
-    "nameHi": "à¤®à¥ˆà¤¸à¥‚à¤° à¤ªà¥ˆà¤²à¥‡à¤¸"
+    "nameHi": "मैसूर पैलेस"
   },
   {
     "image": "images/monuments/charminar.jpg",
     "name": "Charminar",
-    "nameHi": "à¤šà¤¾à¤°à¤®à¥€à¤¨à¤¾à¤°"
+    "nameHi": "चारमीनार"
   },
   {
     "image": "images/monuments/buland_darwaza.jpg",
@@ -82,22 +82,22 @@
   {
     "image": "images/monuments/konark_sun_temple.jpg",
     "name": "Konark Sun Temple",
-    "nameHi": "à¤•à¥‹à¤£à¤¾à¤°à¥à¤• à¤¸à¥‚à¤°à¥à¤¯ à¤®à¤‚à¤¦à¤¿à¤°"
+    "nameHi": "कोणार्क सूर्य मंदिर"
   },
   {
     "image": "images/monuments/sanchi_stupa.jpg",
     "name": "Sanchi Stupa",
-    "nameHi": "à¤¸à¤¾à¤à¤šà¥€ à¤¸à¥à¤¤à¥‚à¤ª"
+    "nameHi": "सांची स्तूप"
   },
   {
     "image": "images/monuments/ajanta_caves.jpg",
     "name": "Ajanta Caves",
-    "nameHi": "à¤…à¤œà¤‚à¤¤à¤¾ à¤—à¥à¤«à¤¾à¤à¤‚"
+    "nameHi": "अजंता गुफाएं"
   },
   {
     "image": "images/monuments/ellora_caves.jpg",
     "name": "Ellora Caves",
-    "nameHi": "à¤à¤²à¥‹à¤°à¤¾ à¤—à¥à¤«à¤¾à¤à¤‚"
+    "nameHi": "एलोरा गुफाएं"
   },
   {
     "image": "images/monuments/badami_caves.jpg",

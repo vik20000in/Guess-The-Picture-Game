@@ -2,12 +2,12 @@
   {
     "image": "images/things/car.jpg",
     "name": "Car",
-    "nameHi": "à¤•à¤¾à¤°"
+    "nameHi": "कार"
   },
   {
     "image": "images/things/ball.jpg",
     "name": "Ball",
-    "nameHi": "à¤—à¥‡à¤‚à¤¦"
+    "nameHi": "गेंद"
   },
   {
     "image": "images/things/house.jpg",
@@ -37,12 +37,12 @@
   {
     "image": "images/things/phone.jpg",
     "name": "Phone",
-    "nameHi": "à¤«à¥‹à¤¨"
+    "nameHi": "फोन"
   },
   {
     "image": "images/things/umbrella.jpg",
     "name": "Umbrella",
-    "nameHi": "à¤›à¤¾à¤¤à¤¾"
+    "nameHi": "छाता"
   },
   {
     "image": "images/things/bicycle.jpg",
@@ -52,32 +52,32 @@
   {
     "image": "images/things/lamp.jpg",
     "name": "Lamp",
-    "nameHi": "à¤¦à¥€à¤ªà¤•"
+    "nameHi": "दीया"
   },
   {
     "image": "images/things/cup.jpg",
     "name": "Cup",
-    "nameHi": "à¤•à¤ª"
+    "nameHi": "कप"
   },
   {
     "image": "images/things/plate.jpg",
     "name": "Plate",
-    "nameHi": "à¤ªà¥à¤²à¥‡à¤Ÿ"
+    "nameHi": "प्लेट"
   },
   {
     "image": "images/things/spoon.jpg",
     "name": "Spoon",
-    "nameHi": "à¤šà¤®à¥à¤®à¤š"
+    "nameHi": "चम्मच"
   },
   {
     "image": "images/things/fork.jpg",
     "name": "Fork",
-    "nameHi": "à¤•à¤¾à¤‚à¤Ÿà¤¾"
+    "nameHi": "कांटा"
   },
   {
     "image": "images/things/knife.jpg",
     "name": "Knife",
-    "nameHi": "à¤šà¤¾à¤•à¥‚"
+    "nameHi": "चाकू"
   },
   {
     "image": "images/things/bed.jpg",
@@ -87,27 +87,27 @@
   {
     "image": "images/things/door.jpg",
     "name": "Door",
-    "nameHi": "à¤¦à¤°à¤µà¤¾à¤œà¤¼à¤¾"
+    "nameHi": "दरवाजा"
   },
   {
     "image": "images/things/window.jpg",
     "name": "Window",
-    "nameHi": "à¤–à¤¿à¤¡à¤¼à¤•à¥€"
+    "nameHi": "खिड़की"
   },
   {
     "image": "images/things/clock.jpg",
     "name": "Clock",
-    "nameHi": "à¤˜à¤¡à¤¼à¥€"
+    "nameHi": "घड़ी"
   },
   {
     "image": "images/things/television.jpg",
     "name": "Television",
-    "nameHi": "à¤Ÿà¥‡à¤²à¥€à¤µà¤¿à¤œà¤¼à¤¨"
+    "nameHi": "टेलीविजन"
   },
   {
     "image": "images/things/computer.jpg",
     "name": "Computer",
-    "nameHi": "à¤•à¤‚à¤ªà¥à¤¯à¥‚à¤Ÿà¤°"
+    "nameHi": "कंप्यूटर"
   },
   {
     "image": "images/things/keyboard.jpg",
@@ -147,7 +147,7 @@
   {
     "image": "images/things/hammer.jpg",
     "name": "Hammer",
-    "nameHi": "à¤¹à¤¥à¥Œà¤¡à¤¼à¤¾"
+    "nameHi": "हथौड़ा"
   },
   {
     "image": "images/things/screwdriver.jpg",
@@ -157,7 +157,7 @@
   {
     "image": "images/things/bottle.jpg",
     "name": "Bottle",
-    "nameHi": "à¤¬à¥‹à¤¤à¤²"
+    "nameHi": "बोतल"
   },
   {
     "image": "images/things/box.jpg",
@@ -167,12 +167,12 @@
   {
     "image": "images/things/basket.jpg",
     "name": "Basket",
-    "nameHi": "à¤Ÿà¥‹à¤•à¤°à¥€"
+    "nameHi": "टोकरी"
   },
   {
     "image": "images/things/bucket.jpg",
     "name": "Bucket",
-    "nameHi": "à¤¬à¤¾à¤²à¥à¤Ÿà¥€"
+    "nameHi": "बाल्टी"
   },
   {
     "image": "images/things/ladder.jpg",
@@ -182,7 +182,7 @@
   {
     "image": "images/things/rope.jpg",
     "name": "Rope",
-    "nameHi": "à¤°à¤¸à¥à¤¸à¥€"
+    "nameHi": "रस्सी"
   },
   {
     "image": "images/things/backpack.jpg",
