@@ -1,122 +1,122 @@
-﻿[
-    {
-        "image":  "images/celebrations/diwali.jpg",
-        "name":  "Diwali",
-        "nameHi":  "à¤¦à¤¿à¤µà¤¾à¤²à¥€"
-    },
-    {
-        "image":  "images/celebrations/holi.jpg",
-        "name":  "Holi",
-        "nameHi":  "à¤¹à¥‹à¤²à¥€"
-    },
-    {
-        "image":  "images/celebrations/dussehra.jpg",
-        "name":  "Dussehra",
-        "nameHi":  "à¤¦à¤¶à¤¹à¤°à¤¾"
-    },
-    {
-        "image":  "images/celebrations/ganesh_chaturthi.jpg",
-        "name":  "Ganesh Chaturthi",
-        "nameHi":  "à¤—à¤£à¥‡à¤¶ à¤šà¤¤à¥à¤°à¥à¤¥à¥€"
-    },
-    {
-        "image":  "images/celebrations/raksha_bandhan.jpg",
-        "name":  "Raksha Bandhan",
-        "nameHi":  "à¤°à¤•à¥à¤·à¤¾ à¤¬à¤‚à¤§à¤¨"
-    },
-    {
-        "image":  "images/celebrations/navratri.jpg",
-        "name":  "Navratri",
-        "nameHi":  "à¤¨à¤µà¤°à¤¾à¤¤à¥à¤°à¤¿"
-    },
-    {
-        "image":  "images/celebrations/janmashtami.jpg",
-        "name":  "Janmashtami",
-        "nameHi":  "à¤œà¤¨à¥à¤®à¤¾à¤·à¥à¤Ÿà¤®à¥€"
-    },
-    {
-        "image":  "images/celebrations/pongal.jpg",
-        "name":  "Pongal",
-        "nameHi":  "à¤ªà¥‹à¤‚à¤—à¤²"
-    },
-    {
-        "image":  "images/celebrations/onam.jpg",
-        "name":  "Onam",
-        "nameHi":  "à¤“à¤£à¤®"
-    },
-    {
-        "image":  "images/celebrations/baisakhi.jpg",
-        "name":  "Baisakhi",
-        "nameHi":  "à¤¬à¥ˆà¤¸à¤¾à¤–à¥€"
-    },
-    {
-        "image":  "images/celebrations/makar_sankranti.jpg",
-        "name":  "Makar Sankranti",
-        "nameHi":  "à¤®à¤•à¤° à¤¸à¤‚à¤•à¥à¤°à¤¾à¤‚à¤¤à¤¿"
-    },
-    {
-        "image":  "images/celebrations/karva_chauth.jpg",
-        "name":  "Karva Chauth",
-        "nameHi":  "à¤•à¤°à¤µà¤¾ à¤šà¥Œà¤¥"
-    },
-    {
-        "image":  "images/celebrations/durga_puja.jpg",
-        "name":  "Durga Puja",
-        "nameHi":  "à¤¦à¥à¤°à¥à¤—à¤¾ à¤ªà¥‚à¤œà¤¾"
-    },
-    {
-        "image":  "images/celebrations/chhath_puja.jpg",
-        "name":  "Chhath Puja",
-        "nameHi":  "à¤›à¤  à¤ªà¥‚à¤œà¤¾"
-    },
-    {
-        "image":  "images/celebrations/ugadi.jpg",
-        "name":  "Ugadi",
-        "nameHi":  "à¤‰à¤—à¤¾à¤¡à¤¿"
-    },
-    {
-        "image":  "images/celebrations/lohri.jpg",
-        "name":  "Lohri",
-        "nameHi":  "à¤²à¥‹à¤¹à¤¡à¤¼à¥€"
-    },
-    {
-        "image":  "images/celebrations/bihu.jpg",
-        "name":  "Bihu",
-        "nameHi":  "à¤¬à¤¿à¤¹à¥‚"
-    },
-    {
-        "image":  "images/celebrations/guru_nanak_jayanti.jpg",
-        "name":  "Guru Nanak Jayanti",
-        "nameHi":  "à¤—à¥à¤°à¥ à¤¨à¤¾à¤¨à¤• à¤œà¤¯à¤‚à¤¤à¥€"
-    },
-    {
-        "image":  "images/celebrations/mahashivratri.jpg",
-        "name":  "Mahashivratri",
-        "nameHi":  "à¤®à¤¹à¤¾à¤¶à¤¿à¤µà¤°à¤¾à¤¤à¥à¤°à¤¿"
-    },
-    {
-        "image":  "images/celebrations/ram_navami.jpg",
-        "name":  "Ram Navami",
-        "nameHi":  "à¤°à¤¾à¤® à¤¨à¤µà¤®à¥€"
-    },
-    {
-        "image":  "images/celebrations/basant_panchami.jpg",
-        "name":  "Basant Panchami",
-        "nameHi":  "à¤¬à¤¸à¤‚à¤¤ à¤ªà¤‚à¤šà¤®à¥€"
-    },
-    {
-        "image":  "images/celebrations/independence_day.jpg",
-        "name":  "Independence Day",
-        "nameHi":  "à¤¸à¥à¤µà¤¤à¤‚à¤¤à¥à¤°à¤¤à¤¾ à¤¦à¤¿à¤µà¤¸"
-    },
-    {
-        "image":  "images/celebrations/republic_day.jpg",
-        "name":  "Republic Day",
-        "nameHi":  "à¤—à¤£à¤¤à¤‚à¤¤à¥à¤° à¤¦à¤¿à¤µà¤¸"
-    },
-    {
-        "image":  "images/celebrations/gandhi_jayanti.jpg",
-        "name":  "Gandhi Jayanti",
-        "nameHi":  "à¤—à¤¾à¤‚à¤§à¥€ à¤œà¤¯à¤‚à¤¤à¥€"
-    }
+[
+  {
+    "image": "images/celebrations/diwali.jpg",
+    "name": "Diwali",
+    "nameHi": "दिवाली"
+  },
+  {
+    "image": "images/celebrations/holi.jpg",
+    "name": "Holi",
+    "nameHi": "होली"
+  },
+  {
+    "image": "images/celebrations/dussehra.jpg",
+    "name": "Dussehra",
+    "nameHi": "दशहरा"
+  },
+  {
+    "image": "images/celebrations/ganesh_chaturthi.jpg",
+    "name": "Ganesh Chaturthi",
+    "nameHi": "गणेश चतुर्थी"
+  },
+  {
+    "image": "images/celebrations/raksha_bandhan.jpg",
+    "name": "Raksha Bandhan",
+    "nameHi": "रक्षा बंधन"
+  },
+  {
+    "image": "images/celebrations/navratri.jpg",
+    "name": "Navratri",
+    "nameHi": "नवरात्रि"
+  },
+  {
+    "image": "images/celebrations/janmashtami.jpg",
+    "name": "Janmashtami",
+    "nameHi": "जन्माष्टमी"
+  },
+  {
+    "image": "images/celebrations/pongal.jpg",
+    "name": "Pongal",
+    "nameHi": "पोंगल"
+  },
+  {
+    "image": "images/celebrations/onam.jpg",
+    "name": "Onam",
+    "nameHi": "ओणम"
+  },
+  {
+    "image": "images/celebrations/baisakhi.jpg",
+    "name": "Baisakhi",
+    "nameHi": "à¤¬à¥ˆà¤¸à¤¾à¤–à¥€"
+  },
+  {
+    "image": "images/celebrations/makar_sankranti.jpg",
+    "name": "Makar Sankranti",
+    "nameHi": "à¤®à¤•à¤° à¤¸à¤‚à¤•à¥à¤°à¤¾à¤‚à¤¤à¤¿"
+  },
+  {
+    "image": "images/celebrations/karva_chauth.jpg",
+    "name": "Karva Chauth",
+    "nameHi": "à¤•à¤°à¤µà¤¾ à¤šà¥Œà¤¥"
+  },
+  {
+    "image": "images/celebrations/durga_puja.jpg",
+    "name": "Durga Puja",
+    "nameHi": "à¤¦à¥à¤°à¥à¤—à¤¾ à¤ªà¥‚à¤œà¤¾"
+  },
+  {
+    "image": "images/celebrations/chhath_puja.jpg",
+    "name": "Chhath Puja",
+    "nameHi": "à¤›à¤  à¤ªà¥‚à¤œà¤¾"
+  },
+  {
+    "image": "images/celebrations/ugadi.jpg",
+    "name": "Ugadi",
+    "nameHi": "à¤‰à¤—à¤¾à¤¡à¤¿"
+  },
+  {
+    "image": "images/celebrations/lohri.jpg",
+    "name": "Lohri",
+    "nameHi": "à¤²à¥‹à¤¹à¤¡à¤¼à¥€"
+  },
+  {
+    "image": "images/celebrations/bihu.jpg",
+    "name": "Bihu",
+    "nameHi": "à¤¬à¤¿à¤¹à¥‚"
+  },
+  {
+    "image": "images/celebrations/guru_nanak_jayanti.jpg",
+    "name": "Guru Nanak Jayanti",
+    "nameHi": "à¤—à¥à¤°à¥ à¤¨à¤¾à¤¨à¤• à¤œà¤¯à¤‚à¤¤à¥€"
+  },
+  {
+    "image": "images/celebrations/mahashivratri.jpg",
+    "name": "Mahashivratri",
+    "nameHi": "महाशिवरात्रि"
+  },
+  {
+    "image": "images/celebrations/ram_navami.jpg",
+    "name": "Ram Navami",
+    "nameHi": "à¤°à¤¾à¤® à¤¨à¤µà¤®à¥€"
+  },
+  {
+    "image": "images/celebrations/basant_panchami.jpg",
+    "name": "Basant Panchami",
+    "nameHi": "à¤¬à¤¸à¤‚à¤¤ à¤ªà¤‚à¤šà¤®à¥€"
+  },
+  {
+    "image": "images/celebrations/independence_day.jpg",
+    "name": "Independence Day",
+    "nameHi": "à¤¸à¥à¤µà¤¤à¤‚à¤¤à¥à¤°à¤¤à¤¾ à¤¦à¤¿à¤µà¤¸"
+  },
+  {
+    "image": "images/celebrations/republic_day.jpg",
+    "name": "Republic Day",
+    "nameHi": "à¤—à¤£à¤¤à¤‚à¤¤à¥à¤° à¤¦à¤¿à¤µà¤¸"
+  },
+  {
+    "image": "images/celebrations/gandhi_jayanti.jpg",
+    "name": "Gandhi Jayanti",
+    "nameHi": "à¤—à¤¾à¤‚à¤§à¥€ à¤œà¤¯à¤‚à¤¤à¥€"
+  }
 ]

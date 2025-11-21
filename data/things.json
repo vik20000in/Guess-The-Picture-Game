@@ -1,197 +1,197 @@
-﻿[
-    {
-        "image":  "images/things/car.jpg",
-        "name":  "Car",
-        "nameHi":  "à¤•à¤¾à¤°"
-    },
-    {
-        "image":  "images/things/ball.jpg",
-        "name":  "Ball",
-        "nameHi":  "à¤—à¥‡à¤‚à¤¦"
-    },
-    {
-        "image":  "images/things/house.jpg",
-        "name":  "House",
-        "nameHi":  "à¤˜à¤°"
-    },
-    {
-        "image":  "images/things/tree.jpg",
-        "name":  "Tree",
-        "nameHi":  "à¤ªà¥‡à¤¡à¤¼"
-    },
-    {
-        "image":  "images/things/book.jpg",
-        "name":  "Book",
-        "nameHi":  "à¤•à¤¿à¤¤à¤¾à¤¬"
-    },
-    {
-        "image":  "images/things/chair.jpg",
-        "name":  "Chair",
-        "nameHi":  "à¤•à¥à¤°à¥à¤¸à¥€"
-    },
-    {
-        "image":  "images/things/table.jpg",
-        "name":  "Table",
-        "nameHi":  "à¤®à¥‡à¤œà¤¼"
-    },
-    {
-        "image":  "images/things/phone.jpg",
-        "name":  "Phone",
-        "nameHi":  "à¤«à¥‹à¤¨"
-    },
-    {
-        "image":  "images/things/umbrella.jpg",
-        "name":  "Umbrella",
-        "nameHi":  "à¤›à¤¾à¤¤à¤¾"
-    },
-    {
-        "image":  "images/things/bicycle.jpg",
-        "name":  "Bicycle",
-        "nameHi":  "à¤¸à¤¾à¤‡à¤•à¤¿à¤²"
-    },
-    {
-        "image":  "images/things/lamp.jpg",
-        "name":  "Lamp",
-        "nameHi":  "à¤¦à¥€à¤ªà¤•"
-    },
-    {
-        "image":  "images/things/cup.jpg",
-        "name":  "Cup",
-        "nameHi":  "à¤•à¤ª"
-    },
-    {
-        "image":  "images/things/plate.jpg",
-        "name":  "Plate",
-        "nameHi":  "à¤ªà¥à¤²à¥‡à¤Ÿ"
-    },
-    {
-        "image":  "images/things/spoon.jpg",
-        "name":  "Spoon",
-        "nameHi":  "à¤šà¤®à¥à¤®à¤š"
-    },
-    {
-        "image":  "images/things/fork.jpg",
-        "name":  "Fork",
-        "nameHi":  "à¤•à¤¾à¤‚à¤Ÿà¤¾"
-    },
-    {
-        "image":  "images/things/knife.jpg",
-        "name":  "Knife",
-        "nameHi":  "à¤šà¤¾à¤•à¥‚"
-    },
-    {
-        "image":  "images/things/bed.jpg",
-        "name":  "Bed",
-        "nameHi":  "à¤¬à¤¿à¤¸à¥à¤¤à¤°"
-    },
-    {
-        "image":  "images/things/door.jpg",
-        "name":  "Door",
-        "nameHi":  "à¤¦à¤°à¤µà¤¾à¤œà¤¼à¤¾"
-    },
-    {
-        "image":  "images/things/window.jpg",
-        "name":  "Window",
-        "nameHi":  "à¤–à¤¿à¤¡à¤¼à¤•à¥€"
-    },
-    {
-        "image":  "images/things/clock.jpg",
-        "name":  "Clock",
-        "nameHi":  "à¤˜à¤¡à¤¼à¥€"
-    },
-    {
-        "image":  "images/things/television.jpg",
-        "name":  "Television",
-        "nameHi":  "à¤Ÿà¥‡à¤²à¥€à¤µà¤¿à¤œà¤¼à¤¨"
-    },
-    {
-        "image":  "images/things/computer.jpg",
-        "name":  "Computer",
-        "nameHi":  "à¤•à¤‚à¤ªà¥à¤¯à¥‚à¤Ÿà¤°"
-    },
-    {
-        "image":  "images/things/keyboard.jpg",
-        "name":  "Keyboard",
-        "nameHi":  "à¤•à¥€à¤¬à¥‹à¤°à¥à¤¡"
-    },
-    {
-        "image":  "images/things/mouse.jpg",
-        "name":  "Mouse",
-        "nameHi":  "à¤®à¤¾à¤‰à¤¸"
-    },
-    {
-        "image":  "images/things/camera.jpg",
-        "name":  "Camera",
-        "nameHi":  "à¤•à¥ˆà¤®à¤°à¤¾"
-    },
-    {
-        "image":  "images/things/guitar.jpg",
-        "name":  "Guitar",
-        "nameHi":  "à¤—à¤¿à¤Ÿà¤¾à¤°"
-    },
-    {
-        "image":  "images/things/piano.jpg",
-        "name":  "Piano",
-        "nameHi":  "à¤ªà¤¿à¤¯à¤¾à¤¨à¥‹"
-    },
-    {
-        "image":  "images/things/drum.jpg",
-        "name":  "Drum",
-        "nameHi":  "à¤¢à¥‹à¤²"
-    },
-    {
-        "image":  "images/things/shovel.jpg",
-        "name":  "Shovel",
-        "nameHi":  "à¤«à¤¾à¤µà¤¡à¤¼à¤¾"
-    },
-    {
-        "image":  "images/things/hammer.jpg",
-        "name":  "Hammer",
-        "nameHi":  "à¤¹à¤¥à¥Œà¤¡à¤¼à¤¾"
-    },
-    {
-        "image":  "images/things/screwdriver.jpg",
-        "name":  "Screwdriver",
-        "nameHi":  "à¤ªà¥‡à¤šà¤•à¤¸"
-    },
-    {
-        "image":  "images/things/bottle.jpg",
-        "name":  "Bottle",
-        "nameHi":  "à¤¬à¥‹à¤¤à¤²"
-    },
-    {
-        "image":  "images/things/box.jpg",
-        "name":  "Box",
-        "nameHi":  "à¤¡à¤¿à¤¬à¥à¤¬à¤¾"
-    },
-    {
-        "image":  "images/things/basket.jpg",
-        "name":  "Basket",
-        "nameHi":  "à¤Ÿà¥‹à¤•à¤°à¥€"
-    },
-    {
-        "image":  "images/things/bucket.jpg",
-        "name":  "Bucket",
-        "nameHi":  "à¤¬à¤¾à¤²à¥à¤Ÿà¥€"
-    },
-    {
-        "image":  "images/things/ladder.jpg",
-        "name":  "Ladder",
-        "nameHi":  "à¤¸à¥€à¤¢à¤¼à¥€"
-    },
-    {
-        "image":  "images/things/rope.jpg",
-        "name":  "Rope",
-        "nameHi":  "à¤°à¤¸à¥à¤¸à¥€"
-    },
-    {
-        "image":  "images/things/backpack.jpg",
-        "name":  "Backpack",
-        "nameHi":  "à¤¬à¥ˆà¤•à¤ªà¥ˆà¤•"
-    },
-    {
-        "image":  "images/things/shoe.jpg",
-        "name":  "Shoe",
-        "nameHi":  "à¤œà¥‚à¤¤à¤¾"
-    }
+[
+  {
+    "image": "images/things/car.jpg",
+    "name": "Car",
+    "nameHi": "à¤•à¤¾à¤°"
+  },
+  {
+    "image": "images/things/ball.jpg",
+    "name": "Ball",
+    "nameHi": "à¤—à¥‡à¤‚à¤¦"
+  },
+  {
+    "image": "images/things/house.jpg",
+    "name": "House",
+    "nameHi": "à¤˜à¤°"
+  },
+  {
+    "image": "images/things/tree.jpg",
+    "name": "Tree",
+    "nameHi": "à¤ªà¥‡à¤¡à¤¼"
+  },
+  {
+    "image": "images/things/book.jpg",
+    "name": "Book",
+    "nameHi": "किताब"
+  },
+  {
+    "image": "images/things/chair.jpg",
+    "name": "Chair",
+    "nameHi": "कुर्सी"
+  },
+  {
+    "image": "images/things/table.jpg",
+    "name": "Table",
+    "nameHi": "मेज"
+  },
+  {
+    "image": "images/things/phone.jpg",
+    "name": "Phone",
+    "nameHi": "à¤«à¥‹à¤¨"
+  },
+  {
+    "image": "images/things/umbrella.jpg",
+    "name": "Umbrella",
+    "nameHi": "à¤›à¤¾à¤¤à¤¾"
+  },
+  {
+    "image": "images/things/bicycle.jpg",
+    "name": "Bicycle",
+    "nameHi": "à¤¸à¤¾à¤‡à¤•à¤¿à¤²"
+  },
+  {
+    "image": "images/things/lamp.jpg",
+    "name": "Lamp",
+    "nameHi": "à¤¦à¥€à¤ªà¤•"
+  },
+  {
+    "image": "images/things/cup.jpg",
+    "name": "Cup",
+    "nameHi": "à¤•à¤ª"
+  },
+  {
+    "image": "images/things/plate.jpg",
+    "name": "Plate",
+    "nameHi": "à¤ªà¥à¤²à¥‡à¤Ÿ"
+  },
+  {
+    "image": "images/things/spoon.jpg",
+    "name": "Spoon",
+    "nameHi": "à¤šà¤®à¥à¤®à¤š"
+  },
+  {
+    "image": "images/things/fork.jpg",
+    "name": "Fork",
+    "nameHi": "à¤•à¤¾à¤‚à¤Ÿà¤¾"
+  },
+  {
+    "image": "images/things/knife.jpg",
+    "name": "Knife",
+    "nameHi": "à¤šà¤¾à¤•à¥‚"
+  },
+  {
+    "image": "images/things/bed.jpg",
+    "name": "Bed",
+    "nameHi": "बिस्तर"
+  },
+  {
+    "image": "images/things/door.jpg",
+    "name": "Door",
+    "nameHi": "à¤¦à¤°à¤µà¤¾à¤œà¤¼à¤¾"
+  },
+  {
+    "image": "images/things/window.jpg",
+    "name": "Window",
+    "nameHi": "à¤–à¤¿à¤¡à¤¼à¤•à¥€"
+  },
+  {
+    "image": "images/things/clock.jpg",
+    "name": "Clock",
+    "nameHi": "à¤˜à¤¡à¤¼à¥€"
+  },
+  {
+    "image": "images/things/television.jpg",
+    "name": "Television",
+    "nameHi": "à¤Ÿà¥‡à¤²à¥€à¤µà¤¿à¤œà¤¼à¤¨"
+  },
+  {
+    "image": "images/things/computer.jpg",
+    "name": "Computer",
+    "nameHi": "à¤•à¤‚à¤ªà¥à¤¯à¥‚à¤Ÿà¤°"
+  },
+  {
+    "image": "images/things/keyboard.jpg",
+    "name": "Keyboard",
+    "nameHi": "à¤•à¥€à¤¬à¥‹à¤°à¥à¤¡"
+  },
+  {
+    "image": "images/things/mouse.jpg",
+    "name": "Mouse",
+    "nameHi": "à¤®à¤¾à¤‰à¤¸"
+  },
+  {
+    "image": "images/things/camera.jpg",
+    "name": "Camera",
+    "nameHi": "à¤•à¥ˆà¤®à¤°à¤¾"
+  },
+  {
+    "image": "images/things/guitar.jpg",
+    "name": "Guitar",
+    "nameHi": "à¤—à¤¿à¤Ÿà¤¾à¤°"
+  },
+  {
+    "image": "images/things/piano.jpg",
+    "name": "Piano",
+    "nameHi": "à¤ªà¤¿à¤¯à¤¾à¤¨à¥‹"
+  },
+  {
+    "image": "images/things/drum.jpg",
+    "name": "Drum",
+    "nameHi": "à¤¢à¥‹à¤²"
+  },
+  {
+    "image": "images/things/shovel.jpg",
+    "name": "Shovel",
+    "nameHi": "फावड़ा"
+  },
+  {
+    "image": "images/things/hammer.jpg",
+    "name": "Hammer",
+    "nameHi": "à¤¹à¤¥à¥Œà¤¡à¤¼à¤¾"
+  },
+  {
+    "image": "images/things/screwdriver.jpg",
+    "name": "Screwdriver",
+    "nameHi": "à¤ªà¥‡à¤šà¤•à¤¸"
+  },
+  {
+    "image": "images/things/bottle.jpg",
+    "name": "Bottle",
+    "nameHi": "à¤¬à¥‹à¤¤à¤²"
+  },
+  {
+    "image": "images/things/box.jpg",
+    "name": "Box",
+    "nameHi": "डिब्बा"
+  },
+  {
+    "image": "images/things/basket.jpg",
+    "name": "Basket",
+    "nameHi": "à¤Ÿà¥‹à¤•à¤°à¥€"
+  },
+  {
+    "image": "images/things/bucket.jpg",
+    "name": "Bucket",
+    "nameHi": "à¤¬à¤¾à¤²à¥à¤Ÿà¥€"
+  },
+  {
+    "image": "images/things/ladder.jpg",
+    "name": "Ladder",
+    "nameHi": "à¤¸à¥€à¤¢à¤¼à¥€"
+  },
+  {
+    "image": "images/things/rope.jpg",
+    "name": "Rope",
+    "nameHi": "à¤°à¤¸à¥à¤¸à¥€"
+  },
+  {
+    "image": "images/things/backpack.jpg",
+    "name": "Backpack",
+    "nameHi": "à¤¬à¥ˆà¤•à¤ªà¥ˆà¤•"
+  },
+  {
+    "image": "images/things/shoe.jpg",
+    "name": "Shoe",
+    "nameHi": "à¤œà¥‚à¤¤à¤¾"
+  }
 ]

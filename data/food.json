@@ -1,127 +1,127 @@
-﻿[
-    {
-        "image":  "images/food/biryani.jpg",
-        "name":  "Biryani",
-        "nameHi":  "à¤¬à¤¿à¤°à¤¯à¤¾à¤¨à¥€"
-    },
-    {
-        "image":  "images/food/samosa.jpg",
-        "name":  "Samosa",
-        "nameHi":  "à¤¸à¤®à¥‹à¤¸à¤¾"
-    },
-    {
-        "image":  "images/food/dosa.jpg",
-        "name":  "Dosa",
-        "nameHi":  "à¤¡à¥‹à¤¸à¤¾"
-    },
-    {
-        "image":  "images/food/idli.jpg",
-        "name":  "Idli",
-        "nameHi":  "à¤‡à¤¡à¤²à¥€"
-    },
-    {
-        "image":  "images/food/naan.jpg",
-        "name":  "Naan",
-        "nameHi":  "à¤¨à¤¾à¤¨"
-    },
-    {
-        "image":  "images/food/roti.jpg",
-        "name":  "Roti",
-        "nameHi":  "à¤°à¥‹à¤Ÿà¥€"
-    },
-    {
-        "image":  "images/food/dal_makhani.jpg",
-        "name":  "Dal Makhani",
-        "nameHi":  "à¤¦à¤¾à¤² à¤®à¤–à¤¾à¤¨à¥€"
-    },
-    {
-        "image":  "images/food/paneer_tikka.jpg",
-        "name":  "Paneer Tikka",
-        "nameHi":  "à¤ªà¤¨à¥€à¤° à¤Ÿà¤¿à¤•à¥à¤•à¤¾"
-    },
-    {
-        "image":  "images/food/chole_bhature.jpg",
-        "name":  "Chole Bhature",
-        "nameHi":  "à¤›à¥‹à¤²à¥‡ à¤­à¤Ÿà¥‚à¤°à¥‡"
-    },
-    {
-        "image":  "images/food/palak_paneer.jpg",
-        "name":  "Palak Paneer",
-        "nameHi":  "à¤ªà¤¾à¤²à¤• à¤ªà¤¨à¥€à¤°"
-    },
-    {
-        "image":  "images/food/rajma.jpg",
-        "name":  "Rajma",
-        "nameHi":  "à¤°à¤¾à¤œà¤®à¤¾"
-    },
-    {
-        "image":  "images/food/khichdi.jpg",
-        "name":  "Khichdi",
-        "nameHi":  "à¤–à¤¿à¤šà¤¡à¤¼à¥€"
-    },
-    {
-        "image":  "images/food/upma.jpg",
-        "name":  "Upma",
-        "nameHi":  "à¤‰à¤ªà¤®à¤¾"
-    },
-    {
-        "image":  "images/food/puri.jpg",
-        "name":  "Puri",
-        "nameHi":  "à¤ªà¥‚à¤°à¥€"
-    },
-    {
-        "image":  "images/food/paratha.jpg",
-        "name":  "Paratha",
-        "nameHi":  "à¤ªà¤°à¤¾à¤‚à¤ à¤¾"
-    },
-    {
-        "image":  "images/food/gulab_jamun.jpg",
-        "name":  "Gulab Jamun",
-        "nameHi":  "à¤—à¥à¤²à¤¾à¤¬ à¤œà¤¾à¤®à¥à¤¨"
-    },
-    {
-        "image":  "images/food/rasgulla.jpg",
-        "name":  "Rasgulla",
-        "nameHi":  "à¤°à¤¸à¤—à¥à¤²à¥à¤²à¥‡"
-    },
-    {
-        "image":  "images/food/jalebi.jpg",
-        "name":  "Jalebi",
-        "nameHi":  "à¤œà¤²à¥‡à¤¬à¥€"
-    },
-    {
-        "image":  "images/food/laddu.jpg",
-        "name":  "Laddu",
-        "nameHi":  "à¤²à¤¡à¥à¤¡à¥‚"
-    },
-    {
-        "image":  "images/food/barfi.jpg",
-        "name":  "Barfi",
-        "nameHi":  "à¤¬à¤°à¥à¤«à¥€"
-    },
-    {
-        "image":  "images/food/kheer.jpg",
-        "name":  "Kheer",
-        "nameHi":  "à¤–à¥€à¤°"
-    },
-    {
-        "image":  "images/food/lassi.jpg",
-        "name":  "Lassi",
-        "nameHi":  "à¤²à¤¸à¥à¤¸à¥€"
-    },
-    {
-        "image":  "images/food/masala_chai.jpg",
-        "name":  "Masala Chai",
-        "nameHi":  "à¤®à¤¸à¤¾à¤²à¤¾ à¤šà¤¾à¤¯"
-    },
-    {
-        "image":  "images/food/pakora.jpg",
-        "name":  "Pakora",
-        "nameHi":  "à¤ªà¤•à¥Œà¤¡à¤¼à¥‡"
-    },
-    {
-        "image":  "images/food/chaat.jpg",
-        "name":  "Chaat",
-        "nameHi":  "à¤šà¤¾à¤Ÿ"
-    }
+[
+  {
+    "image": "images/food/biryani.jpg",
+    "name": "Biryani",
+    "nameHi": "बिरयानी"
+  },
+  {
+    "image": "images/food/samosa.jpg",
+    "name": "Samosa",
+    "nameHi": "समोसा"
+  },
+  {
+    "image": "images/food/dosa.jpg",
+    "name": "Dosa",
+    "nameHi": "डोसा"
+  },
+  {
+    "image": "images/food/idli.jpg",
+    "name": "Idli",
+    "nameHi": "इडली"
+  },
+  {
+    "image": "images/food/naan.jpg",
+    "name": "Naan",
+    "nameHi": "नान"
+  },
+  {
+    "image": "images/food/roti.jpg",
+    "name": "Roti",
+    "nameHi": "रोटी"
+  },
+  {
+    "image": "images/food/dal_makhani.jpg",
+    "name": "Dal Makhani",
+    "nameHi": "à¤¦à¤¾à¤² à¤®à¤–à¤¾à¤¨à¥€"
+  },
+  {
+    "image": "images/food/paneer_tikka.jpg",
+    "name": "Paneer Tikka",
+    "nameHi": "à¤ªà¤¨à¥€à¤° à¤Ÿà¤¿à¤•à¥à¤•à¤¾"
+  },
+  {
+    "image": "images/food/chole_bhature.jpg",
+    "name": "Chole Bhature",
+    "nameHi": "à¤›à¥‹à¤²à¥‡ à¤­à¤Ÿà¥‚à¤°à¥‡"
+  },
+  {
+    "image": "images/food/palak_paneer.jpg",
+    "name": "Palak Paneer",
+    "nameHi": "à¤ªà¤¾à¤²à¤• à¤ªà¤¨à¥€à¤°"
+  },
+  {
+    "image": "images/food/rajma.jpg",
+    "name": "Rajma",
+    "nameHi": "à¤°à¤¾à¤œà¤®à¤¾"
+  },
+  {
+    "image": "images/food/khichdi.jpg",
+    "name": "Khichdi",
+    "nameHi": "à¤–à¤¿à¤šà¤¡à¤¼à¥€"
+  },
+  {
+    "image": "images/food/upma.jpg",
+    "name": "Upma",
+    "nameHi": "à¤‰à¤ªà¤®à¤¾"
+  },
+  {
+    "image": "images/food/puri.jpg",
+    "name": "Puri",
+    "nameHi": "à¤ªà¥‚à¤°à¥€"
+  },
+  {
+    "image": "images/food/paratha.jpg",
+    "name": "Paratha",
+    "nameHi": "à¤ªà¤°à¤¾à¤‚à¤ à¤¾"
+  },
+  {
+    "image": "images/food/gulab_jamun.jpg",
+    "name": "Gulab Jamun",
+    "nameHi": "à¤—à¥à¤²à¤¾à¤¬ à¤œà¤¾à¤®à¥à¤¨"
+  },
+  {
+    "image": "images/food/rasgulla.jpg",
+    "name": "Rasgulla",
+    "nameHi": "à¤°à¤¸à¤—à¥à¤²à¥à¤²à¥‡"
+  },
+  {
+    "image": "images/food/jalebi.jpg",
+    "name": "Jalebi",
+    "nameHi": "à¤œà¤²à¥‡à¤¬à¥€"
+  },
+  {
+    "image": "images/food/laddu.jpg",
+    "name": "Laddu",
+    "nameHi": "à¤²à¤¡à¥à¤¡à¥‚"
+  },
+  {
+    "image": "images/food/barfi.jpg",
+    "name": "Barfi",
+    "nameHi": "à¤¬à¤°à¥à¤«à¥€"
+  },
+  {
+    "image": "images/food/kheer.jpg",
+    "name": "Kheer",
+    "nameHi": "à¤–à¥€à¤°"
+  },
+  {
+    "image": "images/food/lassi.jpg",
+    "name": "Lassi",
+    "nameHi": "à¤²à¤¸à¥à¤¸à¥€"
+  },
+  {
+    "image": "images/food/masala_chai.jpg",
+    "name": "Masala Chai",
+    "nameHi": "à¤®à¤¸à¤¾à¤²à¤¾ à¤šà¤¾à¤¯"
+  },
+  {
+    "image": "images/food/pakora.jpg",
+    "name": "Pakora",
+    "nameHi": "à¤ªà¤•à¥Œà¤¡à¤¼à¥‡"
+  },
+  {
+    "image": "images/food/chaat.jpg",
+    "name": "Chaat",
+    "nameHi": "à¤šà¤¾à¤Ÿ"
+  }
 ]

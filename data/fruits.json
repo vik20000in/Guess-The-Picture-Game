@@ -1,157 +1,157 @@
-﻿[
-    {
-        "image":  "images/fruits/mango.jpg",
-        "name":  "Mango",
-        "nameHi":  "à¤†à¤®"
-    },
-    {
-        "image":  "images/fruits/banana.jpg",
-        "name":  "Banana",
-        "nameHi":  "à¤•à¥‡à¤²à¤¾"
-    },
-    {
-        "image":  "images/fruits/apple.jpg",
-        "name":  "Apple",
-        "nameHi":  "à¤¸à¥‡à¤¬"
-    },
-    {
-        "image":  "images/fruits/papaya.jpg",
-        "name":  "Papaya",
-        "nameHi":  "à¤ªà¤ªà¥€à¤¤à¤¾"
-    },
-    {
-        "image":  "images/fruits/coconut.jpg",
-        "name":  "Coconut",
-        "nameHi":  "à¤¨à¤¾à¤°à¤¿à¤¯à¤²"
-    },
-    {
-        "image":  "images/fruits/guava.jpg",
-        "name":  "Guava",
-        "nameHi":  "à¤…à¤®à¤°à¥‚à¤¦"
-    },
-    {
-        "image":  "images/fruits/pomegranate.jpg",
-        "name":  "Pomegranate",
-        "nameHi":  "à¤…à¤¨à¤¾à¤°"
-    },
-    {
-        "image":  "images/fruits/watermelon.jpg",
-        "name":  "Watermelon",
-        "nameHi":  "à¤¤à¤°à¤¬à¥‚à¤œà¤¼"
-    },
-    {
-        "image":  "images/fruits/pineapple.jpg",
-        "name":  "Pineapple",
-        "nameHi":  "à¤…à¤¨à¤¨à¥à¤¨à¤¾à¤¸"
-    },
-    {
-        "image":  "images/fruits/orange.jpg",
-        "name":  "Orange",
-        "nameHi":  "à¤¸à¤‚à¤¤à¤°à¤¾"
-    },
-    {
-        "image":  "images/fruits/lemon.jpg",
-        "name":  "Lemon",
-        "nameHi":  "à¤¨à¥€à¤¬à¥‚"
-    },
-    {
-        "image":  "images/fruits/grapes.jpg",
-        "name":  "Grapes",
-        "nameHi":  "à¤…à¤‚à¤—à¥‚à¤°"
-    },
-    {
-        "image":  "images/fruits/strawberry.jpg",
-        "name":  "Strawberry",
-        "nameHi":  "à¤¸à¥à¤Ÿà¥à¤°à¥‰à¤¬à¥‡à¤°à¥€"
-    },
-    {
-        "image":  "images/fruits/blueberry.jpg",
-        "name":  "Blueberry",
-        "nameHi":  "à¤¬à¥à¤²à¥‚à¤¬à¥‡à¤°à¥€"
-    },
-    {
-        "image":  "images/fruits/raspberry.jpg",
-        "name":  "Raspberry",
-        "nameHi":  "à¤°à¤¾à¤¸à¥à¤ªà¤¬à¥‡à¤°à¥€"
-    },
-    {
-        "image":  "images/fruits/kiwi.jpg",
-        "name":  "Kiwi",
-        "nameHi":  "à¤•à¥€à¤µà¥€"
-    },
-    {
-        "image":  "images/fruits/peach.jpg",
-        "name":  "Peach",
-        "nameHi":  "à¤†à¤¡à¤¼à¥‚"
-    },
-    {
-        "image":  "images/fruits/pear.jpg",
-        "name":  "Pear",
-        "nameHi":  "à¤¨à¤¾à¤¶à¤ªà¤¾à¤¤à¥€"
-    },
-    {
-        "image":  "images/fruits/plum.jpg",
-        "name":  "Plum",
-        "nameHi":  "à¤¬à¥‡à¤°"
-    },
-    {
-        "image":  "images/fruits/apricot.jpg",
-        "name":  "Apricot",
-        "nameHi":  "à¤–à¥à¤¬à¤¾à¤¨à¥€"
-    },
-    {
-        "image":  "images/fruits/cherry.jpg",
-        "name":  "Cherry",
-        "nameHi":  "à¤šà¥‡à¤°à¥€"
-    },
-    {
-        "image":  "images/fruits/dragon_fruit.jpg",
-        "name":  "Dragon Fruit",
-        "nameHi":  "à¤¡à¥à¤°à¥ˆà¤—à¤¨ à¤«à¤²"
-    },
-    {
-        "image":  "images/fruits/avocado.jpg",
-        "name":  "Avocado",
-        "nameHi":  "à¤à¤µà¥‹à¤•à¤¾à¤¡à¥‹"
-    },
-    {
-        "image":  "images/fruits/passion_fruit.jpg",
-        "name":  "Passion Fruit",
-        "nameHi":  "à¤ªà¥ˆà¤¶à¤¨ à¤«à¥à¤°à¥‚à¤Ÿ"
-    },
-    {
-        "image":  "images/fruits/fig.jpg",
-        "name":  "Fig",
-        "nameHi":  "à¤…à¤‚à¤œà¥€à¤°"
-    },
-    {
-        "image":  "images/fruits/date.jpg",
-        "name":  "Date",
-        "nameHi":  "à¤–à¤œà¥‚à¤°"
-    },
-    {
-        "image":  "images/fruits/litchi.jpg",
-        "name":  "Litchi",
-        "nameHi":  "à¤²à¥€à¤šà¥€"
-    },
-    {
-        "image":  "images/fruits/jackfruit.jpg",
-        "name":  "Jackfruit",
-        "nameHi":  "à¤•à¤Ÿà¤¹à¤²"
-    },
-    {
-        "image":  "images/fruits/custard_apple.jpg",
-        "name":  "Custard Apple",
-        "nameHi":  "à¤¶à¤°à¥€à¤«à¤¾"
-    },
-    {
-        "image":  "images/fruits/sugar_cane.jpg",
-        "name":  "Sugar Cane",
-        "nameHi":  "à¤—à¤¨à¥à¤¨à¤¾"
-    },
-    {
-        "image":  "images/fruits/carambola.jpg",
-        "name":  "Carambola",
-        "nameHi":  "à¤•à¤®à¤°à¤–"
-    }
+[
+  {
+    "image": "images/fruits/mango.jpg",
+    "name": "Mango",
+    "nameHi": "आम"
+  },
+  {
+    "image": "images/fruits/banana.jpg",
+    "name": "Banana",
+    "nameHi": "केला"
+  },
+  {
+    "image": "images/fruits/apple.jpg",
+    "name": "Apple",
+    "nameHi": "सेब"
+  },
+  {
+    "image": "images/fruits/papaya.jpg",
+    "name": "Papaya",
+    "nameHi": "à¤ªà¤ªà¥€à¤¤à¤¾"
+  },
+  {
+    "image": "images/fruits/coconut.jpg",
+    "name": "Coconut",
+    "nameHi": "नारियल"
+  },
+  {
+    "image": "images/fruits/guava.jpg",
+    "name": "Guava",
+    "nameHi": "à¤…à¤®à¤°à¥‚à¤¦"
+  },
+  {
+    "image": "images/fruits/pomegranate.jpg",
+    "name": "Pomegranate",
+    "nameHi": "à¤…à¤¨à¤¾à¤°"
+  },
+  {
+    "image": "images/fruits/watermelon.jpg",
+    "name": "Watermelon",
+    "nameHi": "तरबूज"
+  },
+  {
+    "image": "images/fruits/pineapple.jpg",
+    "name": "Pineapple",
+    "nameHi": "à¤…à¤¨à¤¨à¥à¤¨à¤¾à¤¸"
+  },
+  {
+    "image": "images/fruits/orange.jpg",
+    "name": "Orange",
+    "nameHi": "संतरा"
+  },
+  {
+    "image": "images/fruits/lemon.jpg",
+    "name": "Lemon",
+    "nameHi": "à¤¨à¥€à¤¬à¥‚"
+  },
+  {
+    "image": "images/fruits/grapes.jpg",
+    "name": "Grapes",
+    "nameHi": "अंगूर"
+  },
+  {
+    "image": "images/fruits/strawberry.jpg",
+    "name": "Strawberry",
+    "nameHi": "à¤¸à¥à¤Ÿà¥à¤°à¥‰à¤¬à¥‡à¤°à¥€"
+  },
+  {
+    "image": "images/fruits/blueberry.jpg",
+    "name": "Blueberry",
+    "nameHi": "à¤¬à¥à¤²à¥‚à¤¬à¥‡à¤°à¥€"
+  },
+  {
+    "image": "images/fruits/raspberry.jpg",
+    "name": "Raspberry",
+    "nameHi": "à¤°à¤¾à¤¸à¥à¤ªà¤¬à¥‡à¤°à¥€"
+  },
+  {
+    "image": "images/fruits/kiwi.jpg",
+    "name": "Kiwi",
+    "nameHi": "à¤•à¥€à¤µà¥€"
+  },
+  {
+    "image": "images/fruits/peach.jpg",
+    "name": "Peach",
+    "nameHi": "à¤†à¤¡à¤¼à¥‚"
+  },
+  {
+    "image": "images/fruits/pear.jpg",
+    "name": "Pear",
+    "nameHi": "à¤¨à¤¾à¤¶à¤ªà¤¾à¤¤à¥€"
+  },
+  {
+    "image": "images/fruits/plum.jpg",
+    "name": "Plum",
+    "nameHi": "à¤¬à¥‡à¤°"
+  },
+  {
+    "image": "images/fruits/apricot.jpg",
+    "name": "Apricot",
+    "nameHi": "à¤–à¥à¤¬à¤¾à¤¨à¥€"
+  },
+  {
+    "image": "images/fruits/cherry.jpg",
+    "name": "Cherry",
+    "nameHi": "à¤šà¥‡à¤°à¥€"
+  },
+  {
+    "image": "images/fruits/dragon_fruit.jpg",
+    "name": "Dragon Fruit",
+    "nameHi": "à¤¡à¥à¤°à¥ˆà¤—à¤¨ à¤«à¤²"
+  },
+  {
+    "image": "images/fruits/avocado.jpg",
+    "name": "Avocado",
+    "nameHi": "à¤à¤µà¥‹à¤•à¤¾à¤¡à¥‹"
+  },
+  {
+    "image": "images/fruits/passion_fruit.jpg",
+    "name": "Passion Fruit",
+    "nameHi": "à¤ªà¥ˆà¤¶à¤¨ à¤«à¥à¤°à¥‚à¤Ÿ"
+  },
+  {
+    "image": "images/fruits/fig.jpg",
+    "name": "Fig",
+    "nameHi": "à¤…à¤‚à¤œà¥€à¤°"
+  },
+  {
+    "image": "images/fruits/date.jpg",
+    "name": "Date",
+    "nameHi": "à¤–à¤œà¥‚à¤°"
+  },
+  {
+    "image": "images/fruits/litchi.jpg",
+    "name": "Litchi",
+    "nameHi": "à¤²à¥€à¤šà¥€"
+  },
+  {
+    "image": "images/fruits/jackfruit.jpg",
+    "name": "Jackfruit",
+    "nameHi": "à¤•à¤Ÿà¤¹à¤²"
+  },
+  {
+    "image": "images/fruits/custard_apple.jpg",
+    "name": "Custard Apple",
+    "nameHi": "à¤¶à¤°à¥€à¤«à¤¾"
+  },
+  {
+    "image": "images/fruits/sugar_cane.jpg",
+    "name": "Sugar Cane",
+    "nameHi": "à¤—à¤¨à¥à¤¨à¤¾"
+  },
+  {
+    "image": "images/fruits/carambola.jpg",
+    "name": "Carambola",
+    "nameHi": "à¤•à¤®à¤°à¤–"
+  }
 ]
