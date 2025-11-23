@@ -139,6 +139,27 @@
       "nameHi": "फूल",
       "icon": "images/icons/flowers_icon.png",
       "dataFile": "data/flowers.json"
+    },
+    {
+      "id": "body_parts",
+      "name": "Body Parts",
+      "nameHi": "शरीर के अंग",
+      "icon": "images/icons/body_parts_icon.png",
+      "dataFile": "data/body_parts.json"
+    },
+    {
+      "id": "indian_gods",
+      "name": "Indian Gods",
+      "nameHi": "भारतीय देवता",
+      "icon": "images/icons/indian_gods_icon.png",
+      "dataFile": "data/indian_gods.json"
+    },
+    {
+      "id": "emojis",
+      "name": "Emojis",
+      "nameHi": "इमोजी",
+      "icon": "images/icons/emojis_icon.png",
+      "dataFile": "data/emojis.json"
     }
   ]
 }
