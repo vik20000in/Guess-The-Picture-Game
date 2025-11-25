@@ -160,6 +160,34 @@
       "nameHi": "इमोजी",
       "icon": "images/icons/emojis_icon.png",
       "dataFile": "data/emojis.json"
+    },
+    {
+      "id": "bollywood_movies",
+      "name": "Bollywood Movies",
+      "nameHi": "बॉलीवुड फिल्में",
+      "icon": "images/icons/bollywood_movies_icon.png",
+      "dataFile": "data/bollywood_movies.json"
+    },
+    {
+      "id": "stationery",
+      "name": "Stationery",
+      "nameHi": "स्टेशनरी",
+      "icon": "images/icons/stationery_icon.png",
+      "dataFile": "data/stationery.json"
+    },
+    {
+      "id": "jobs",
+      "name": "Jobs & Professions",
+      "nameHi": "नौकरी और पेशे",
+      "icon": "images/icons/jobs_icon.png",
+      "dataFile": "data/jobs.json"
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "nameHi": "इलेक्ट्रॉनिक्स",
+      "icon": "images/icons/electronics_icon.png",
+      "dataFile": "data/electronics.json"
     }
   ]
 }
