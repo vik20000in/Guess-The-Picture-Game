@@ -23,6 +23,11 @@ Write-Host "Starting parallel download with max $ParallelJobs concurrent jobs" -
 Write-Host "Total items to download: $($Items.Count)" -ForegroundColor Cyan
 Write-Host ""
 
+# Get absolute path to script
+$ScriptPath = (Resolve-Path $ScriptPath).Path
+Write-Host "Using download script: $ScriptPath" -ForegroundColor DarkCyan
+Write-Host ""
+
 $totalCount = $Items.Count
 $completed = 0
 $failed = 0
@@ -66,7 +71,8 @@ foreach ($item in $Items) {
 # Wait for all remaining jobs to complete
 Write-Host "`nWaiting for remaining downloads to complete..." -ForegroundColor Cyan
 
-while ((Get-Job -State Running | Measure-Object).Count -gt 0) {
+$jobsRemaining = Get-Job
+while ($jobsRemaining.Count -gt 0) {
     Start-Sleep -Milliseconds 500
     
     # Check for failed jobs
@@ -75,7 +81,11 @@ while ((Get-Job -State Running | Measure-Object).Count -gt 0) {
         $failed++
         $jobData = $job.Name -split '\|'
         Write-Host "FAILED: $($jobData[1])" -ForegroundColor Red
-        Remove-Job $job
+        $errorInfo = Receive-Job $job 2>&1
+        if ($errorInfo) {
+            Write-Host "  Error: $errorInfo" -ForegroundColor DarkRed
+        }
+        Remove-Job $job -Force
     }
     
     # Update progress for completed jobs
@@ -83,8 +93,16 @@ while ((Get-Job -State Running | Measure-Object).Count -gt 0) {
     foreach ($job in $completedJobs) {
         $completed++
         $jobData = $job.Name -split '\|'
+        $output = Receive-Job $job
         Write-Host "[$completed/$totalCount] SUCCESS: $($jobData[1])" -ForegroundColor Green
-        Remove-Job $job
+        Remove-Job $job -Force
+    }
+    
+    # Update remaining jobs count
+    $jobsRemaining = Get-Job
+    if ($jobsRemaining.Count -gt 0) {
+        $runningCount = ($jobsRemaining | Where-Object { $_.State -eq 'Running' }).Count
+        Write-Host "  Jobs remaining: $($jobsRemaining.Count) (Running: $runningCount)" -ForegroundColor DarkCyan
     }
 }
 
